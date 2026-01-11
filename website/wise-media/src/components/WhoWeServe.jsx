@@ -12,13 +12,11 @@ export default function WhoWeServe() {
 
   return (
     <section className="relative w-full overflow-hidden">
-      {/* Bold split background */}
-      <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-gradient-to-r from-brand-navy via-brand-navy to-brand-lightBlue"></div>
-        <div className="absolute inset-0 opacity-10" style={{
-          backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,0.1) 35px, rgba(255,255,255,0.1) 70px)'
-        }}></div>
-      </div>
+     {/* Pattern overlay */}
+     <div className="absolute inset-0 opacity-10" style={{
+        backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
+        backgroundSize: '48px 48px'
+      }}></div>
 
       <div className="container-content section-spacing relative">
         <div className="text-center mb-20">

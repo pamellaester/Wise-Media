@@ -1,13 +1,10 @@
 export default function ContactHome() {
   return (
     <section id="contact" className="relative w-full overflow-hidden">
-      {/* Bold light blue gradient background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-brand-lightBlue/20 via-white to-brand-navy/10"></div>
-
       {/* Pattern overlay */}
-      <div className="absolute inset-0 opacity-5" style={{
-        backgroundImage: 'radial-gradient(circle at 1px 1px, rgb(0, 31, 63) 1px, transparent 0)',
-        backgroundSize: '32px 32px'
+      <div className="absolute inset-0 opacity-10" style={{
+        backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
+        backgroundSize: '48px 48px'
       }}></div>
 
       <div className="container-content section-spacing relative">

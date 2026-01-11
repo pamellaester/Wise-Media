@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="w-full bg-white relative overflow-hidden">
+    <section className="w-full  relative overflow-hidden">
       {/* Bold gradient top accent */}
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-lightBlue via-brand-navy to-brand-lightBlue"></div>
 

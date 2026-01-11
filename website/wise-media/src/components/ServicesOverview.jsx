@@ -35,7 +35,7 @@ export default function ServicesOverview() {
   ];
 
   return (
-    <section className="w-full bg-white relative overflow-hidden">
+    <section className="w-full  relative overflow-hidden">
       {/* Bold side accent */}
       <div className="absolute left-0 top-0 bottom-0 w-2 bg-gradient-to-b from-brand-lightBlue to-brand-navy"></div>
 
