@@ -1,20 +1,240 @@
 @import "tailwindcss";
 
-:root{
-  --accent: #e91919; /* ajuste se quiser outra cor */
+/* ================================
+   🔷 WISE MEDIA DESIGN SYSTEM
+   Premium, organized, professional
+   ================================= */
+:root {
+  --brand-navy: #001F3F;
+  --brand-light-blue: #41C2F3;
+  --brand-white: #FFFFFF;
+  --brand-off-white: #F8F9FA;
 }
 
-.btn-accent {
-  @apply px-6 py-3 rounded-xl font-semibold shadow-md inline-flex items-center gap-2;
-  background-color: var(--accent);
+/* ================================
+   🎨 GLOBAL STYLES
+   ================================= */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--brand-navy);
+}
+
+/* ================================
+   🔘 BUTTONS - Premium Design
+   ================================= */
+.btn-primary {
+  padding: 18px 40px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.02em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: var(--brand-navy);
+  color: var(--brand-white);
+  box-shadow: 0 4px 12px rgba(0, 31, 63, 0.15);
+  border: 1px solid var(--brand-navy);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 31, 63, 0.25);
+}
+
+.btn-secondary {
+  padding: 18px 40px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.02em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid var(--brand-navy);
+  background-color: transparent;
+  color: var(--brand-navy);
+}
+
+.btn-secondary:hover {
+  background-color: var(--brand-navy);
+  color: var(--brand-white);
+  box-shadow: 0 4px 12px rgba(0, 31, 63, 0.15);
+}
+
+/* ================================
+   🟦 CARDS - Premium Variants
+   ================================= */
+.card-premium {
+  background-color: white;
+  border-radius: 12px;
+  padding: 48px;
+  border: 1px solid rgba(0, 31, 63, 0.08);
+  box-shadow: 0 2px 8px rgba(0, 31, 63, 0.04);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-premium:hover {
+  box-shadow: 0 8px 24px rgba(0, 31, 63, 0.12);
+  transform: translateY(-4px);
+  border-color: rgba(65, 194, 243, 0.3);
+}
+
+.card-service {
+  background-color: white;
+  border-radius: 12px;
+  padding: 40px;
+  border: 1px solid rgba(0, 31, 63, 0.08);
+  box-shadow: 0 1px 3px rgba(0, 31, 63, 0.04);
+  transition: all 0.3s ease;
+}
+
+.card-service:hover {
+  border-color: var(--brand-light-blue);
+  box-shadow: 0 4px 16px rgba(0, 31, 63, 0.08);
+}
+
+.card-dark {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+/* ================================
+   📐 LAYOUT - Premium Spacing
+   ================================= */
+.container-content {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media (max-width: 768px) {
+  .container-content {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.section-spacing {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+@media (max-width: 768px) {
+  .section-spacing {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+.section-divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(0, 31, 63, 0.1), transparent);
+  margin: 80px 0;
+}
+
+/* ================================
+   📝 TYPOGRAPHY ENHANCEMENTS
+   ================================= */
+.heading-primary {
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  font-weight: 600;
+}
+
+.heading-secondary {
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.text-premium {
+  line-height: 1.8;
+  font-size: 17px;
+  color: rgba(0, 31, 63, 0.8);
+}
+
+/* ================================
+   🎯 ACCENT ELEMENTS
+   ================================= */
+.accent-line {
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--brand-light-blue) 0%, var(--brand-navy) 100%);
+  border-radius: 2px;
+}
+
+.accent-line-bold {
+  width: 100px;
+  height: 5px;
+  background: linear-gradient(90deg, var(--brand-light-blue) 0%, var(--brand-navy) 100%);
+  border-radius: 3px;
+}
+
+.number-badge {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--brand-light-blue) 0%, var(--brand-navy) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 20px;
   color: white;
+  box-shadow: 0 4px 12px rgba(65, 194, 243, 0.3);
 }
 
-.btn-accent:hover {
-  filter: brightness(0.95);
+/* ================================
+   🎨 BOLD COLOR SECTIONS
+   ================================= */
+.bg-bold-gradient {
+  background: linear-gradient(135deg, var(--brand-navy) 0%, var(--brand-light-blue) 100%);
 }
 
-/* utility for subtle card */
-.card {
-  @apply bg-white shadow-sm rounded-2xl p-6;
+.bg-light-blue-section {
+  background: linear-gradient(180deg, var(--brand-light-blue) 0%, rgba(65, 194, 243, 0.8) 100%);
+}
+
+.bg-navy-pattern {
+  background-color: var(--brand-navy);
+  background-image:
+    linear-gradient(30deg, rgba(65, 194, 243, 0.1) 12%, transparent 12.5%, transparent 87%, rgba(65, 194, 243, 0.1) 87.5%),
+    linear-gradient(150deg, rgba(65, 194, 243, 0.1) 12%, transparent 12.5%, transparent 87%, rgba(65, 194, 243, 0.1) 87.5%);
+  background-size: 80px 140px;
+}
+
+.border-gradient {
+  border: 2px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(135deg, var(--brand-light-blue), var(--brand-navy)) border-box;
+}
+
+/* ================================
+   ✨ ANIMATIONS
+   ================================= */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
 }
