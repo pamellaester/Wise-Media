@@ -1,3 +1,5 @@
+import Icon from "./Icon";
+
 export default function About() {
   return (
     <section className="w-full  relative overflow-hidden">
@@ -11,8 +13,8 @@ export default function About() {
         {/* Header */}
         <div className="max-w-4xl mx-auto mb-20 text-center">
           <div className="accent-line-bold mx-auto mb-8"></div>
-          <h1 className="text-h1 text-brand-navy mb-8 heading-primary">Sobre</h1>
-          <p className="text-premium max-w-3xl mx-auto">
+          <h1 className="text-h1 text-white mb-8 heading-primary">Sobre</h1>
+          <p className="text-white max-w-3xl mx-auto">
             Agência de comunicação estratégica especializada em assessoria de imprensa, gestão de reputação e atuação em cenários sensíveis de exposição pública.
           </p>
         </div>
@@ -70,8 +72,8 @@ export default function About() {
         {/* Founders - Credibility Markers */}
         <div className="max-w-5xl mx-auto mb-24">
           <div className="text-center mb-16">
-            <h2 className="text-h2 text-brand-navy mb-4 heading-secondary">Fundadoras</h2>
-            <p className="text-brand-navy/70 max-w-2xl mx-auto">
+            <h2 className="text-h2 text-white mb-4 heading-secondary">Fundadoras</h2>
+            <p className="text-white max-w-2xl mx-auto">
               Experiência comprovada em mídia, comunicação estratégica e gestão de reputação.
             </p>
           </div>
@@ -126,8 +128,8 @@ export default function About() {
         {/* How We Work */}
         <div className="max-w-5xl mx-auto mb-24">
           <div className="text-center mb-16">
-            <h2 className="text-h2 text-brand-navy mb-4 heading-secondary">Como Atuamos</h2>
-            <p className="text-brand-navy/70 max-w-2xl mx-auto">
+            <h2 className="text-h2 text-white mb-4 heading-secondary">Como Atuamos</h2>
+            <p className="text-white max-w-2xl mx-auto">
               Três pilares fundamentais guiam nossa abordagem estratégica em cada projeto.
             </p>
           </div>
@@ -135,9 +137,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="card-service text-center group">
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy mb-6 shadow-lg group-hover:scale-110 transition-transform">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                </svg>
+                <Icon name="BarChart3" size={28} className="text-white" />
               </div>
               <h3 className="text-xl font-semibold text-brand-navy mb-3">Analítico</h3>
               <p className="text-brand-navy/70 leading-relaxed text-[15px]">
@@ -147,9 +147,7 @@ export default function About() {
 
             <div className="card-service text-center group">
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-brand-navy to-brand-lightBlue mb-6 shadow-lg group-hover:scale-110 transition-transform">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                </svg>
+                <Icon name="Lock" size={28} className="text-white" />
               </div>
               <h3 className="text-xl font-semibold text-brand-navy mb-3">Discreto</h3>
               <p className="text-brand-navy/70 leading-relaxed text-[15px]">
@@ -159,9 +157,7 @@ export default function About() {
 
             <div className="card-service text-center group">
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy mb-6 shadow-lg group-hover:scale-110 transition-transform">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
+                <Icon name="Target" size={28} className="text-white" />
               </div>
               <h3 className="text-xl font-semibold text-brand-navy mb-3">Estratégico</h3>
               <p className="text-brand-navy/70 leading-relaxed text-[15px]">
@@ -185,9 +181,7 @@ export default function About() {
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0">
                   <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center shadow-lg">
-                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
+                    <Icon name="Check" size={18} className="text-white" />
                   </div>
                 </div>
                 <div>
@@ -217,9 +211,7 @@ export default function About() {
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0">
                   <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center shadow-lg">
-                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
+                    <Icon name="Check" size={18} className="text-white" />
                   </div>
                 </div>
                 <div>
@@ -253,9 +245,7 @@ export default function About() {
         <div className="text-center max-w-3xl mx-auto">
           <a href="/contato" className="inline-flex items-center gap-2 bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white px-10 py-4 rounded-lg font-bold hover:shadow-xl transition-all hover:scale-105">
             Fale com a Wise Media
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
+            <Icon name="ArrowRight" size={20} />
           </a>
         </div>
       </div>

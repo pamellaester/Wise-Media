@@ -74,9 +74,9 @@ export default function Navbar({ background = "dark" }) {
             aria-label="Toggle menu"
           >
             {mobileMenuOpen ? (
-              <Icon name="close" className="w-6 h-6" />
+              <Icon name="X" size={20} className="text-brand-navy" />
             ) : (
-              <Icon name="menu" className="w-6 h-6" />
+              <Icon name="Menu" size={20} className="text-brand-navy" />
             )}
           </button>
         </div>

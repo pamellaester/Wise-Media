@@ -58,13 +58,13 @@ export default function Testimonials() {
               <div className="relative bg-white/10 backdrop-blur-lg rounded-xl p-8 border border-white/20 h-full flex flex-col">
                 {/* Quote Icon */}
                 <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center mb-6">
-                  <Icon name="quote" className="w-6 h-6 text-white" />
+                  <Icon name="Quote" size={20} className="text-white" />
                 </div>
 
                 {/* Rating */}
                 <div className="flex gap-1 mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <Icon key={i} name="star" className="w-5 h-5 text-brand-lightBlue" />
+                    <Icon key={i} name="Star" size={16} className="text-brand-lightBlue fill-brand-lightBlue" />
                   ))}
                 </div>
 
@@ -97,7 +97,7 @@ export default function Testimonials() {
             className="inline-flex items-center gap-2 bg-white text-brand-navy px-10 py-4 rounded-lg font-bold hover:shadow-2xl transition-all hover:scale-105"
           >
             Fale com a Wise Media
-            <Icon name="arrowRight" className="w-5 h-5" />
+            <Icon name="ArrowRight" size={20} />
           </a>
         </div>
       </div>

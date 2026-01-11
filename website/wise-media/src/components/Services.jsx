@@ -6,37 +6,37 @@ export default function Services() {
       title: "Assessoria de Imprensa",
       outcome: "Posicionamos sua marca com consistência e autoridade nos principais veículos de comunicação.",
       when: "Você precisa de Assessoria de Imprensa quando busca construir presença estratégica na mídia, ampliar reconhecimento profissional ou fortalecer credibilidade institucional.",
-      iconName: "newspaper"
+      iconName: "Newspaper"
     },
     {
       title: "Assessoria Estratégica e Pontual",
       outcome: "Garantimos mensagens claras e alinhadas em momentos decisivos que exigem precisão comunicacional.",
       when: "Você precisa de Assessoria Pontual quando enfrenta lançamentos, premiações, eventos estratégicos ou situações que demandam visibilidade qualificada em curto prazo.",
-      iconName: "target"
+      iconName: "MessageSquare"
     },
     {
       title: "Assessoria para Vistos",
       outcome: "Construímos narrativa pública e provas de relevância profissional para processos de imigração e reconhecimento internacional.",
       when: "Você precisa de Assessoria para Vistos quando solicita O-1, EB2-NIW ou outros vistos que exigem comprovação de destaque e contribuição extraordinária em sua área.",
-      iconName: "plane"
+      iconName: "Globe"
     },
     {
       title: "Gestão do Google Meu Negócio",
       outcome: "Fortalecemos credibilidade e visibilidade local através de otimização, monitoramento e gestão contínua da sua presença digital.",
       when: "Você precisa de Gestão do Google Meu Negócio quando sua reputação local impacta resultados comerciais ou quando avaliações e presença digital exigem acompanhamento profissional.",
-      iconName: "location"
+      iconName: "MapPin"
     },
     {
       title: "Serviço Limpa Nome",
       outcome: "Protegemos imagem e reputação digital com atuação estratégica na remoção ou mitigação de conteúdos prejudiciais.",
       when: "Você precisa do Serviço Limpa Nome quando conteúdos negativos, reclamações ou informações desatualizadas comprometem sua credibilidade profissional ou institucional.",
-      iconName: "shield"
+      iconName: "ShieldCheck"
     },
     {
       title: "Gestão de Crise",
       outcome: "Preservamos confiança, imagem pública e relações institucionais em situações sensíveis através de planejamento preventivo e atuação imediata.",
       when: "Você precisa de Gestão de Crise quando enfrenta exposição negativa, controvérsias públicas ou situações que ameaçam reputação e relações estratégicas.",
-      iconName: "lightning"
+      iconName: "AlertTriangle"
     },
   ];
 
@@ -52,8 +52,8 @@ export default function Services() {
         {/* Header */}
         <div className="max-w-4xl mx-auto mb-20 text-center">
           <div className="accent-line-bold mx-auto mb-8"></div>
-          <h1 className="text-h1 text-brand-navy mb-8 heading-primary">Serviços</h1>
-          <p className="text-premium max-w-3xl mx-auto">
+          <h1 className="text-h1 text-white mb-8 heading-primary">Serviços</h1>
+          <p className="text-white max-w-3xl mx-auto">
             Comunicação estratégica na Wise Media significa atuar com inteligência, precisão e responsabilidade para proteger reputações e construir autoridade sustentável.
           </p>
         </div>
@@ -74,7 +74,7 @@ export default function Services() {
                   {/* Icon */}
                   <div className="flex-shrink-0">
                     <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center shadow-lg">
-                      <Icon name={service.iconName} className="w-10 h-10 text-white" />
+                      <Icon name={service.iconName} size={36} className="text-white" />
                     </div>
                   </div>
 

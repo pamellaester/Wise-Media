@@ -1,3 +1,5 @@
+import Icon from "./Icon";
+
 export default function ContactHome() {
   return (
     <section id="contact" className="relative w-full overflow-hidden">
@@ -11,10 +13,10 @@ export default function ContactHome() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <div className="accent-line-bold mx-auto mb-6"></div>
-            <h2 className="text-h2 text-brand-navy mb-6 heading-secondary">
+            <h2 className="text-h2 text-white mb-6 heading-secondary">
               Comunicação começa com confiança.
             </h2>
-            <p className="text-premium max-w-2xl mx-auto">
+            <p className="text-white max-w-2xl mx-auto">
               Entre em contato para discutir como podemos apoiar sua estratégia com inteligência e discrição.
             </p>
           </div>
@@ -30,9 +32,7 @@ export default function ContactHome() {
 
               <div className="p-12 text-center">
                 <div className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy mb-8 shadow-xl">
-                  <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
+                  <Icon name="Mail" size={48} className="text-white" />
                 </div>
 
                 <h3 className="text-2xl font-semibold text-brand-navy mb-4">
@@ -50,9 +50,7 @@ export default function ContactHome() {
                     className="bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white px-10 py-4 rounded-lg font-bold hover:shadow-xl transition-all hover:scale-105 inline-flex items-center justify-center gap-2"
                   >
                     Iniciar Conversa
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                    </svg>
+                    <Icon name="ArrowRight" size={20} className="text-white" />
                   </a>
                   <a
                     href="mailto:wisemediasolucoes@gmail.com"

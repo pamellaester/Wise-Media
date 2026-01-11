@@ -85,7 +85,7 @@ export default function FAQ() {
                 </div>
 
                 <div className={`flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center transition-transform ${openIndex === index ? 'rotate-180' : ''}`}>
-                  <Icon name="chevronDown" className="w-4 h-4 text-white" />
+                  <Icon name="ChevronDown" size={16} className="text-white" />
                 </div>
               </div>
             </div>
@@ -102,7 +102,7 @@ export default function FAQ() {
             className="inline-flex items-center gap-2 bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white px-10 py-4 rounded-lg font-bold hover:shadow-xl transition-all hover:scale-105"
           >
             Fale com a Wise Media
-            <Icon name="arrowRight" className="w-5 h-5" />
+            <Icon name="ArrowRight" size={20} />
           </a>
         </div>
       </div>
