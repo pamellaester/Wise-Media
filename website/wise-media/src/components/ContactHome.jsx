@@ -2,37 +2,41 @@ import Icon from "./Icon";
 
 export default function ContactHome() {
   return (
-    <section id="contact" className="relative w-full overflow-hidden">
+    <section id="contact" className="relative w-full overflow-hidden" aria-labelledby="contact-home-heading">
       {/* Pattern overlay */}
-      <div className="absolute inset-0 opacity-10" style={{
-        backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
-        backgroundSize: '48px 48px'
-      }}></div>
+      <div
+        className="absolute inset-0 opacity-10"
+        style={{
+          backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
+          backgroundSize: '48px 48px'
+        }}
+        aria-hidden="true"
+      />
 
       <div className="container-content section-spacing relative">
         <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-16">
-            <div className="accent-line-bold mx-auto mb-6"></div>
-            <h2 className="text-h2 text-white mb-6 heading-secondary">
+          <header className="text-center mb-16">
+            <div className="accent-line-bold mx-auto mb-6" aria-hidden="true" />
+            <h2 id="contact-home-heading" className="text-h2 text-white mb-6 heading-secondary">
               Comunicação começa com confiança.
             </h2>
             <p className="text-white max-w-2xl mx-auto">
               Entre em contato para discutir como podemos apoiar sua estratégia com inteligência e discrição.
             </p>
-          </div>
+          </header>
 
           {/* Premium CTA Card with bold gradient */}
           <div className="relative max-w-2xl mx-auto group">
-            {/* Bold gradient glow */}
-            <div className="absolute -inset-2 bg-gradient-to-r from-brand-lightBlue via-brand-navy to-brand-lightBlue rounded-2xl blur-xl opacity-40 group-hover:opacity-60 transition"></div>
+            {/* Gradient glow */}
+            <div className="absolute -inset-2 bg-gradient-to-r from-brand-lightBlue via-brand-navy to-brand-lightBlue rounded-2xl blur-xl opacity-40 group-hover:opacity-60 transition" aria-hidden="true" />
 
             <div className="relative bg-white rounded-xl shadow-2xl overflow-hidden">
-              {/* Bold top accent */}
-              <div className="h-2 bg-gradient-to-r from-brand-lightBlue via-brand-navy to-brand-lightBlue"></div>
+              {/* Top accent */}
+              <div className="h-2 bg-gradient-to-r from-brand-lightBlue via-brand-navy to-brand-lightBlue" aria-hidden="true" />
 
               <div className="p-12 text-center">
-                <div className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy mb-8 shadow-xl">
-                  <Icon name="Mail" size={48} className="text-white" />
+                <div className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy mb-8 shadow-xl" aria-hidden="true">
+                  <Icon name="Send" size={44} className="text-white" />
                 </div>
 
                 <h3 className="text-2xl font-semibold text-brand-navy mb-4">

@@ -5,22 +5,22 @@ export default function ServicesOverview() {
     {
       title: "Assessoria de Imprensa",
       outcome: "Posicionamos sua marca com consistência e autoridade nos principais veículos.",
-      iconName: "Newspaper"
+      iconName: "Megaphone"
     },
     {
       title: "Assessoria Estratégica e Pontual",
       outcome: "Garantimos mensagens claras e alinhadas em momentos decisivos.",
-      iconName: "MessageSquare"
+      iconName: "Lightbulb"
     },
     {
       title: "Assessoria para Vistos",
       outcome: "Construímos narrativa pública e provas de relevância profissional para processos internacionais.",
-      iconName: "Globe"
+      iconName: "Award"
     },
     {
       title: "Gestão do Google Meu Negócio",
       outcome: "Fortalecemos credibilidade e visibilidade local através de gestão contínua.",
-      iconName: "MapPin"
+      iconName: "MapPinned"
     },
     {
       title: "Serviço Limpa Nome",
@@ -30,7 +30,7 @@ export default function ServicesOverview() {
     {
       title: "Gestão de Crise",
       outcome: "Preservamos confiança e relações institucionais em situações sensíveis.",
-      iconName: "AlertTriangle"
+      iconName: "ShieldAlert"
     },
   ];
 
@@ -77,11 +77,9 @@ export default function ServicesOverview() {
         </div>
 
         <div className="text-center mt-16">
-          <a href="/servicos" className="bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white px-10 py-4 rounded-lg font-semibold hover:shadow-xl transition-all inline-flex items-center gap-2">
+          <a href="/servicos" className="bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white px-10 py-4 rounded-lg font-semibold hover:shadow-xl transition-all inline-flex items-center gap-2 hover:scale-105">
             Ver Todos os Detalhes
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
+            <Icon name="ArrowRight" size={20} aria-hidden="true" />
           </a>
         </div>
       </div>

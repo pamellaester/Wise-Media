@@ -5,22 +5,22 @@ export default function TrustMarkers() {
     {
       number: "50+",
       label: "Clientes Atendidos",
-      iconName: "UserCheck"
+      iconName: "Users"
     },
     {
       number: "5+",
       label: "Anos de Experiência",
-      iconName: "BadgeCheck"
+      iconName: "Trophy"
     },
     {
       number: "98%",
       label: "Taxa de Satisfação",
-      iconName: "Star"
+      iconName: "ThumbsUp"
     },
     {
       number: "24h",
       label: "Tempo de Resposta",
-      iconName: "Clock"
+      iconName: "Zap"
     }
   ];
 
@@ -44,7 +44,7 @@ export default function TrustMarkers() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-5xl mx-auto mb-20">
           {stats.map((stat, index) => (
             <div key={index} className="text-center group">
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy mb-4 shadow-lg group-hover:scale-110 transition-transform">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy mb-4 shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
                 <Icon name={stat.iconName} size={28} className="text-white" />
               </div>
               <div className="text-4xl font-bold text-brand-navy mb-2 bg-gradient-to-r from-brand-navy to-brand-lightBlue bg-clip-text text-transparent">

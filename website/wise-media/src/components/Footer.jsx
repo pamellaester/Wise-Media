@@ -3,24 +3,28 @@ import Icon from "./Icon";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-brand-navy relative overflow-hidden">
-      {/* Bold gradient top border */}
-      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-lightBlue via-white to-brand-lightBlue"></div>
+    <footer className="w-full bg-brand-navy relative overflow-hidden" role="contentinfo">
+      {/* Top border */}
+      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-lightBlue via-white to-brand-lightBlue" aria-hidden="true" />
 
       {/* Subtle pattern */}
-      <div className="absolute inset-0 opacity-5" style={{
-        backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(65, 194, 243, 0.3) 1px, transparent 0)',
-        backgroundSize: '40px 40px'
-      }}></div>
+      <div
+        className="absolute inset-0 opacity-5"
+        style={{
+          backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(65, 194, 243, 0.3) 1px, transparent 0)',
+          backgroundSize: '40px 40px'
+        }}
+        aria-hidden="true"
+      />
 
       <div className="container-content relative" style={{ paddingTop: '80px', paddingBottom: '40px' }}>
         <div className="max-w-6xl mx-auto">
           {/* Main footer content */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
-            {/* Brand with gradient */}
+            {/* Brand */}
             <div className="md:col-span-2">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-lightBlue to-white/20 flex items-center justify-center shadow-lg">
+                <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-lightBlue to-white/20 flex items-center justify-center shadow-lg" aria-hidden="true">
                   <span className="text-white font-bold text-lg">W</span>
                 </div>
                 <div>
@@ -31,15 +35,31 @@ export default function Footer() {
               <p className="text-white/70 leading-relaxed text-sm max-w-md">
                 Agência especializada em comunicação estratégica e gestão de reputação para profissionais de alta visibilidade.
               </p>
-              <div className="mt-6 flex items-center gap-4">
+              <div className="mt-6 flex items-center gap-3">
                 <a
                   href="https://instagram.com/wisemediasolucoes11"
                   target="_blank"
                   rel="noreferrer"
-                  className="w-10 h-10 rounded-full bg-gradient-to-br from-brand-lightBlue/20 to-white/5 hover:from-brand-lightBlue/30 hover:to-white/10 flex items-center justify-center transition-all"
-                  aria-label="Instagram"
+                  className="w-10 h-10 rounded-full bg-gradient-to-br from-brand-lightBlue/20 to-white/5 hover:from-brand-lightBlue/40 hover:to-white/10 flex items-center justify-center transition-all hover:scale-110"
+                  aria-label="Siga-nos no Instagram"
                 >
                   <Icon name="Instagram" size={20} className="text-white" />
+                </a>
+                <a
+                  href="mailto:wisemediasolucoes@gmail.com"
+                  className="w-10 h-10 rounded-full bg-gradient-to-br from-brand-lightBlue/20 to-white/5 hover:from-brand-lightBlue/40 hover:to-white/10 flex items-center justify-center transition-all hover:scale-110"
+                  aria-label="Envie-nos um email"
+                >
+                  <Icon name="Mail" size={20} className="text-white" />
+                </a>
+                <a
+                  href="https://wa.me/5511990094457"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="w-10 h-10 rounded-full bg-gradient-to-br from-brand-lightBlue/20 to-white/5 hover:from-brand-lightBlue/40 hover:to-white/10 flex items-center justify-center transition-all hover:scale-110"
+                  aria-label="Fale conosco no WhatsApp"
+                >
+                  <Icon name="MessageCircle" size={20} className="text-white" />
                 </a>
               </div>
             </div>
@@ -66,20 +86,22 @@ export default function Footer() {
             {/* Contact */}
             <div>
               <h4 className="text-white font-semibold mb-6">Contato</h4>
-              <div className="space-y-3 text-sm">
+              <div className="space-y-4 text-sm">
                 <a
                   href="mailto:wisemediasolucoes@gmail.com"
-                  className="block text-white/70 hover:text-brand-lightBlue transition-colors"
+                  className="flex items-center gap-2 text-white/70 hover:text-brand-lightBlue transition-colors"
                 >
-                  wisemediasolucoes@gmail.com
+                  <Icon name="Mail" size={16} className="flex-shrink-0" aria-hidden="true" />
+                  <span>wisemediasolucoes@gmail.com</span>
                 </a>
                 <a
                   href="https://wa.me/5511990094457"
                   target="_blank"
                   rel="noreferrer"
-                  className="block text-white/70 hover:text-brand-lightBlue transition-colors"
+                  className="flex items-center gap-2 text-white/70 hover:text-brand-lightBlue transition-colors"
                 >
-                  (11) 99009-4457
+                  <Icon name="Phone" size={16} className="flex-shrink-0" aria-hidden="true" />
+                  <span>(11) 99009-4457</span>
                 </a>
               </div>
             </div>

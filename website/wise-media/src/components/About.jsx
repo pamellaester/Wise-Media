@@ -22,50 +22,45 @@ export default function About() {
         {/* Mission & Vision - Lead Section */}
         <div className="max-w-5xl mx-auto mb-24">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="card-premium relative overflow-hidden group">
-              {/* Bold gradient overlay on hover */}
-              <div className="absolute inset-0 bg-gradient-to-br from-brand-navy/5 to-brand-lightBlue/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+            <article className="card-premium relative overflow-hidden group">
+              {/* Gradient overlay on hover */}
+              <div className="absolute inset-0 bg-gradient-to-br from-brand-navy/5 to-brand-lightBlue/5 opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
 
-              {/* Bold top border */}
-              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-navy via-brand-lightBlue to-brand-navy"></div>
+              {/* Top border accent */}
+              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-navy via-brand-lightBlue to-brand-navy" aria-hidden="true" />
 
               <div className="relative">
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-brand-navy to-brand-lightBlue mb-6 shadow-lg">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
-                  </svg>
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-brand-navy to-brand-lightBlue mb-6 shadow-lg group-hover:scale-105 transition-transform" aria-hidden="true">
+                  <Icon name="Compass" size={32} className="text-white" />
                 </div>
-                <div className="inline-block px-4 py-1 rounded-full bg-gradient-to-r from-brand-navy to-brand-lightBlue text-white text-xs font-bold mb-4 shadow">
-                  MISSÃO
-                </div>
+                <span className="inline-block px-4 py-1 rounded-full bg-gradient-to-r from-brand-navy to-brand-lightBlue text-white text-xs font-bold uppercase tracking-wider mb-4 shadow">
+                  Missão
+                </span>
                 <p className="text-premium leading-relaxed">
                   Ajudar nossos clientes a comunicar com clareza, inteligência e credibilidade, transformando narrativas em resultados reais e sustentáveis.
                 </p>
               </div>
-            </div>
+            </article>
 
-            <div className="card-premium relative overflow-hidden group">
-              {/* Bold gradient overlay on hover */}
-              <div className="absolute inset-0 bg-gradient-to-br from-brand-lightBlue/5 to-brand-navy/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+            <article className="card-premium relative overflow-hidden group">
+              {/* Gradient overlay on hover */}
+              <div className="absolute inset-0 bg-gradient-to-br from-brand-lightBlue/5 to-brand-navy/5 opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
 
-              {/* Bold top border */}
-              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-lightBlue via-brand-navy to-brand-lightBlue"></div>
+              {/* Top border accent */}
+              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-lightBlue via-brand-navy to-brand-lightBlue" aria-hidden="true" />
 
               <div className="relative">
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy mb-6 shadow-lg">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-                  </svg>
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy mb-6 shadow-lg group-hover:scale-105 transition-transform" aria-hidden="true">
+                  <Icon name="Eye" size={32} className="text-white" />
                 </div>
-                <div className="inline-block px-4 py-1 rounded-full bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white text-xs font-bold mb-4 shadow">
-                  VISÃO
-                </div>
+                <span className="inline-block px-4 py-1 rounded-full bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white text-xs font-bold uppercase tracking-wider mb-4 shadow">
+                  Visão
+                </span>
                 <p className="text-premium leading-relaxed">
                   Ser referência nacional em comunicação estratégica e gestão de reputação, oferecendo soluções éticas, inteligentes e consistentes para marcas e líderes.
                 </p>
               </div>
-            </div>
+            </article>
           </div>
         </div>
 
@@ -178,10 +173,10 @@ export default function About() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto relative">
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-4 group">
                 <div className="flex-shrink-0">
-                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center shadow-lg">
-                    <Icon name="Check" size={18} className="text-white" />
+                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
+                    <Icon name="Scale" size={18} className="text-white" />
                   </div>
                 </div>
                 <div>
@@ -192,12 +187,10 @@ export default function About() {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-4 group">
                 <div className="flex-shrink-0">
-                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-navy to-brand-lightBlue flex items-center justify-center shadow-lg">
-                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
+                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-navy to-brand-lightBlue flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
+                    <Icon name="Gem" size={18} className="text-white" />
                   </div>
                 </div>
                 <div>
@@ -208,10 +201,10 @@ export default function About() {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-4 group">
                 <div className="flex-shrink-0">
-                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center shadow-lg">
-                    <Icon name="Check" size={18} className="text-white" />
+                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
+                    <Icon name="KeyRound" size={18} className="text-white" />
                   </div>
                 </div>
                 <div>
@@ -222,12 +215,10 @@ export default function About() {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-4 group">
                 <div className="flex-shrink-0">
-                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-navy to-brand-lightBlue flex items-center justify-center shadow-lg">
-                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
+                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-navy to-brand-lightBlue flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
+                    <Icon name="Brain" size={18} className="text-white" />
                   </div>
                 </div>
                 <div>

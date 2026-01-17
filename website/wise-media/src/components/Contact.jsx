@@ -2,25 +2,25 @@ import Icon from "./Icon";
 
 export default function Contact() {
   return (
-    <section className="w-full relative overflow-hidden">
-      {/* Bold gradient top accent */}
-      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-lightBlue via-brand-navy to-brand-lightBlue"></div>
+    <section className="w-full relative overflow-hidden" aria-labelledby="contact-heading">
+      {/* Top accent */}
+      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-lightBlue via-brand-navy to-brand-lightBlue" aria-hidden="true" />
 
       {/* Diagonal gradient overlay */}
-      <div className="absolute top-0 right-0 w-1/3 h-96 bg-gradient-to-bl from-brand-lightBlue/5 to-transparent"></div>
+      <div className="absolute top-0 right-0 w-1/3 h-96 bg-gradient-to-bl from-brand-lightBlue/5 to-transparent" aria-hidden="true" />
 
       <div className="container-content section-spacing relative">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
-          <div className="text-center mb-20">
-            <div className="accent-line-bold mx-auto mb-8"></div>
-            <h1 className="text-h1 text-white mb-8 heading-primary">
+          <header className="text-center mb-20">
+            <div className="accent-line-bold mx-auto mb-8" aria-hidden="true" />
+            <h1 id="contact-heading" className="text-h1 text-white mb-8 heading-primary">
               Comunicação começa com confiança.
             </h1>
             <p className="text-white max-w-2xl mx-auto">
               Entre em contato para discutir como podemos apoiar sua estratégia com inteligência, discrição e responsabilidade.
             </p>
-          </div>
+          </header>
 
           {/* Contact Methods */}
           <div className="mb-20">
@@ -29,11 +29,11 @@ export default function Contact() {
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="card-premium text-center group relative overflow-hidden">
-                {/* Bold left gradient accent on hover */}
-                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brand-lightBlue to-brand-navy opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              <article className="card-premium text-center group relative overflow-hidden">
+                {/* Left gradient accent on hover */}
+                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brand-lightBlue to-brand-navy opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
 
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy mb-6 shadow-lg">
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy mb-6 shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
                   <Icon name="Mail" size={28} className="text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-brand-navy mb-2">Email</h3>
@@ -44,13 +44,13 @@ export default function Contact() {
                 >
                   wisemediasolucoes@gmail.com
                 </a>
-              </div>
+              </article>
 
-              <div className="card-premium text-center group relative overflow-hidden">
-                {/* Bold left gradient accent on hover */}
-                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brand-navy to-brand-lightBlue opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              <article className="card-premium text-center group relative overflow-hidden">
+                {/* Left gradient accent on hover */}
+                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brand-navy to-brand-lightBlue opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
 
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-brand-navy to-brand-lightBlue mb-6 shadow-lg">
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-brand-navy to-brand-lightBlue mb-6 shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
                   <Icon name="MessageCircle" size={28} className="text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-brand-navy mb-2">WhatsApp</h3>
@@ -63,13 +63,13 @@ export default function Contact() {
                 >
                   (11) 99009-4457
                 </a>
-              </div>
+              </article>
 
-              <div className="card-premium text-center group relative overflow-hidden">
-                {/* Bold left gradient accent on hover */}
-                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brand-lightBlue to-brand-navy opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              <article className="card-premium text-center group relative overflow-hidden">
+                {/* Left gradient accent on hover */}
+                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brand-lightBlue to-brand-navy opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
 
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy mb-6 shadow-lg">
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy mb-6 shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
                   <Icon name="Instagram" size={28} className="text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-brand-navy mb-2">Instagram</h3>
@@ -82,24 +82,24 @@ export default function Contact() {
                 >
                   @wisemediasolucoes11
                 </a>
-              </div>
+              </article>
             </div>
           </div>
 
-          {/* Process with bold gradient */}
+          {/* Process with gradient */}
           <div className="mb-20 relative overflow-hidden bg-gradient-to-br from-brand-lightBlue/5 via-white to-brand-navy/5 rounded-2xl p-12">
-            {/* Bold top gradient accent */}
-            <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-lightBlue via-brand-navy to-brand-lightBlue"></div>
+            {/* Top gradient accent */}
+            <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-lightBlue via-brand-navy to-brand-lightBlue" aria-hidden="true" />
 
             <h2 className="text-h2 text-brand-navy mb-12 heading-secondary text-center relative">
               Como Funciona
             </h2>
 
             <div className="space-y-10 max-w-3xl mx-auto relative">
-              <div className="flex gap-6">
+              <div className="flex gap-6 group">
                 <div className="flex-shrink-0">
-                  <div className="w-14 h-14 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center text-white font-bold text-xl shadow-lg">
-                    1
+                  <div className="w-14 h-14 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
+                    <Icon name="MessageSquare" size={24} className="text-white" />
                   </div>
                 </div>
                 <div>
@@ -110,10 +110,10 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="flex gap-6">
+              <div className="flex gap-6 group">
                 <div className="flex-shrink-0">
-                  <div className="w-14 h-14 rounded-full bg-gradient-to-br from-brand-navy to-brand-lightBlue flex items-center justify-center text-white font-bold text-xl shadow-lg">
-                    2
+                  <div className="w-14 h-14 rounded-full bg-gradient-to-br from-brand-navy to-brand-lightBlue flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
+                    <Icon name="Search" size={24} className="text-white" />
                   </div>
                 </div>
                 <div>
@@ -124,10 +124,10 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="flex gap-6">
+              <div className="flex gap-6 group">
                 <div className="flex-shrink-0">
-                  <div className="w-14 h-14 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center text-white font-bold text-xl shadow-lg">
-                    3
+                  <div className="w-14 h-14 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
+                    <Icon name="FileText" size={24} className="text-white" />
                   </div>
                 </div>
                 <div>
@@ -140,13 +140,13 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Discretion Assurance & CTA with gradient */}
+          {/* Discretion Assurance & CTA */}
           <div className="text-center">
-            <div className="inline-flex items-center gap-2 text-brand-navy/60 text-sm mb-8">
-              <div className="w-5 h-5 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center flex-shrink-0">
-                <Icon name="Lock" size={12} className="text-white" />
+            <div className="inline-flex items-center gap-3 text-sm mb-8 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full border border-white/20">
+              <div className="w-6 h-6 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center flex-shrink-0" aria-hidden="true">
+                <Icon name="Lock" size={14} className="text-white" />
               </div>
-              <span className="text-white">Todas as conversas são tratadas com confidencialidade e responsabilidade institucional.</span>
+              <span className="text-white/90">Todas as conversas são tratadas com confidencialidade e responsabilidade institucional.</span>
             </div>
             <div>
               <a
@@ -154,7 +154,7 @@ export default function Contact() {
                 className="inline-flex items-center gap-2 bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white px-10 py-4 rounded-lg font-bold hover:shadow-xl transition-all hover:scale-105"
               >
                 Iniciar Conversa
-                <Icon name="ArrowRight" size={20} className="text-white" />
+                <Icon name="ArrowRight" size={20} aria-hidden="true" />
               </a>
             </div>
           </div>

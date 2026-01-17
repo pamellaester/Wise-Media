@@ -6,25 +6,25 @@ export default function Services() {
       title: "Assessoria de Imprensa",
       outcome: "Posicionamos sua marca com consistência e autoridade nos principais veículos de comunicação.",
       when: "Você precisa de Assessoria de Imprensa quando busca construir presença estratégica na mídia, ampliar reconhecimento profissional ou fortalecer credibilidade institucional.",
-      iconName: "Newspaper"
+      iconName: "Megaphone"
     },
     {
       title: "Assessoria Estratégica e Pontual",
       outcome: "Garantimos mensagens claras e alinhadas em momentos decisivos que exigem precisão comunicacional.",
       when: "Você precisa de Assessoria Pontual quando enfrenta lançamentos, premiações, eventos estratégicos ou situações que demandam visibilidade qualificada em curto prazo.",
-      iconName: "MessageSquare"
+      iconName: "Lightbulb"
     },
     {
       title: "Assessoria para Vistos",
       outcome: "Construímos narrativa pública e provas de relevância profissional para processos de imigração e reconhecimento internacional.",
       when: "Você precisa de Assessoria para Vistos quando solicita O-1, EB2-NIW ou outros vistos que exigem comprovação de destaque e contribuição extraordinária em sua área.",
-      iconName: "Globe"
+      iconName: "Award"
     },
     {
       title: "Gestão do Google Meu Negócio",
       outcome: "Fortalecemos credibilidade e visibilidade local através de otimização, monitoramento e gestão contínua da sua presença digital.",
       when: "Você precisa de Gestão do Google Meu Negócio quando sua reputação local impacta resultados comerciais ou quando avaliações e presença digital exigem acompanhamento profissional.",
-      iconName: "MapPin"
+      iconName: "MapPinned"
     },
     {
       title: "Serviço Limpa Nome",
@@ -36,7 +36,7 @@ export default function Services() {
       title: "Gestão de Crise",
       outcome: "Preservamos confiança, imagem pública e relações institucionais em situações sensíveis através de planejamento preventivo e atuação imediata.",
       when: "Você precisa de Gestão de Crise quando enfrenta exposição negativa, controvérsias públicas ou situações que ameaçam reputação e relações estratégicas.",
-      iconName: "AlertTriangle"
+      iconName: "ShieldAlert"
     },
   ];
 
@@ -87,9 +87,7 @@ export default function Services() {
                     {/* Outcome */}
                     <div className="mb-6">
                       <div className="inline-flex items-center gap-2 text-sm font-semibold text-brand-navy/60 mb-3">
-                        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                        </svg>
+                        <Icon name="CheckCircle2" size={16} className="text-brand-lightBlue" aria-hidden="true" />
                         O QUE ENTREGAMOS
                       </div>
                       <p className="text-premium">
@@ -100,9 +98,7 @@ export default function Services() {
                     {/* When to engage */}
                     <div className="bg-gray-50/50 rounded-xl p-6">
                       <div className="flex items-start gap-3">
-                        <svg className="w-5 h-5 text-brand-lightBlue flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
+                        <Icon name="Info" size={20} className="text-brand-lightBlue flex-shrink-0 mt-0.5" aria-hidden="true" />
                         <div>
                           <div className="text-sm font-semibold text-brand-navy/70 mb-2">
                             QUANDO CONTRATAR
@@ -141,10 +137,8 @@ export default function Services() {
               }}></div>
 
               <div className="relative">
-                <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-white/10 backdrop-blur-sm mb-6 shadow-xl border border-white/20">
-                  <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                  </svg>
+                <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-white/10 backdrop-blur-sm mb-6 shadow-xl border border-white/20" aria-hidden="true">
+                  <Icon name="Shield" size={40} className="text-white" />
                 </div>
                 <h3 className="text-2xl font-semibold text-white mb-4">
                   Atuamos com inteligência, precisão e responsabilidade.
@@ -154,9 +148,7 @@ export default function Services() {
                 </p>
                 <a href="/contato" className="inline-flex items-center gap-2 bg-white text-brand-navy px-10 py-4 rounded-lg font-bold hover:shadow-2xl transition-all hover:scale-105">
                   Fale com a Wise Media
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
+                  <Icon name="ArrowRight" size={20} aria-hidden="true" />
                 </a>
               </div>
             </div>

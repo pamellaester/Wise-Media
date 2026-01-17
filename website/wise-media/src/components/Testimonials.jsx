@@ -27,63 +27,69 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="w-full relative overflow-hidden bg-gradient-to-br from-brand-navy via-brand-navy to-brand-lightBlue/20">
+    <section className="w-full relative overflow-hidden bg-gradient-to-br from-brand-navy via-brand-navy to-brand-lightBlue/20" aria-labelledby="testimonials-heading">
       {/* Pattern overlay */}
-      <div className="absolute inset-0 opacity-5" style={{
-        backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
-        backgroundSize: '32px 32px'
-      }}></div>
+      <div
+        className="absolute inset-0 opacity-5"
+        style={{
+          backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
+          backgroundSize: '32px 32px'
+        }}
+        aria-hidden="true"
+      />
 
       <div className="container-content section-spacing relative">
         {/* Header */}
-        <div className="text-center mb-16">
+        <header className="text-center mb-16">
           <div className="inline-block px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-6">
-            <span className="text-white/90 text-sm font-semibold">DEPOIMENTOS</span>
+            <span className="text-white/90 text-sm font-semibold tracking-wide">DEPOIMENTOS</span>
           </div>
-          <h2 className="text-h2 text-white mb-6 heading-secondary">
+          <h2 id="testimonials-heading" className="text-h2 text-white mb-6 heading-secondary">
             O Que Nossos Clientes Dizem
           </h2>
           <p className="text-white/80 text-lg max-w-2xl mx-auto">
             Confiança construída através de resultados reais e parcerias estratégicas de longo prazo.
           </p>
-        </div>
+        </header>
 
         {/* Testimonials Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {testimonials.map((testimonial) => (
-            <div key={testimonial.id} className="relative group">
+            <article key={testimonial.id} className="relative group">
               {/* Gradient glow */}
-              <div className="absolute -inset-1 bg-gradient-to-br from-brand-lightBlue/30 to-white/10 rounded-2xl blur opacity-75 group-hover:opacity-100 transition"></div>
+              <div className="absolute -inset-1 bg-gradient-to-br from-brand-lightBlue/30 to-white/10 rounded-2xl blur opacity-75 group-hover:opacity-100 transition" aria-hidden="true" />
 
               <div className="relative bg-white/10 backdrop-blur-lg rounded-xl p-8 border border-white/20 h-full flex flex-col">
                 {/* Quote Icon */}
-                <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center mb-6">
+                <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform" aria-hidden="true">
                   <Icon name="Quote" size={20} className="text-white" />
                 </div>
 
                 {/* Rating */}
-                <div className="flex gap-1 mb-4">
+                <div className="flex gap-1 mb-4" aria-label={`Avaliação: ${testimonial.rating} de 5 estrelas`}>
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <Icon key={i} name="Star" size={16} className="text-brand-lightBlue fill-brand-lightBlue" />
+                    <Icon key={i} name="Star" size={16} className="text-brand-lightBlue fill-brand-lightBlue" aria-hidden="true" />
                   ))}
                 </div>
 
                 {/* Quote */}
-                <p className="text-white/90 leading-relaxed mb-6 flex-1 text-[15px]">
+                <blockquote className="text-white/90 leading-relaxed mb-6 flex-1 text-[15px]">
                   "{testimonial.quote}"
-                </p>
+                </blockquote>
 
                 {/* Author */}
-                <div className="border-t border-white/10 pt-6">
-                  <div className="font-semibold text-white text-sm mb-1">
-                    {testimonial.author}
-                  </div>
-                  <div className="text-white/60 text-xs">
-                    {testimonial.role}
-                  </div>
-                </div>
+                <footer className="border-t border-white/10 pt-6">
+                  <cite className="not-italic">
+                    <div className="font-semibold text-white text-sm mb-1">
+                      {testimonial.author}
+                    </div>
+                    <div className="text-white/60 text-xs">
+                      {testimonial.role}
+                    </div>
+                  </cite>
+                </footer>
               </div>
-            </div>
+            </article>
           ))}
         </div>
 
@@ -97,7 +103,7 @@ export default function Testimonials() {
             className="inline-flex items-center gap-2 bg-white text-brand-navy px-10 py-4 rounded-lg font-bold hover:shadow-2xl transition-all hover:scale-105"
           >
             Fale com a Wise Media
-            <Icon name="ArrowRight" size={20} />
+            <Icon name="ArrowRight" size={20} aria-hidden="true" />
           </a>
         </div>
       </div>
