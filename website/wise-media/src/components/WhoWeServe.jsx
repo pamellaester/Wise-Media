@@ -1,17 +1,12 @@
+import { useTranslation } from "react-i18next";
 import Icon from "./Icon";
 
 export default function WhoWeServe() {
+  const { t } = useTranslation();
+
   const segments = [
-    {
-      title: "Profissionais de Alta Visibilidade",
-      description: "Líderes, executivos, especialistas e figuras públicas que precisam proteger e fortalecer sua reputação.",
-      iconName: "UserCircle"
-    },
-    {
-      title: "Empreendedores e Vistos Especiais",
-      description: "Profissionais que necessitam comprovar relevância pública e posicionamento estratégico para processos internacionais.",
-      iconName: "Briefcase"
-    },
+    { key: "highVisibility", iconName: "UserCircle" },
+    { key: "entrepreneurs", iconName: "Briefcase" },
   ];
 
   return (
@@ -29,17 +24,17 @@ export default function WhoWeServe() {
       <div className="container-content section-spacing relative">
         <header className="text-center mb-20">
           <div className="inline-block px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm border border-white/30 mb-6">
-            <span className="text-white/90 text-sm font-semibold tracking-wide">PÚBLICO-ALVO</span>
+            <span className="text-white/90 text-sm font-semibold tracking-wide">{t('whoWeServe.tag')}</span>
           </div>
-          <h2 id="who-we-serve-heading" className="text-h2 text-white mb-6 heading-secondary">Para Quem</h2>
+          <h2 id="who-we-serve-heading" className="text-h2 text-white mb-6 heading-secondary">{t('whoWeServe.title')}</h2>
           <p className="text-white/90 text-lg max-w-2xl mx-auto leading-relaxed">
-            Especialistas em atender profissionais que enfrentam exposição pública e necessitam de comunicação estratégica.
+            {t('whoWeServe.description')}
           </p>
         </header>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          {segments.map((segment, index) => (
-            <article key={segment.title} className="relative group">
+          {segments.map((segment) => (
+            <article key={segment.key} className="relative group">
               {/* Gradient border glow */}
               <div className="absolute -inset-1 bg-gradient-to-br from-white/30 to-brand-lightBlue/30 rounded-2xl blur opacity-75 group-hover:opacity-100 transition" aria-hidden="true" />
 
@@ -50,10 +45,10 @@ export default function WhoWeServe() {
                 </div>
 
                 <h3 className="text-2xl font-semibold text-white mb-4 leading-tight">
-                  {segment.title}
+                  {t(`whoWeServe.segments.${segment.key}.title`)}
                 </h3>
                 <p className="text-white/80 leading-relaxed text-[15px]">
-                  {segment.description}
+                  {t(`whoWeServe.segments.${segment.key}.description`)}
                 </p>
 
                 {/* Decorative element */}
@@ -66,10 +61,10 @@ export default function WhoWeServe() {
         {/* Call to action */}
         <div className="mt-16 text-center">
           <p className="text-white/80 text-sm mb-6">
-            Se você se identifica, estamos prontos para apoiar sua estratégia.
+            {t('whoWeServe.cta')}
           </p>
           <a href="/contato" className="inline-flex items-center gap-2 bg-white text-brand-navy px-8 py-4 rounded-lg font-bold hover:shadow-2xl transition-all hover:scale-105">
-            Iniciar Conversa
+            {t('whoWeServe.ctaButton')}
             <Icon name="ArrowRight" size={20} aria-hidden="true" />
           </a>
         </div>

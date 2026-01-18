@@ -1,0 +1,345 @@
+{
+  "nav": {
+    "services": "Serviços",
+    "about": "Sobre",
+    "contact": "Contato",
+    "tagline": "Comunicação Estratégica",
+    "openMenu": "Abrir menu de navegação",
+    "closeMenu": "Fechar menu de navegação"
+  },
+  "hero": {
+    "title": "Comunicação estratégica que protege, posiciona e fortalece reputações.",
+    "description": "Atuamos com inteligência, precisão e responsabilidade para apoiar profissionais e marcas em cenários de alta exposição — da assessoria de imprensa à gestão de crise, com total discrição.",
+    "cta": "Fale com a Wise Media",
+    "ctaSecondary": "Conheça os Serviços",
+    "metrics": {
+      "clients": "Clientes Atendidos",
+      "clientsValue": "+50",
+      "response": "Resposta em Crises",
+      "responseValue": "24h",
+      "confidentiality": "Confidencialidade",
+      "confidentialityValue": "100%"
+    }
+  },
+  "trustMarkers": {
+    "stats": {
+      "clients": "Clientes Atendidos",
+      "clientsValue": "50+",
+      "experience": "Anos de Experiência",
+      "experienceValue": "5+",
+      "satisfaction": "Taxa de Satisfação",
+      "satisfactionValue": "98%",
+      "responseTime": "Tempo de Resposta",
+      "responseTimeValue": "24h"
+    },
+    "sectorsTitle": "Setores que Atendemos",
+    "sectorsDescription": "Experiência em comunicação estratégica para diversos segmentos",
+    "sectors": {
+      "technology": "Tecnologia",
+      "finance": "Finanças",
+      "health": "Saúde",
+      "legal": "Jurídico",
+      "entertainment": "Entretenimento",
+      "executives": "Executivos"
+    },
+    "confidentialityNote": "Atuação discreta com clientes que valorizam confidencialidade"
+  },
+  "servicesOverview": {
+    "tag": "SERVIÇOS",
+    "title": "Serviços",
+    "description": "Soluções especializadas para proteger, posicionar e fortalecer sua presença estratégica.",
+    "cta": "Ver Todos os Detalhes",
+    "services": {
+      "pressAdvisory": {
+        "title": "Assessoria de Imprensa",
+        "description": "Construção e fortalecimento da imagem pública com inserções estratégicas na mídia."
+      },
+      "strategicAdvisory": {
+        "title": "Assessoria Estratégica e Pontual",
+        "description": "Consultoria especializada para momentos específicos que exigem posicionamento preciso."
+      },
+      "visaAdvisory": {
+        "title": "Assessoria para Vistos",
+        "description": "Suporte especializado para processos de vistos com estratégia de mídia integrada."
+      },
+      "googleBusiness": {
+        "title": "Gestão do Google Meu Negócio",
+        "description": "Otimização da presença digital e reputação em buscas locais."
+      },
+      "cleanName": {
+        "title": "Serviço Limpa Nome",
+        "description": "Remoção de conteúdos negativos e recuperação da reputação digital."
+      },
+      "crisisManagement": {
+        "title": "Gestão de Crise",
+        "description": "Atuação rápida e estratégica para proteger sua imagem em momentos críticos."
+      }
+    }
+  },
+  "whoWeServe": {
+    "tag": "PÚBLICO-ALVO",
+    "title": "Para Quem",
+    "description": "Especialistas em atender profissionais que enfrentam exposição pública e precisam de comunicação estratégica.",
+    "segments": {
+      "highVisibility": {
+        "title": "Profissionais de Alta Visibilidade",
+        "description": "Executivos, artistas, influenciadores e personalidades públicas que necessitam de gestão estratégica de imagem e comunicação."
+      },
+      "entrepreneurs": {
+        "title": "Empreendedores e Vistos Especiais",
+        "description": "Empresários em expansão internacional e profissionais que buscam visibilidade estratégica para processos de visto."
+      }
+    },
+    "cta": "Se você se identifica, estamos prontos para apoiar sua estratégia.",
+    "ctaButton": "Iniciar Conversa"
+  },
+  "missionVision": {
+    "title": "Visão e Missão",
+    "description": "Nosso propósito institucional e compromisso com a excelência em comunicação estratégica.",
+    "vision": {
+      "label": "Visão",
+      "text": "Ser referência nacional em comunicação estratégica e gestão de reputação, oferecendo soluções éticas, inteligentes e consistentes para marcas e líderes."
+    },
+    "mission": {
+      "label": "Missão",
+      "text": "Ajudar nossos clientes a comunicar com clareza, inteligência e credibilidade, transformando narrativas em resultados reais e sustentáveis."
+    }
+  },
+  "testimonials": {
+    "tag": "DEPOIMENTOS",
+    "title": "O Que Nossos Clientes Dizem",
+    "description": "Confiança construída através de resultados reais e relacionamentos duradouros.",
+    "items": [
+      {
+        "quote": "A Wise Media transformou completamente nossa presença na mídia. Profissionalismo e discrição incomparáveis.",
+        "author": "Carlos M.",
+        "role": "CEO, Tech Solutions",
+        "rating": "Cliente desde 2022"
+      },
+      {
+        "quote": "Em um momento crítico para minha carreira, a equipe da Wise Media foi fundamental. Resposta rápida e estratégia impecável.",
+        "author": "Ana P.",
+        "role": "Executiva de Mídia",
+        "rating": "Cliente desde 2021"
+      },
+      {
+        "quote": "A assessoria para meu processo de visto foi excepcional. Atenção aos detalhes e resultados acima das expectativas.",
+        "author": "Roberto S.",
+        "role": "Empreendedor",
+        "rating": "Cliente desde 2023"
+      }
+    ],
+    "cta": "Seja o próximo a construir autoridade com comunicação estratégica.",
+    "ctaButton": "Fale com a Wise Media"
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "description": "Respostas claras para dúvidas comuns sobre nossos serviços e atuação.",
+    "items": [
+      {
+        "question": "Como funciona a assessoria de imprensa?",
+        "answer": "Trabalhamos para construir e fortalecer sua imagem pública através de inserções estratégicas na mídia, relacionamento com jornalistas e produção de conteúdo relevante. Cada estratégia é personalizada conforme seus objetivos e perfil."
+      },
+      {
+        "question": "Vocês atendem em situações de crise?",
+        "answer": "Sim, oferecemos gestão de crise com atuação rápida e estratégica. Nossa equipe está preparada para responder em até 24 horas, protegendo sua imagem e reputação em momentos críticos."
+      },
+      {
+        "question": "O que é o serviço Limpa Nome?",
+        "answer": "É um serviço especializado em remoção de conteúdos negativos da internet e recuperação da reputação digital. Utilizamos técnicas legais e éticas para restaurar sua imagem online."
+      },
+      {
+        "question": "Como funciona a assessoria para vistos?",
+        "answer": "Oferecemos suporte completo para processos de vistos, incluindo estratégia de mídia integrada que fortalece seu perfil profissional e aumenta as chances de aprovação."
+      },
+      {
+        "question": "Qual o prazo para ver resultados?",
+        "answer": "Os prazos variam conforme o serviço e objetivos. Assessoria de imprensa geralmente mostra resultados em 30-90 dias, enquanto gestão de crise tem resposta imediata. Apresentamos cronograma detalhado na proposta."
+      },
+      {
+        "question": "Vocês garantem confidencialidade?",
+        "answer": "Absolutamente. A confidencialidade é um dos pilares do nosso trabalho. Todos os clientes e projetos são tratados com total discrição e sigilo profissional."
+      },
+      {
+        "question": "Atendem clientes fora de São Paulo?",
+        "answer": "Sim, atendemos clientes em todo o Brasil e também no exterior. Nossa atuação é adaptada para atender às necessidades específicas de cada região e mercado."
+      },
+      {
+        "question": "Como é feito o orçamento?",
+        "answer": "Após uma conversa inicial para entender suas necessidades, apresentamos uma proposta personalizada com escopo, cronograma e investimento. Não trabalhamos com pacotes genéricos."
+      }
+    ],
+    "cta": "Ainda tem dúvidas? Estamos prontos para uma conversa.",
+    "ctaButton": "Fale com a Wise Media"
+  },
+  "contactHome": {
+    "title": "Comunicação começa com confiança.",
+    "description": "Entre em contato para discutir como podemos apoiar sua estratégia com inteligência e discrição.",
+    "cardTitle": "Pronto para fortalecer sua reputação?",
+    "cardDescription": "Nossa equipe está pronta para uma conversa estratégica sobre seus desafios de comunicação.",
+    "cta": "Iniciar Conversa",
+    "ctaEmail": "Enviar Email"
+  },
+  "services": {
+    "title": "Serviços",
+    "description": "Comunicação estratégica na Wise Media significa inteligência aplicada, discrição absoluta e resultados mensuráveis. Cada serviço é desenhado para proteger, posicionar e fortalecer sua presença.",
+    "deliverLabel": "O QUE ENTREGAMOS",
+    "whenLabel": "QUANDO CONTRATAR",
+    "items": {
+      "pressAdvisory": {
+        "title": "Assessoria de Imprensa",
+        "deliver": "Construção e fortalecimento da imagem pública através de relacionamento estratégico com veículos de comunicação, produção de releases, media training e gestão de entrevistas.",
+        "when": "Ideal para profissionais que buscam aumentar sua visibilidade de forma controlada, construir autoridade no mercado ou preparar-se para momentos de exposição pública."
+      },
+      "strategicAdvisory": {
+        "title": "Assessoria Estratégica e Pontual",
+        "deliver": "Consultoria especializada para situações específicas que exigem posicionamento preciso, análise de cenário e orientação estratégica de comunicação.",
+        "when": "Recomendado para momentos decisivos como lançamentos, fusões, mudanças de carreira ou qualquer situação que demande orientação especializada."
+      },
+      "visaAdvisory": {
+        "title": "Assessoria para Vistos",
+        "deliver": "Suporte completo para processos de vistos especiais, incluindo construção de perfil profissional na mídia, documentação de visibilidade e estratégia de posicionamento.",
+        "when": "Essencial para empreendedores, executivos e profissionais que buscam vistos de trabalho, investidor ou habilidades extraordinárias."
+      },
+      "googleBusiness": {
+        "title": "Gestão do Google Meu Negócio",
+        "deliver": "Otimização completa do perfil, gestão de avaliações, estratégia de conteúdo local e monitoramento de performance em buscas.",
+        "when": "Fundamental para negócios que dependem de presença local, profissionais liberais e empresas que desejam melhorar sua reputação online."
+      },
+      "cleanName": {
+        "title": "Serviço Limpa Nome",
+        "deliver": "Identificação e remoção de conteúdos negativos, estratégia de SEO para reputação, monitoramento contínuo e recuperação da imagem digital.",
+        "when": "Indicado para quem enfrenta conteúdos prejudiciais nos resultados de busca, notícias antigas negativas ou ataques à reputação online."
+      },
+      "crisisManagement": {
+        "title": "Gestão de Crise",
+        "deliver": "Resposta rápida a situações críticas, elaboração de posicionamento oficial, gestão de comunicação com stakeholders e estratégia de recuperação de imagem.",
+        "when": "Necessário em situações de exposição negativa, polêmicas públicas, vazamentos ou qualquer cenário que ameace a reputação."
+      }
+    },
+    "trustTitle": "Atuamos com inteligência, precisão e responsabilidade.",
+    "trustDescription": "Cada serviço é personalizado para atender suas necessidades específicas. Entre em contato para uma avaliação inicial sem compromisso.",
+    "cta": "Fale com a Wise Media"
+  },
+  "about": {
+    "title": "Sobre",
+    "description": "Agência de comunicação estratégica especializada em assessoria de imprensa, gestão de reputação e atuação em cenários sensíveis de exposição pública.",
+    "mission": {
+      "label": "Missão",
+      "text": "Ajudar nossos clientes a comunicar com clareza, inteligência e credibilidade, transformando narrativas em resultados reais e sustentáveis."
+    },
+    "vision": {
+      "label": "Visão",
+      "text": "Ser referência nacional em comunicação estratégica e gestão de reputação, oferecendo soluções éticas, inteligentes e consistentes para marcas e líderes."
+    },
+    "founders": {
+      "title": "Fundadoras",
+      "description": "Experiência comprovada em mídia, comunicação corporativa e gestão estratégica de imagem.",
+      "rosy": {
+        "name": "Rosy Cordeiro",
+        "role": "Jornalista e assessora de imprensa",
+        "description": "Sólida experiência como jornalista, editora em redações de grandes veículos e assessora de imprensa para marcas de alto padrão e personalidades.",
+        "tags": ["Mídia", "Moda", "Estratégia"]
+      },
+      "debora": {
+        "name": "Débora Tawil",
+        "role": "Estrategista de comunicação",
+        "description": "Especialista em comunicação de crise e gestão de reputação, com atuação em cenários complexos que exigem inteligência e discrição.",
+        "tags": ["Crises", "Reputação", "Estratégia"]
+      }
+    },
+    "howWeWork": {
+      "title": "Como Atuamos",
+      "pillars": {
+        "analytical": {
+          "title": "Analítico",
+          "description": "Decisões baseadas em dados e análise profunda de cenário."
+        },
+        "discreet": {
+          "title": "Discreto",
+          "description": "Confidencialidade absoluta em todas as etapas do trabalho."
+        },
+        "strategic": {
+          "title": "Estratégico",
+          "description": "Cada ação é planejada para gerar resultados consistentes."
+        }
+      }
+    },
+    "values": {
+      "title": "Nossos Valores",
+      "items": {
+        "ethics": {
+          "title": "Ética",
+          "description": "Atuação íntegra e transparente em todas as relações."
+        },
+        "excellence": {
+          "title": "Excelência",
+          "description": "Compromisso com a qualidade e resultados superiores."
+        },
+        "confidentiality": {
+          "title": "Confidencialidade",
+          "description": "Sigilo absoluto como base de confiança."
+        },
+        "intelligence": {
+          "title": "Inteligência Estratégica",
+          "description": "Análise e planejamento para decisões assertivas."
+        }
+      }
+    },
+    "cta": "Fale com a Wise Media"
+  },
+  "contact": {
+    "title": "Comunicação começa com confiança.",
+    "description": "Entre em contato para discutir como podemos apoiar sua estratégia com inteligência, discrição e responsabilidade.",
+    "methodsTitle": "Formas de Contato",
+    "methods": {
+      "email": {
+        "title": "Email",
+        "description": "Preferencial para discrição"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "description": "Resposta em até 24 horas"
+      },
+      "instagram": {
+        "title": "Instagram",
+        "description": "Institucional"
+      }
+    },
+    "processTitle": "Como Funciona",
+    "process": {
+      "initial": {
+        "title": "Conversa Inicial",
+        "description": "Entendemos sua situação, objetivos e desafios de comunicação com confidencialidade absoluta."
+      },
+      "analysis": {
+        "title": "Análise Estratégica",
+        "description": "Avaliamos cenários, riscos e oportunidades com precisão analítica e visão de longo prazo."
+      },
+      "plan": {
+        "title": "Plano Personalizado",
+        "description": "Apresentamos estratégia clara, cronograma realista e investimento necessário para resultados consistentes."
+      }
+    },
+    "confidentiality": "Todas as conversas são tratadas com confidencialidade e responsabilidade institucional.",
+    "cta": "Iniciar Conversa"
+  },
+  "footer": {
+    "tagline": "Comunicação Estratégica",
+    "description": "Agência especializada em comunicação estratégica e gestão de reputação para profissionais de alta visibilidade.",
+    "navigation": "Navegação",
+    "contactTitle": "Contato",
+    "copyright": "Todos os direitos reservados.",
+    "bottomTagline": "Comunicação estratégica e gestão de reputação.",
+    "ariaLabels": {
+      "instagram": "Siga-nos no Instagram",
+      "email": "Envie-nos um email",
+      "whatsapp": "Fale conosco no WhatsApp"
+    }
+  },
+  "common": {
+    "home": "Home",
+    "learnMore": "Saiba Mais",
+    "getStarted": "Começar"
+  }
+}

@@ -1,0 +1,345 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "tagline": "Strategic Communication",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu"
+  },
+  "hero": {
+    "title": "Strategic communication that protects, positions, and strengthens reputations.",
+    "description": "We work with intelligence, precision, and responsibility to support professionals and brands in high-exposure scenarios — from press relations to crisis management, with complete discretion.",
+    "cta": "Talk to Wise Media",
+    "ctaSecondary": "Explore Our Services",
+    "metrics": {
+      "clients": "Clients Served",
+      "clientsValue": "+50",
+      "response": "Crisis Response",
+      "responseValue": "24h",
+      "confidentiality": "Confidentiality",
+      "confidentialityValue": "100%"
+    }
+  },
+  "trustMarkers": {
+    "stats": {
+      "clients": "Clients Served",
+      "clientsValue": "50+",
+      "experience": "Years of Experience",
+      "experienceValue": "5+",
+      "satisfaction": "Satisfaction Rate",
+      "satisfactionValue": "98%",
+      "responseTime": "Response Time",
+      "responseTimeValue": "24h"
+    },
+    "sectorsTitle": "Industries We Serve",
+    "sectorsDescription": "Strategic communication expertise across diverse sectors",
+    "sectors": {
+      "technology": "Technology",
+      "finance": "Finance",
+      "health": "Healthcare",
+      "legal": "Legal",
+      "entertainment": "Entertainment",
+      "executives": "Executives"
+    },
+    "confidentialityNote": "Discreet approach with clients who value confidentiality"
+  },
+  "servicesOverview": {
+    "tag": "SERVICES",
+    "title": "Services",
+    "description": "Specialized solutions to protect, position, and strengthen your strategic presence.",
+    "cta": "View All Details",
+    "services": {
+      "pressAdvisory": {
+        "title": "Press Relations",
+        "description": "Building and strengthening public image through strategic media placements."
+      },
+      "strategicAdvisory": {
+        "title": "Strategic Consulting",
+        "description": "Specialized consulting for specific moments requiring precise positioning."
+      },
+      "visaAdvisory": {
+        "title": "Visa Advisory",
+        "description": "Specialized support for visa processes with integrated media strategy."
+      },
+      "googleBusiness": {
+        "title": "Google Business Management",
+        "description": "Digital presence optimization and reputation in local searches."
+      },
+      "cleanName": {
+        "title": "Reputation Repair",
+        "description": "Removal of negative content and digital reputation recovery."
+      },
+      "crisisManagement": {
+        "title": "Crisis Management",
+        "description": "Swift and strategic action to protect your image in critical moments."
+      }
+    }
+  },
+  "whoWeServe": {
+    "tag": "TARGET AUDIENCE",
+    "title": "Who We Serve",
+    "description": "Specialists in supporting professionals facing public exposure who need strategic communication.",
+    "segments": {
+      "highVisibility": {
+        "title": "High-Visibility Professionals",
+        "description": "Executives, artists, influencers, and public figures who need strategic image management and communication."
+      },
+      "entrepreneurs": {
+        "title": "Entrepreneurs & Special Visas",
+        "description": "Business owners expanding internationally and professionals seeking strategic visibility for visa processes."
+      }
+    },
+    "cta": "If this sounds like you, we're ready to support your strategy.",
+    "ctaButton": "Start a Conversation"
+  },
+  "missionVision": {
+    "title": "Vision & Mission",
+    "description": "Our institutional purpose and commitment to excellence in strategic communication.",
+    "vision": {
+      "label": "Vision",
+      "text": "To be a national reference in strategic communication and reputation management, offering ethical, intelligent, and consistent solutions for brands and leaders."
+    },
+    "mission": {
+      "label": "Mission",
+      "text": "To help our clients communicate with clarity, intelligence, and credibility, transforming narratives into real and sustainable results."
+    }
+  },
+  "testimonials": {
+    "tag": "TESTIMONIALS",
+    "title": "What Our Clients Say",
+    "description": "Trust built through real results and lasting relationships.",
+    "items": [
+      {
+        "quote": "Wise Media completely transformed our media presence. Unmatched professionalism and discretion.",
+        "author": "Carlos M.",
+        "role": "CEO, Tech Solutions",
+        "rating": "Client since 2022"
+      },
+      {
+        "quote": "At a critical moment in my career, the Wise Media team was essential. Quick response and flawless strategy.",
+        "author": "Ana P.",
+        "role": "Media Executive",
+        "rating": "Client since 2021"
+      },
+      {
+        "quote": "The advisory for my visa process was exceptional. Attention to detail and results beyond expectations.",
+        "author": "Roberto S.",
+        "role": "Entrepreneur",
+        "rating": "Client since 2023"
+      }
+    ],
+    "cta": "Be the next to build authority with strategic communication.",
+    "ctaButton": "Talk to Wise Media"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Clear answers to common questions about our services and approach.",
+    "items": [
+      {
+        "question": "How does press relations work?",
+        "answer": "We work to build and strengthen your public image through strategic media placements, journalist relationships, and relevant content production. Each strategy is customized according to your goals and profile."
+      },
+      {
+        "question": "Do you handle crisis situations?",
+        "answer": "Yes, we offer crisis management with swift and strategic action. Our team is prepared to respond within 24 hours, protecting your image and reputation in critical moments."
+      },
+      {
+        "question": "What is the Reputation Repair service?",
+        "answer": "It's a specialized service for removing negative content from the internet and recovering digital reputation. We use legal and ethical techniques to restore your online image."
+      },
+      {
+        "question": "How does visa advisory work?",
+        "answer": "We offer complete support for visa processes, including integrated media strategy that strengthens your professional profile and increases approval chances."
+      },
+      {
+        "question": "How long until I see results?",
+        "answer": "Timelines vary by service and objectives. Press relations typically shows results in 30-90 days, while crisis management has immediate response. We present a detailed timeline in the proposal."
+      },
+      {
+        "question": "Do you guarantee confidentiality?",
+        "answer": "Absolutely. Confidentiality is one of the pillars of our work. All clients and projects are treated with complete discretion and professional secrecy."
+      },
+      {
+        "question": "Do you serve clients outside São Paulo?",
+        "answer": "Yes, we serve clients throughout Brazil and abroad. Our approach is adapted to meet the specific needs of each region and market."
+      },
+      {
+        "question": "How is pricing determined?",
+        "answer": "After an initial conversation to understand your needs, we present a customized proposal with scope, timeline, and investment. We don't work with generic packages."
+      }
+    ],
+    "cta": "Still have questions? We're ready for a conversation.",
+    "ctaButton": "Talk to Wise Media"
+  },
+  "contactHome": {
+    "title": "Communication starts with trust.",
+    "description": "Get in touch to discuss how we can support your strategy with intelligence and discretion.",
+    "cardTitle": "Ready to strengthen your reputation?",
+    "cardDescription": "Our team is ready for a strategic conversation about your communication challenges.",
+    "cta": "Start a Conversation",
+    "ctaEmail": "Send Email"
+  },
+  "services": {
+    "title": "Services",
+    "description": "Strategic communication at Wise Media means applied intelligence, absolute discretion, and measurable results. Each service is designed to protect, position, and strengthen your presence.",
+    "deliverLabel": "WHAT WE DELIVER",
+    "whenLabel": "WHEN TO HIRE",
+    "items": {
+      "pressAdvisory": {
+        "title": "Press Relations",
+        "deliver": "Building and strengthening public image through strategic relationships with media outlets, press release production, media training, and interview management.",
+        "when": "Ideal for professionals seeking controlled visibility, building market authority, or preparing for public exposure moments."
+      },
+      "strategicAdvisory": {
+        "title": "Strategic Consulting",
+        "deliver": "Specialized consulting for specific situations requiring precise positioning, scenario analysis, and strategic communication guidance.",
+        "when": "Recommended for decisive moments like launches, mergers, career changes, or any situation demanding specialized guidance."
+      },
+      "visaAdvisory": {
+        "title": "Visa Advisory",
+        "deliver": "Complete support for special visa processes, including professional profile building in media, visibility documentation, and positioning strategy.",
+        "when": "Essential for entrepreneurs, executives, and professionals seeking work visas, investor visas, or extraordinary ability visas."
+      },
+      "googleBusiness": {
+        "title": "Google Business Management",
+        "deliver": "Complete profile optimization, review management, local content strategy, and search performance monitoring.",
+        "when": "Fundamental for businesses dependent on local presence, freelance professionals, and companies wanting to improve their online reputation."
+      },
+      "cleanName": {
+        "title": "Reputation Repair",
+        "deliver": "Identification and removal of negative content, reputation SEO strategy, continuous monitoring, and digital image recovery.",
+        "when": "Indicated for those facing harmful content in search results, old negative news, or online reputation attacks."
+      },
+      "crisisManagement": {
+        "title": "Crisis Management",
+        "deliver": "Rapid response to critical situations, official positioning development, stakeholder communication management, and image recovery strategy.",
+        "when": "Necessary in situations of negative exposure, public controversies, leaks, or any scenario threatening reputation."
+      }
+    },
+    "trustTitle": "We work with intelligence, precision, and responsibility.",
+    "trustDescription": "Each service is customized to meet your specific needs. Contact us for a no-obligation initial assessment.",
+    "cta": "Talk to Wise Media"
+  },
+  "about": {
+    "title": "About",
+    "description": "Strategic communication agency specialized in press relations, reputation management, and handling sensitive public exposure scenarios.",
+    "mission": {
+      "label": "Mission",
+      "text": "To help our clients communicate with clarity, intelligence, and credibility, transforming narratives into real and sustainable results."
+    },
+    "vision": {
+      "label": "Vision",
+      "text": "To be a national reference in strategic communication and reputation management, offering ethical, intelligent, and consistent solutions for brands and leaders."
+    },
+    "founders": {
+      "title": "Founders",
+      "description": "Proven experience in media, corporate communication, and strategic image management.",
+      "rosy": {
+        "name": "Rosy Cordeiro",
+        "role": "Journalist and Press Advisor",
+        "description": "Solid experience as journalist, editor at major media outlets, and press advisor for high-end brands and personalities.",
+        "tags": ["Media", "Fashion", "Strategy"]
+      },
+      "debora": {
+        "name": "Débora Tawil",
+        "role": "Communication Strategist",
+        "description": "Specialist in crisis communication and reputation management, with experience in complex scenarios requiring intelligence and discretion.",
+        "tags": ["Crisis", "Reputation", "Strategy"]
+      }
+    },
+    "howWeWork": {
+      "title": "How We Work",
+      "pillars": {
+        "analytical": {
+          "title": "Analytical",
+          "description": "Decisions based on data and deep scenario analysis."
+        },
+        "discreet": {
+          "title": "Discreet",
+          "description": "Absolute confidentiality at every stage of the work."
+        },
+        "strategic": {
+          "title": "Strategic",
+          "description": "Every action is planned to generate consistent results."
+        }
+      }
+    },
+    "values": {
+      "title": "Our Values",
+      "items": {
+        "ethics": {
+          "title": "Ethics",
+          "description": "Integrity and transparency in all relationships."
+        },
+        "excellence": {
+          "title": "Excellence",
+          "description": "Commitment to quality and superior results."
+        },
+        "confidentiality": {
+          "title": "Confidentiality",
+          "description": "Absolute secrecy as the foundation of trust."
+        },
+        "intelligence": {
+          "title": "Strategic Intelligence",
+          "description": "Analysis and planning for assertive decisions."
+        }
+      }
+    },
+    "cta": "Talk to Wise Media"
+  },
+  "contact": {
+    "title": "Communication starts with trust.",
+    "description": "Get in touch to discuss how we can support your strategy with intelligence, discretion, and responsibility.",
+    "methodsTitle": "Contact Methods",
+    "methods": {
+      "email": {
+        "title": "Email",
+        "description": "Preferred for discretion"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "description": "Response within 24 hours"
+      },
+      "instagram": {
+        "title": "Instagram",
+        "description": "Institutional"
+      }
+    },
+    "processTitle": "How It Works",
+    "process": {
+      "initial": {
+        "title": "Initial Conversation",
+        "description": "We understand your situation, goals, and communication challenges with absolute confidentiality."
+      },
+      "analysis": {
+        "title": "Strategic Analysis",
+        "description": "We evaluate scenarios, risks, and opportunities with analytical precision and long-term vision."
+      },
+      "plan": {
+        "title": "Customized Plan",
+        "description": "We present a clear strategy, realistic timeline, and necessary investment for consistent results."
+      }
+    },
+    "confidentiality": "All conversations are treated with confidentiality and institutional responsibility.",
+    "cta": "Start a Conversation"
+  },
+  "footer": {
+    "tagline": "Strategic Communication",
+    "description": "Agency specialized in strategic communication and reputation management for high-visibility professionals.",
+    "navigation": "Navigation",
+    "contactTitle": "Contact",
+    "copyright": "All rights reserved.",
+    "bottomTagline": "Strategic communication and reputation management.",
+    "ariaLabels": {
+      "instagram": "Follow us on Instagram",
+      "email": "Send us an email",
+      "whatsapp": "Contact us on WhatsApp"
+    }
+  },
+  "common": {
+    "home": "Home",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started"
+  }
+}

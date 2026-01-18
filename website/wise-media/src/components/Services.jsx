@@ -1,43 +1,16 @@
+import { useTranslation } from "react-i18next";
 import Icon from "./Icon";
 
 export default function Services() {
+  const { t } = useTranslation();
+
   const services = [
-    {
-      title: "Assessoria de Imprensa",
-      outcome: "Posicionamos sua marca com consistência e autoridade nos principais veículos de comunicação.",
-      when: "Você precisa de Assessoria de Imprensa quando busca construir presença estratégica na mídia, ampliar reconhecimento profissional ou fortalecer credibilidade institucional.",
-      iconName: "Megaphone"
-    },
-    {
-      title: "Assessoria Estratégica e Pontual",
-      outcome: "Garantimos mensagens claras e alinhadas em momentos decisivos que exigem precisão comunicacional.",
-      when: "Você precisa de Assessoria Pontual quando enfrenta lançamentos, premiações, eventos estratégicos ou situações que demandam visibilidade qualificada em curto prazo.",
-      iconName: "Lightbulb"
-    },
-    {
-      title: "Assessoria para Vistos",
-      outcome: "Construímos narrativa pública e provas de relevância profissional para processos de imigração e reconhecimento internacional.",
-      when: "Você precisa de Assessoria para Vistos quando solicita O-1, EB2-NIW ou outros vistos que exigem comprovação de destaque e contribuição extraordinária em sua área.",
-      iconName: "Award"
-    },
-    {
-      title: "Gestão do Google Meu Negócio",
-      outcome: "Fortalecemos credibilidade e visibilidade local através de otimização, monitoramento e gestão contínua da sua presença digital.",
-      when: "Você precisa de Gestão do Google Meu Negócio quando sua reputação local impacta resultados comerciais ou quando avaliações e presença digital exigem acompanhamento profissional.",
-      iconName: "MapPinned"
-    },
-    {
-      title: "Serviço Limpa Nome",
-      outcome: "Protegemos imagem e reputação digital com atuação estratégica na remoção ou mitigação de conteúdos prejudiciais.",
-      when: "Você precisa do Serviço Limpa Nome quando conteúdos negativos, reclamações ou informações desatualizadas comprometem sua credibilidade profissional ou institucional.",
-      iconName: "ShieldCheck"
-    },
-    {
-      title: "Gestão de Crise",
-      outcome: "Preservamos confiança, imagem pública e relações institucionais em situações sensíveis através de planejamento preventivo e atuação imediata.",
-      when: "Você precisa de Gestão de Crise quando enfrenta exposição negativa, controvérsias públicas ou situações que ameaçam reputação e relações estratégicas.",
-      iconName: "ShieldAlert"
-    },
+    { key: "pressAdvisory", iconName: "Megaphone" },
+    { key: "strategicAdvisory", iconName: "Lightbulb" },
+    { key: "visaAdvisory", iconName: "Award" },
+    { key: "googleBusiness", iconName: "MapPinned" },
+    { key: "cleanName", iconName: "ShieldCheck" },
+    { key: "crisisManagement", iconName: "ShieldAlert" },
   ];
 
   return (
@@ -52,16 +25,16 @@ export default function Services() {
         {/* Header */}
         <div className="max-w-4xl mx-auto mb-20 text-center">
           <div className="accent-line-bold mx-auto mb-8"></div>
-          <h1 className="text-h1 text-white mb-8 heading-primary">Serviços</h1>
+          <h1 className="text-h1 text-white mb-8 heading-primary">{t('services.title')}</h1>
           <p className="text-white max-w-3xl mx-auto">
-            Comunicação estratégica na Wise Media significa atuar com inteligência, precisão e responsabilidade para proteger reputações e construir autoridade sustentável.
+            {t('services.description')}
           </p>
         </div>
 
         {/* Services Grid */}
         <div className="space-y-20 max-w-5xl mx-auto">
           {services.map((service, index) => (
-            <div key={service.title} className="relative group">
+            <div key={service.key} className="relative group">
               {/* Gradient glow on hover */}
               <div className="absolute -inset-1 bg-gradient-to-r from-brand-lightBlue to-brand-navy rounded-2xl opacity-0 group-hover:opacity-20 blur transition-opacity"></div>
 
@@ -82,17 +55,17 @@ export default function Services() {
                   {/* Content */}
                   <div className="flex-1">
                     <h2 className="text-h2 text-brand-navy mb-6 heading-secondary">
-                      {service.title}
+                      {t(`services.items.${service.key}.title`)}
                     </h2>
 
                     {/* Outcome */}
                     <div className="mb-6">
                       <div className="inline-flex items-center gap-2 text-sm font-semibold text-brand-navy/60 mb-3">
                         <Icon name="CheckCircle2" size={16} className="text-brand-lightBlue" aria-hidden="true" />
-                        O QUE ENTREGAMOS
+                        {t('services.deliverLabel')}
                       </div>
                       <p className="text-premium">
-                        {service.outcome}
+                        {t(`services.items.${service.key}.deliver`)}
                       </p>
                     </div>
 
@@ -102,10 +75,10 @@ export default function Services() {
                         <Icon name="Info" size={20} className="text-brand-lightBlue flex-shrink-0 mt-0.5" aria-hidden="true" />
                         <div>
                           <div className="text-sm font-semibold text-brand-navy/70 mb-2">
-                            QUANDO CONTRATAR
+                            {t('services.whenLabel')}
                           </div>
                           <p className="text-brand-navy/70 text-[15px] leading-relaxed">
-                            {service.when}
+                            {t(`services.items.${service.key}.when`)}
                           </p>
                         </div>
                       </div>
@@ -142,13 +115,13 @@ export default function Services() {
                   <Icon name="Shield" size={40} className="text-white" />
                 </div>
                 <h3 className="text-2xl font-semibold text-white mb-4">
-                  Atuamos com inteligência, precisão e responsabilidade.
+                  {t('services.trustTitle')}
                 </h3>
                 <p className="text-white/80 mb-8 max-w-2xl mx-auto">
-                  Cada serviço é personalizado para atender suas necessidades específicas com total discrição e excelência estratégica.
+                  {t('services.trustDescription')}
                 </p>
                 <a href="/contato" className="inline-flex items-center gap-2 bg-white text-brand-navy px-10 py-4 rounded-lg font-bold hover:shadow-2xl transition-all hover:scale-105">
-                  Fale com a Wise Media
+                  {t('services.cta')}
                   <Icon name="ArrowRight" size={20} aria-hidden="true" />
                 </a>
               </div>

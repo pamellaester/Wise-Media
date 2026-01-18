@@ -1,30 +1,10 @@
+import { useTranslation } from "react-i18next";
 import Icon from "./Icon";
 
 export default function Testimonials() {
-  // Placeholder testimonials - replace with real client testimonials
-  const testimonials = [
-    {
-      id: 1,
-      quote: "A Wise Media transformou nossa presença na mídia. Profissionalismo exemplar e resultados consistentes que fortaleceram nossa credibilidade no mercado.",
-      author: "Carlos Mendes",
-      role: "CEO, Tech Solutions",
-      rating: 5
-    },
-    {
-      id: 2,
-      quote: "Assessoria estratégica de altíssimo nível. A equipe entende profundamente os desafios de comunicação corporativa e atua com inteligência e discrição.",
-      author: "Ana Paula Rodrigues",
-      role: "Diretora de Comunicação",
-      rating: 5
-    },
-    {
-      id: 3,
-      quote: "Gestão de crise impecável. Quando enfrentamos uma situação delicada, a Wise Media nos orientou com precisão e preservou nossa reputação institucional.",
-      author: "Roberto Silva",
-      role: "Fundador, Startup de Tecnologia",
-      rating: 5
-    }
-  ];
+  const { t } = useTranslation();
+
+  const testimonials = t('testimonials.items', { returnObjects: true });
 
   return (
     <section className="w-full relative overflow-hidden bg-gradient-to-br from-brand-navy via-brand-navy to-brand-lightBlue/20" aria-labelledby="testimonials-heading">
@@ -42,20 +22,20 @@ export default function Testimonials() {
         {/* Header */}
         <header className="text-center mb-16">
           <div className="inline-block px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-6">
-            <span className="text-white/90 text-sm font-semibold tracking-wide">DEPOIMENTOS</span>
+            <span className="text-white/90 text-sm font-semibold tracking-wide">{t('testimonials.tag')}</span>
           </div>
           <h2 id="testimonials-heading" className="text-h2 text-white mb-6 heading-secondary">
-            O Que Nossos Clientes Dizem
+            {t('testimonials.title')}
           </h2>
           <p className="text-white/80 text-lg max-w-2xl mx-auto">
-            Confiança construída através de resultados reais e parcerias estratégicas de longo prazo.
+            {t('testimonials.description')}
           </p>
         </header>
 
         {/* Testimonials Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {testimonials.map((testimonial) => (
-            <article key={testimonial.id} className="relative group">
+          {testimonials.map((testimonial, index) => (
+            <article key={index} className="relative group">
               {/* Gradient glow */}
               <div className="absolute -inset-1 bg-gradient-to-br from-brand-lightBlue/30 to-white/10 rounded-2xl blur opacity-75 group-hover:opacity-100 transition" aria-hidden="true" />
 
@@ -66,8 +46,8 @@ export default function Testimonials() {
                 </div>
 
                 {/* Rating */}
-                <div className="flex gap-1 mb-4" aria-label={`Avaliação: ${testimonial.rating} de 5 estrelas`}>
-                  {[...Array(testimonial.rating)].map((_, i) => (
+                <div className="flex gap-1 mb-4" aria-label="5 star rating">
+                  {[...Array(5)].map((_, i) => (
                     <Icon key={i} name="Star" size={16} className="text-brand-lightBlue fill-brand-lightBlue" aria-hidden="true" />
                   ))}
                 </div>
@@ -86,6 +66,9 @@ export default function Testimonials() {
                     <div className="text-white/60 text-xs">
                       {testimonial.role}
                     </div>
+                    <div className="text-white/40 text-xs mt-1">
+                      {testimonial.rating}
+                    </div>
                   </cite>
                 </footer>
               </div>
@@ -96,13 +79,13 @@ export default function Testimonials() {
         {/* CTA */}
         <div className="text-center mt-16">
           <p className="text-white/70 text-sm mb-6">
-            Seja o próximo a construir autoridade com comunicação estratégica.
+            {t('testimonials.cta')}
           </p>
           <a
             href="/contato"
             className="inline-flex items-center gap-2 bg-white text-brand-navy px-10 py-4 rounded-lg font-bold hover:shadow-2xl transition-all hover:scale-105"
           >
-            Fale com a Wise Media
+            {t('testimonials.ctaButton')}
             <Icon name="ArrowRight" size={20} aria-hidden="true" />
           </a>
         </div>

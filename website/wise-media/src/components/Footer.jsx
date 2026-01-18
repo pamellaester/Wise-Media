@@ -1,7 +1,10 @@
 import { Link } from "react-router";
+import { useTranslation } from "react-i18next";
 import Icon from "./Icon";
 
 export default function Footer() {
+  const { t } = useTranslation();
+
   return (
     <footer className="w-full bg-brand-navy relative overflow-hidden" role="contentinfo">
       {/* Top border */}
@@ -33,11 +36,11 @@ export default function Footer() {
                 </div>
                 <div>
                   <div className="text-xl font-bold text-white">Wise Media</div>
-                  <div className="text-xs text-brand-lightBlue/70">Comunicação Estratégica</div>
+                  <div className="text-xs text-brand-lightBlue/70">{t('footer.tagline')}</div>
                 </div>
               </div>
               <p className="text-white/70 leading-relaxed text-sm max-w-md">
-                Agência especializada em comunicação estratégica e gestão de reputação para profissionais de alta visibilidade.
+                {t('footer.description')}
               </p>
               <div className="mt-6 flex items-center gap-3">
                 <a
@@ -45,23 +48,23 @@ export default function Footer() {
                   target="_blank"
                   rel="noreferrer"
                   className="w-10 h-10 rounded-full bg-gradient-to-br from-brand-lightBlue/20 to-white/5 hover:from-brand-lightBlue/40 hover:to-white/10 flex items-center justify-center transition-all hover:scale-110"
-                  aria-label="Siga-nos no Instagram"
+                  aria-label={t('footer.ariaLabels.instagram')}
                 >
                   <Icon name="Instagram" size={20} className="text-white" />
                 </a>
                 <a
                   href="mailto:wisemediasolucoes@gmail.com"
                   className="w-10 h-10 rounded-full bg-gradient-to-br from-brand-lightBlue/20 to-white/5 hover:from-brand-lightBlue/40 hover:to-white/10 flex items-center justify-center transition-all hover:scale-110"
-                  aria-label="Envie-nos um email"
+                  aria-label={t('footer.ariaLabels.email')}
                 >
                   <Icon name="Mail" size={20} className="text-white" />
                 </a>
                 <a
-                  href="https://wa.me/5511990094457"
+                  href="https://wa.me/5511922250182"
                   target="_blank"
                   rel="noreferrer"
                   className="w-10 h-10 rounded-full bg-gradient-to-br from-brand-lightBlue/20 to-white/5 hover:from-brand-lightBlue/40 hover:to-white/10 flex items-center justify-center transition-all hover:scale-110"
-                  aria-label="Fale conosco no WhatsApp"
+                  aria-label={t('footer.ariaLabels.whatsapp')}
                 >
                   <Icon name="MessageCircle" size={20} className="text-white" />
                 </a>
@@ -70,26 +73,26 @@ export default function Footer() {
 
             {/* Navigation */}
             <div>
-              <h4 className="text-white font-semibold mb-6">Navegação</h4>
+              <h4 className="text-white font-semibold mb-6">{t('footer.navigation')}</h4>
               <div className="space-y-3 text-sm">
                 <Link to="/" className="block text-white/70 hover:text-white transition-colors">
-                  Home
+                  {t('common.home')}
                 </Link>
                 <Link to="/servicos" className="block text-white/70 hover:text-white transition-colors">
-                  Serviços
+                  {t('nav.services')}
                 </Link>
                 <Link to="/sobre" className="block text-white/70 hover:text-white transition-colors">
-                  Sobre
+                  {t('nav.about')}
                 </Link>
                 <Link to="/contato" className="block text-white/70 hover:text-white transition-colors">
-                  Contato
+                  {t('nav.contact')}
                 </Link>
               </div>
             </div>
 
             {/* Contact */}
             <div>
-              <h4 className="text-white font-semibold mb-6">Contato</h4>
+              <h4 className="text-white font-semibold mb-6">{t('footer.contactTitle')}</h4>
               <div className="space-y-4 text-sm">
                 <a
                   href="mailto:wisemediasolucoes@gmail.com"
@@ -99,13 +102,13 @@ export default function Footer() {
                   <span>wisemediasolucoes@gmail.com</span>
                 </a>
                 <a
-                  href="https://wa.me/5511990094457"
+                  href="https://wa.me/5511922250182"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center gap-2 text-white/70 hover:text-brand-lightBlue transition-colors"
                 >
                   <Icon name="Phone" size={16} className="flex-shrink-0" aria-hidden="true" />
-                  <span>(11) 99009-4457</span>
+                  <span>(11) 92225-0182</span>
                 </a>
               </div>
             </div>
@@ -115,10 +118,10 @@ export default function Footer() {
           <div className="pt-8 border-t border-white/10">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/50">
               <div>
-                © {new Date().getFullYear()} Wise Media. Todos os direitos reservados.
+                © {new Date().getFullYear()} Wise Media. {t('footer.copyright')}
               </div>
               <div>
-                Comunicação estratégica e gestão de reputação.
+                {t('footer.bottomTagline')}
               </div>
             </div>
           </div>

@@ -1,6 +1,9 @@
+import { useTranslation } from "react-i18next";
 import Icon from "./Icon";
 
 export default function About() {
+  const { t } = useTranslation();
+
   return (
     <section className="w-full  relative overflow-hidden">
       {/* Bold gradient top accent */}
@@ -13,9 +16,9 @@ export default function About() {
         {/* Header */}
         <div className="max-w-4xl mx-auto mb-20 text-center">
           <div className="accent-line-bold mx-auto mb-8"></div>
-          <h1 className="text-h1 text-white mb-8 heading-primary">Sobre</h1>
+          <h1 className="text-h1 text-white mb-8 heading-primary">{t('about.title')}</h1>
           <p className="text-white max-w-3xl mx-auto">
-            Agência de comunicação estratégica especializada em assessoria de imprensa, gestão de reputação e atuação em cenários sensíveis de exposição pública.
+            {t('about.description')}
           </p>
         </div>
 
@@ -37,10 +40,10 @@ export default function About() {
                   </div>
                 </div>
                 <span className="inline-block px-4 py-1 rounded-full bg-gradient-to-r from-brand-navy to-brand-lightBlue text-white text-xs font-bold uppercase tracking-wider mb-4 shadow">
-                  Missão
+                  {t('about.mission.label')}
                 </span>
                 <p className="text-premium leading-relaxed">
-                  Ajudar nossos clientes a comunicar com clareza, inteligência e credibilidade, transformando narrativas em resultados reais e sustentáveis.
+                  {t('about.mission.text')}
                 </p>
               </div>
             </article>
@@ -60,10 +63,10 @@ export default function About() {
                   </div>
                 </div>
                 <span className="inline-block px-4 py-1 rounded-full bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white text-xs font-bold uppercase tracking-wider mb-4 shadow">
-                  Visão
+                  {t('about.vision.label')}
                 </span>
                 <p className="text-premium leading-relaxed">
-                  Ser referência nacional em comunicação estratégica e gestão de reputação, oferecendo soluções éticas, inteligentes e consistentes para marcas e líderes.
+                  {t('about.vision.text')}
                 </p>
               </div>
             </article>
@@ -73,9 +76,9 @@ export default function About() {
         {/* Founders - Credibility Markers */}
         <div className="max-w-5xl mx-auto mb-24">
           <div className="text-center mb-16">
-            <h2 className="text-h2 text-white mb-4 heading-secondary">Fundadoras</h2>
+            <h2 className="text-h2 text-white mb-4 heading-secondary">{t('about.founders.title')}</h2>
             <p className="text-white max-w-2xl mx-auto">
-              Experiência comprovada em mídia, comunicação estratégica e gestão de reputação.
+              {t('about.founders.description')}
             </p>
           </div>
 
@@ -91,21 +94,20 @@ export default function About() {
                   </div>
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-2xl font-semibold text-brand-navy mb-2">Rosy Cordeiro</h3>
+                  <h3 className="text-2xl font-semibold text-brand-navy mb-2">{t('about.founders.rosy.name')}</h3>
                   <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gradient-to-r from-brand-lightBlue/10 to-brand-navy/10 text-brand-navy/70 text-xs font-medium mb-4 border border-brand-lightBlue/20">
                     <Icon name="Tv" size={12} aria-hidden="true" />
-                    Jornalista, Estilista e Apresentadora
+                    {t('about.founders.rosy.role')}
                   </div>
                   <p className="text-brand-navy/70 leading-relaxed text-[15px] mb-4">
-                    Experiência em televisão e moda, com atuação em programas relevantes e expertise na interseção entre mídia e comunicação estratégica.
+                    {t('about.founders.rosy.description')}
                   </p>
                   <div className="flex gap-2">
-                    <span className="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-brand-lightBlue/5 text-brand-navy/50 text-xs">
-                      <Icon name="Mic" size={10} aria-hidden="true" /> Mídia
-                    </span>
-                    <span className="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-brand-lightBlue/5 text-brand-navy/50 text-xs">
-                      <Icon name="Sparkles" size={10} aria-hidden="true" /> Moda
-                    </span>
+                    {t('about.founders.rosy.tags', { returnObjects: true }).map((tag, index) => (
+                      <span key={index} className="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-brand-lightBlue/5 text-brand-navy/50 text-xs">
+                        {tag}
+                      </span>
+                    ))}
                   </div>
                 </div>
               </div>
@@ -122,21 +124,20 @@ export default function About() {
                   </div>
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-2xl font-semibold text-brand-navy mb-2">Débora Tawil</h3>
+                  <h3 className="text-2xl font-semibold text-brand-navy mb-2">{t('about.founders.debora.name')}</h3>
                   <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gradient-to-r from-brand-navy/10 to-brand-lightBlue/10 text-brand-navy/70 text-xs font-medium mb-4 border border-brand-navy/20">
                     <Icon name="UserCog" size={12} aria-hidden="true" />
-                    Mentora de Desenvolvimento Humano & Gestão de Imagem
+                    {t('about.founders.debora.role')}
                   </div>
                   <p className="text-brand-navy/70 leading-relaxed text-[15px] mb-4">
-                    Especialista em posicionamento e gestão de crises, lidera operações estratégicas para expansão e proteção de reputação de marcas.
+                    {t('about.founders.debora.description')}
                   </p>
                   <div className="flex gap-2">
-                    <span className="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-brand-navy/5 text-brand-navy/50 text-xs">
-                      <Icon name="Target" size={10} aria-hidden="true" /> Estratégia
-                    </span>
-                    <span className="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-brand-navy/5 text-brand-navy/50 text-xs">
-                      <Icon name="Shield" size={10} aria-hidden="true" /> Crises
-                    </span>
+                    {t('about.founders.debora.tags', { returnObjects: true }).map((tag, index) => (
+                      <span key={index} className="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-brand-navy/5 text-brand-navy/50 text-xs">
+                        {tag}
+                      </span>
+                    ))}
                   </div>
                 </div>
               </div>
@@ -147,10 +148,7 @@ export default function About() {
         {/* How We Work */}
         <div className="max-w-5xl mx-auto mb-24">
           <div className="text-center mb-16">
-            <h2 className="text-h2 text-white mb-4 heading-secondary">Como Atuamos</h2>
-            <p className="text-white max-w-2xl mx-auto">
-              Três pilares fundamentais guiam nossa abordagem estratégica em cada projeto.
-            </p>
+            <h2 className="text-h2 text-white mb-4 heading-secondary">{t('about.howWeWork.title')}</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -161,9 +159,9 @@ export default function About() {
                   <Icon name="BarChart3" size={28} className="text-brand-navy" />
                 </div>
               </div>
-              <h3 className="text-xl font-semibold text-brand-navy mb-3">Analítico</h3>
+              <h3 className="text-xl font-semibold text-brand-navy mb-3">{t('about.howWeWork.pillars.analytical.title')}</h3>
               <p className="text-brand-navy/70 leading-relaxed text-[15px]">
-                Avaliamos cenários com profundidade e precisão estratégica.
+                {t('about.howWeWork.pillars.analytical.description')}
               </p>
             </div>
 
@@ -174,9 +172,9 @@ export default function About() {
                   <Icon name="Lock" size={28} className="text-brand-navy" />
                 </div>
               </div>
-              <h3 className="text-xl font-semibold text-brand-navy mb-3">Discreto</h3>
+              <h3 className="text-xl font-semibold text-brand-navy mb-3">{t('about.howWeWork.pillars.discreet.title')}</h3>
               <p className="text-brand-navy/70 leading-relaxed text-[15px]">
-                Atuamos com confidencialidade e responsabilidade institucional.
+                {t('about.howWeWork.pillars.discreet.description')}
               </p>
             </div>
 
@@ -187,9 +185,9 @@ export default function About() {
                   <Icon name="Target" size={28} className="text-brand-navy" />
                 </div>
               </div>
-              <h3 className="text-xl font-semibold text-brand-navy mb-3">Estratégico</h3>
+              <h3 className="text-xl font-semibold text-brand-navy mb-3">{t('about.howWeWork.pillars.strategic.title')}</h3>
               <p className="text-brand-navy/70 leading-relaxed text-[15px]">
-                Construímos narrativas com clareza, propósito e resultados sustentáveis.
+                {t('about.howWeWork.pillars.strategic.description')}
               </p>
             </div>
           </div>
@@ -202,7 +200,7 @@ export default function About() {
             <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-lightBlue via-brand-navy to-brand-lightBlue"></div>
 
             <div className="text-center mb-12 relative">
-              <h2 className="text-h2 text-brand-navy mb-4 heading-secondary">Nossos Valores</h2>
+              <h2 className="text-h2 text-brand-navy mb-4 heading-secondary">{t('about.values.title')}</h2>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto relative">
@@ -213,9 +211,9 @@ export default function About() {
                   </div>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-brand-navy mb-2">Ética</h4>
+                  <h4 className="font-semibold text-brand-navy mb-2">{t('about.values.items.ethics.title')}</h4>
                   <p className="text-brand-navy/70 text-sm leading-relaxed">
-                    Comprometimento com práticas responsáveis e transparentes.
+                    {t('about.values.items.ethics.description')}
                   </p>
                 </div>
               </div>
@@ -227,9 +225,9 @@ export default function About() {
                   </div>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-brand-navy mb-2">Excelência</h4>
+                  <h4 className="font-semibold text-brand-navy mb-2">{t('about.values.items.excellence.title')}</h4>
                   <p className="text-brand-navy/70 text-sm leading-relaxed">
-                    Busca contínua por resultados superiores e sustentáveis.
+                    {t('about.values.items.excellence.description')}
                   </p>
                 </div>
               </div>
@@ -241,9 +239,9 @@ export default function About() {
                   </div>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-brand-navy mb-2">Confidencialidade</h4>
+                  <h4 className="font-semibold text-brand-navy mb-2">{t('about.values.items.confidentiality.title')}</h4>
                   <p className="text-brand-navy/70 text-sm leading-relaxed">
-                    Proteção absoluta das informações e estratégias dos clientes.
+                    {t('about.values.items.confidentiality.description')}
                   </p>
                 </div>
               </div>
@@ -255,9 +253,9 @@ export default function About() {
                   </div>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-brand-navy mb-2">Inteligência Estratégica</h4>
+                  <h4 className="font-semibold text-brand-navy mb-2">{t('about.values.items.intelligence.title')}</h4>
                   <p className="text-brand-navy/70 text-sm leading-relaxed">
-                    Análise profunda e planejamento baseado em dados concretos.
+                    {t('about.values.items.intelligence.description')}
                   </p>
                 </div>
               </div>
@@ -268,7 +266,7 @@ export default function About() {
         {/* Contact CTA with gradient */}
         <div className="text-center max-w-3xl mx-auto">
           <a href="/contato" className="inline-flex items-center gap-2 bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white px-10 py-4 rounded-lg font-bold hover:shadow-xl transition-all hover:scale-105">
-            Fale com a Wise Media
+            {t('about.cta')}
             <Icon name="ArrowRight" size={20} />
           </a>
         </div>

@@ -1,6 +1,9 @@
+import { useTranslation } from "react-i18next";
 import Icon from "./Icon";
 
 export default function Hero() {
+  const { t } = useTranslation();
+
   return (
     <section className="relative w-full overflow-hidden" aria-labelledby="hero-heading">
       {/* Bold gradient background */}
@@ -25,20 +28,20 @@ export default function Hero() {
           <div className="accent-line-bold mb-8 bg-white/80" aria-hidden="true" />
 
           <h1 id="hero-heading" className="text-h1 text-white mb-10 heading-primary drop-shadow-lg">
-            Comunicação estratégica que protege, posiciona e fortalece reputações.
+            {t('hero.title')}
           </h1>
 
           <p className="text-xl text-white/95 max-w-3xl mb-12 leading-relaxed drop-shadow">
-            Atuamos com inteligência, precisão e responsabilidade para preservar credibilidade e construir autoridade de marcas, líderes e profissionais de alta exposição.
+            {t('hero.description')}
           </p>
 
           <div className="flex flex-wrap gap-4 items-center mb-20">
             <a href="#contact" className="bg-white text-brand-navy px-10 py-4 rounded-lg font-bold text-[15px] hover:shadow-2xl transition-all hover:scale-105 inline-flex items-center gap-2">
-              Fale com a Wise Media
+              {t('hero.cta')}
               <Icon name="ArrowRight" size={20} aria-hidden="true" />
             </a>
             <a href="/servicos" className="bg-brand-navy/40 backdrop-blur-sm text-white border-2 border-white/40 px-10 py-4 rounded-lg font-semibold text-[15px] hover:bg-brand-navy/60 transition-all inline-flex items-center gap-2">
-              Conheça os Serviços
+              {t('hero.ctaSecondary')}
               <Icon name="Sparkles" size={18} className="text-white/80" aria-hidden="true" />
             </a>
           </div>
@@ -53,9 +56,9 @@ export default function Hero() {
                     <Icon name="Users" size={20} className="text-white drop-shadow-sm" />
                   </div>
                 </div>
-                <div className="text-3xl font-bold text-white">+50</div>
+                <div className="text-3xl font-bold text-white">{t('hero.metrics.clientsValue')}</div>
               </div>
-              <div className="text-sm text-white/80">Clientes Atendidos</div>
+              <div className="text-sm text-white/80">{t('hero.metrics.clients')}</div>
             </div>
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20 group hover:bg-white/15 transition-all">
               <div className="flex items-center gap-3 mb-3">
@@ -65,9 +68,9 @@ export default function Hero() {
                     <Icon name="Zap" size={20} className="text-white drop-shadow-sm" />
                   </div>
                 </div>
-                <div className="text-3xl font-bold text-white">24h</div>
+                <div className="text-3xl font-bold text-white">{t('hero.metrics.responseValue')}</div>
               </div>
-              <div className="text-sm text-white/80">Resposta em Crises</div>
+              <div className="text-sm text-white/80">{t('hero.metrics.response')}</div>
             </div>
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20 group hover:bg-white/15 transition-all">
               <div className="flex items-center gap-3 mb-3">
@@ -77,9 +80,9 @@ export default function Hero() {
                     <Icon name="ShieldCheck" size={20} className="text-white drop-shadow-sm" />
                   </div>
                 </div>
-                <div className="text-3xl font-bold text-white">100%</div>
+                <div className="text-3xl font-bold text-white">{t('hero.metrics.confidentialityValue')}</div>
               </div>
-              <div className="text-sm text-white/80">Confidencialidade</div>
+              <div className="text-sm text-white/80">{t('hero.metrics.confidentiality')}</div>
             </div>
           </div>
         </div>

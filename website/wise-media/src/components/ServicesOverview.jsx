@@ -1,37 +1,16 @@
+import { useTranslation } from "react-i18next";
 import Icon from "./Icon";
 
 export default function ServicesOverview() {
+  const { t } = useTranslation();
+
   const services = [
-    {
-      title: "Assessoria de Imprensa",
-      outcome: "Posicionamos sua marca com consistência e autoridade nos principais veículos.",
-      iconName: "Megaphone"
-    },
-    {
-      title: "Assessoria Estratégica e Pontual",
-      outcome: "Garantimos mensagens claras e alinhadas em momentos decisivos.",
-      iconName: "Lightbulb"
-    },
-    {
-      title: "Assessoria para Vistos",
-      outcome: "Construímos narrativa pública e provas de relevância profissional para processos internacionais.",
-      iconName: "Award"
-    },
-    {
-      title: "Gestão do Google Meu Negócio",
-      outcome: "Fortalecemos credibilidade e visibilidade local através de gestão contínua.",
-      iconName: "MapPinned"
-    },
-    {
-      title: "Serviço Limpa Nome",
-      outcome: "Protegemos imagem e reputação digital com atuação estratégica.",
-      iconName: "ShieldCheck"
-    },
-    {
-      title: "Gestão de Crise",
-      outcome: "Preservamos confiança e relações institucionais em situações sensíveis.",
-      iconName: "ShieldAlert"
-    },
+    { key: "pressAdvisory", iconName: "Megaphone" },
+    { key: "strategicAdvisory", iconName: "Lightbulb" },
+    { key: "visaAdvisory", iconName: "Award" },
+    { key: "googleBusiness", iconName: "MapPinned" },
+    { key: "cleanName", iconName: "ShieldCheck" },
+    { key: "crisisManagement", iconName: "ShieldAlert" },
   ];
 
   return (
@@ -42,16 +21,16 @@ export default function ServicesOverview() {
       <div className="container-content section-spacing">
         <div className="text-center mb-20">
           <div className="accent-line-bold mx-auto mb-6"></div>
-          <h2 className="text-h2 text-white mb-6 heading-secondary">Serviços</h2>
+          <h2 className="text-h2 text-white mb-6 heading-secondary">{t('servicesOverview.title')}</h2>
           <p className=" text-white max-w-2xl mx-auto">
-            Soluções especializadas para proteger, posicionar e fortalecer sua presença estratégica.
+            {t('servicesOverview.description')}
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service, index) => (
+          {services.map((service) => (
             <div
-              key={service.title}
+              key={service.key}
               className="card-service group relative overflow-hidden"
             >
               {/* Gradient border on hover */}
@@ -70,10 +49,10 @@ export default function ServicesOverview() {
               </div>
 
               <h3 className="text-xl font-semibold text-brand-navy mb-4 leading-tight">
-                {service.title}
+                {t(`servicesOverview.services.${service.key}.title`)}
               </h3>
               <p className="text-brand-navy/70 leading-relaxed text-[15px]">
-                {service.outcome}
+                {t(`servicesOverview.services.${service.key}.description`)}
               </p>
 
               {/* Corner accent */}
@@ -84,7 +63,7 @@ export default function ServicesOverview() {
 
         <div className="text-center mt-16">
           <a href="/servicos" className="bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white px-10 py-4 rounded-lg font-semibold hover:shadow-xl transition-all inline-flex items-center gap-2 hover:scale-105">
-            Ver Todos os Detalhes
+            {t('servicesOverview.cta')}
             <Icon name="ArrowRight" size={20} aria-hidden="true" />
           </a>
         </div>

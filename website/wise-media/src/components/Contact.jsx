@@ -1,6 +1,9 @@
+import { useTranslation } from "react-i18next";
 import Icon from "./Icon";
 
 export default function Contact() {
+  const { t } = useTranslation();
+
   return (
     <section className="w-full relative overflow-hidden" aria-labelledby="contact-heading">
       {/* Top accent */}
@@ -15,17 +18,17 @@ export default function Contact() {
           <header className="text-center mb-20">
             <div className="accent-line-bold mx-auto mb-8" aria-hidden="true" />
             <h1 id="contact-heading" className="text-h1 text-white mb-8 heading-primary">
-              Comunicação começa com confiança.
+              {t('contact.title')}
             </h1>
             <p className="text-white max-w-2xl mx-auto">
-              Entre em contato para discutir como podemos apoiar sua estratégia com inteligência, discrição e responsabilidade.
+              {t('contact.description')}
             </p>
           </header>
 
           {/* Contact Methods */}
           <div className="mb-20">
             <h2 className="text-h2 text-white mb-12 heading-secondary text-center">
-              Formas de Contato
+              {t('contact.methodsTitle')}
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -39,8 +42,8 @@ export default function Contact() {
                     <Icon name="Mail" size={28} className="text-brand-navy" />
                   </div>
                 </div>
-                <h3 className="text-xl font-semibold text-brand-navy mb-2">Email</h3>
-                <p className="text-sm text-brand-navy/60 mb-4">Preferencial para discrição</p>
+                <h3 className="text-xl font-semibold text-brand-navy mb-2">{t('contact.methods.email.title')}</h3>
+                <p className="text-sm text-brand-navy/60 mb-4">{t('contact.methods.email.description')}</p>
                 <a
                   href="mailto:wisemediasolucoes@gmail.com"
                   className="text-brand-lightBlue hover:text-brand-navy transition-colors text-sm font-medium"
@@ -59,15 +62,15 @@ export default function Contact() {
                     <Icon name="MessageCircle" size={28} className="text-brand-navy" />
                   </div>
                 </div>
-                <h3 className="text-xl font-semibold text-brand-navy mb-2">WhatsApp</h3>
-                <p className="text-sm text-brand-navy/60 mb-4">Resposta em até 24 horas</p>
+                <h3 className="text-xl font-semibold text-brand-navy mb-2">{t('contact.methods.whatsapp.title')}</h3>
+                <p className="text-sm text-brand-navy/60 mb-4">{t('contact.methods.whatsapp.description')}</p>
                 <a
-                  href="https://wa.me/5511990094457"
+                  href="https://wa.me/5511922250182"
                   target="_blank"
                   rel="noreferrer"
                   className="text-brand-lightBlue hover:text-brand-navy transition-colors text-sm font-medium"
                 >
-                  (11) 99009-4457
+                  (11) 92225-0182
                 </a>
               </article>
 
@@ -81,8 +84,8 @@ export default function Contact() {
                     <Icon name="Instagram" size={28} className="text-brand-navy" />
                   </div>
                 </div>
-                <h3 className="text-xl font-semibold text-brand-navy mb-2">Instagram</h3>
-                <p className="text-sm text-brand-navy/60 mb-4">Institucional</p>
+                <h3 className="text-xl font-semibold text-brand-navy mb-2">{t('contact.methods.instagram.title')}</h3>
+                <p className="text-sm text-brand-navy/60 mb-4">{t('contact.methods.instagram.description')}</p>
                 <a
                   href="https://instagram.com/wisemediasolucoes11"
                   target="_blank"
@@ -101,7 +104,7 @@ export default function Contact() {
             <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-lightBlue via-brand-navy to-brand-lightBlue" aria-hidden="true" />
 
             <h2 className="text-h2 text-brand-navy mb-12 heading-secondary text-center relative">
-              Como Funciona
+              {t('contact.processTitle')}
             </h2>
 
             <div className="space-y-10 max-w-3xl mx-auto relative">
@@ -113,9 +116,9 @@ export default function Contact() {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-brand-navy mb-3">Conversa Inicial</h3>
+                  <h3 className="text-xl font-semibold text-brand-navy mb-3">{t('contact.process.initial.title')}</h3>
                   <p className="text-brand-navy/70 leading-relaxed">
-                    Entendemos sua situação, objetivos e desafios de comunicação com confidencialidade absoluta.
+                    {t('contact.process.initial.description')}
                   </p>
                 </div>
               </div>
@@ -128,9 +131,9 @@ export default function Contact() {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-brand-navy mb-3">Análise Estratégica</h3>
+                  <h3 className="text-xl font-semibold text-brand-navy mb-3">{t('contact.process.analysis.title')}</h3>
                   <p className="text-brand-navy/70 leading-relaxed">
-                    Avaliamos cenários, riscos e oportunidades com precisão analítica e visão de longo prazo.
+                    {t('contact.process.analysis.description')}
                   </p>
                 </div>
               </div>
@@ -143,9 +146,9 @@ export default function Contact() {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-brand-navy mb-3">Plano Personalizado</h3>
+                  <h3 className="text-xl font-semibold text-brand-navy mb-3">{t('contact.process.plan.title')}</h3>
                   <p className="text-brand-navy/70 leading-relaxed">
-                    Apresentamos estratégia clara, cronograma realista e investimento necessário para resultados consistentes.
+                    {t('contact.process.plan.description')}
                   </p>
                 </div>
               </div>
@@ -158,14 +161,14 @@ export default function Contact() {
               <div className="w-6 h-6 rounded-full bg-gradient-to-br from-white to-gray-100 flex items-center justify-center flex-shrink-0 shadow-sm ring-1 ring-white/20" aria-hidden="true">
                 <Icon name="Lock" size={14} className="text-brand-navy" />
               </div>
-              <span className="text-white/90">Todas as conversas são tratadas com confidencialidade e responsabilidade institucional.</span>
+              <span className="text-white/90">{t('contact.confidentiality')}</span>
             </div>
             <div>
               <a
                 href="mailto:wisemediasolucoes@gmail.com"
                 className="inline-flex items-center gap-2 bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white px-10 py-4 rounded-lg font-bold hover:shadow-xl transition-all hover:scale-105"
               >
-                Iniciar Conversa
+                {t('contact.cta')}
                 <Icon name="ArrowRight" size={20} aria-hidden="true" />
               </a>
             </div>

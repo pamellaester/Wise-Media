@@ -1,6 +1,9 @@
+import { useTranslation } from "react-i18next";
 import Icon from "./Icon";
 
 export default function ContactHome() {
+  const { t } = useTranslation();
+
   return (
     <section id="contact" className="relative w-full overflow-hidden" aria-labelledby="contact-home-heading">
       {/* Pattern overlay */}
@@ -18,10 +21,10 @@ export default function ContactHome() {
           <header className="text-center mb-16">
             <div className="accent-line-bold mx-auto mb-6" aria-hidden="true" />
             <h2 id="contact-home-heading" className="text-h2 text-white mb-6 heading-secondary">
-              Comunicação começa com confiança.
+              {t('contactHome.title')}
             </h2>
             <p className="text-white max-w-2xl mx-auto">
-              Entre em contato para discutir como podemos apoiar sua estratégia com inteligência e discrição.
+              {t('contactHome.description')}
             </p>
           </header>
 
@@ -43,27 +46,27 @@ export default function ContactHome() {
                 </div>
 
                 <h3 className="text-2xl font-semibold text-brand-navy mb-4">
-                  Pronto para fortalecer sua reputação?
+                  {t('contactHome.cardTitle')}
                 </h3>
                 <p className="text-brand-navy/70 mb-10">
-                  Nossa equipe está pronta para uma conversa estratégica sobre seus desafios de comunicação.
+                  {t('contactHome.cardDescription')}
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
                   <a
-                    href="https://wa.me/5511990094457"
+                    href="https://wa.me/5511922250182"
                     target="_blank"
                     rel="noreferrer"
                     className="bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white px-10 py-4 rounded-lg font-bold hover:shadow-xl transition-all hover:scale-105 inline-flex items-center justify-center gap-2"
                   >
-                    Iniciar Conversa
+                    {t('contactHome.cta')}
                     <Icon name="ArrowRight" size={20} className="text-white" />
                   </a>
                   <a
                     href="mailto:wisemediasolucoes@gmail.com"
                     className="bg-white border-2 border-brand-navy text-brand-navy px-10 py-4 rounded-lg font-semibold hover:bg-brand-navy hover:text-white transition-all"
                   >
-                    Enviar Email
+                    {t('contactHome.ctaEmail')}
                   </a>
                 </div>
 

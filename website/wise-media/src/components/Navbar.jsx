@@ -1,8 +1,11 @@
 import { Link } from "react-router";
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import Icon from "./Icon";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Navbar({ background = "dark" }) {
+  const { t } = useTranslation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [textColor, setTextColor] = useState(
     background === "light" ? "text-brand-navy" : "text-white"
@@ -14,8 +17,8 @@ export default function Navbar({ background = "dark" }) {
   }, [background]);
 
   const navLinks = [
-    { to: "/servicos", label: "Serviços", iconName: "Briefcase" },
-    { to: "/sobre", label: "Sobre", iconName: "Users" },
+    { to: "/servicos", labelKey: "nav.services", iconName: "Briefcase" },
+    { to: "/sobre", labelKey: "nav.about", iconName: "Users" },
   ];
 
   return (
@@ -40,7 +43,7 @@ export default function Navbar({ background = "dark" }) {
                 Wise Media
               </span>
               <span className={`text-xs md:text-sm ${textColor}/70 -mt-1`}>
-                Comunicação Estratégica
+                {t('nav.tagline')}
               </span>
             </div>
           </Link>
@@ -54,9 +57,12 @@ export default function Navbar({ background = "dark" }) {
                 className={`relative font-medium transition-colors ${textColor} hover:text-brand-lightBlue inline-flex items-center gap-2 group`}
               >
                 <Icon name={link.iconName} size={16} className="opacity-60 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
-                {link.label}
+                {t(link.labelKey)}
               </Link>
             ))}
+
+            {/* Language Switcher */}
+            <LanguageSwitcher />
 
             {/* Contact Button */}
             <Link
@@ -64,7 +70,7 @@ export default function Navbar({ background = "dark" }) {
               className="px-6 py-2 bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white rounded-full font-semibold shadow-lg hover:scale-105 transition-all inline-flex items-center gap-2"
             >
               <Icon name="MessageSquare" size={16} aria-hidden="true" />
-              Contato
+              {t('nav.contact')}
             </Link>
           </div>
 
@@ -72,7 +78,7 @@ export default function Navbar({ background = "dark" }) {
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className={`md:hidden p-2 transition-colors ${textColor}`}
-            aria-label="Toggle menu"
+            aria-label={mobileMenuOpen ? t('nav.closeMenu') : t('nav.openMenu')}
           >
             {mobileMenuOpen ? (
               <Icon name="X" size={20} className="text-brand-navy" />
@@ -95,7 +101,7 @@ export default function Navbar({ background = "dark" }) {
                 className="py-3 px-4 rounded-xl font-medium transition-colors text-brand-navy hover:bg-brand-lightBlue/10 hover:text-brand-lightBlue inline-flex items-center gap-3"
               >
                 <Icon name={link.iconName} size={20} className="text-brand-lightBlue" aria-hidden="true" />
-                {link.label}
+                {t(link.labelKey)}
               </Link>
             ))}
             <Link
@@ -104,8 +110,12 @@ export default function Navbar({ background = "dark" }) {
               className="py-3 px-4 rounded-xl font-semibold bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white shadow-lg hover:scale-105 transition-all inline-flex items-center justify-center gap-2 mt-2"
             >
               <Icon name="MessageSquare" size={18} aria-hidden="true" />
-              Contato
+              {t('nav.contact')}
             </Link>
+            {/* Mobile Language Switcher */}
+            <div className="flex justify-center mt-4 pt-4 border-t border-brand-navy/10">
+              <LanguageSwitcher />
+            </div>
           </div>
         </div>
       )}
