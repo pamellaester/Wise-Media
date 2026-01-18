@@ -24,14 +24,14 @@ export default function TrustMarkers() {
     }
   ];
 
-  // Placeholder for client logos - replace with actual client logos
-  const clientLogos = [
-    { id: 1, name: "Cliente 1", placeholder: true },
-    { id: 2, name: "Cliente 2", placeholder: true },
-    { id: 3, name: "Cliente 3", placeholder: true },
-    { id: 4, name: "Cliente 4", placeholder: true },
-    { id: 5, name: "Cliente 5", placeholder: true },
-    { id: 6, name: "Cliente 6", placeholder: true },
+  // Client sectors with representative icons
+  const clientSectors = [
+    { id: 1, name: "Tecnologia", iconName: "Cpu", description: "Tech & Startups" },
+    { id: 2, name: "Finanças", iconName: "Landmark", description: "Finance & Banking" },
+    { id: 3, name: "Saúde", iconName: "HeartPulse", description: "Healthcare" },
+    { id: 4, name: "Jurídico", iconName: "Scale", description: "Legal & Law" },
+    { id: 5, name: "Entretenimento", iconName: "Clapperboard", description: "Media & Entertainment" },
+    { id: 6, name: "Executivos", iconName: "UserCircle", description: "C-Level Executives" },
   ];
 
   return (
@@ -62,41 +62,40 @@ export default function TrustMarkers() {
           <div className="h-px bg-gradient-to-r from-transparent via-brand-navy/20 to-transparent"></div>
         </div>
 
-        {/* Client Logos Section */}
+        {/* Client Sectors Section */}
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h3 className="text-xl font-semibold text-brand-navy/60 mb-3">
-              Confiança de Profissionais e Marcas
+              Setores que Atendemos
             </h3>
             <p className="text-brand-navy/50 text-sm">
-              Atuação discreta com clientes que valorizam excelência e responsabilidade
+              Experiência em comunicação estratégica para diversos segmentos
             </p>
           </div>
 
-          {/* Logo Grid - Placeholder */}
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
-            {clientLogos.map((client) => (
+          {/* Sectors Grid */}
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 items-center">
+            {clientSectors.map((sector) => (
               <div
-                key={client.id}
-                className="group relative aspect-video flex items-center justify-center p-6 rounded-xl bg-gradient-to-br from-gray-50 to-white border border-brand-navy/5 hover:border-brand-lightBlue/30 transition-all hover:shadow-lg"
+                key={sector.id}
+                className="group relative flex flex-col items-center justify-center p-6 rounded-xl bg-gradient-to-br from-gray-50 to-white border border-brand-navy/5 hover:border-brand-lightBlue/30 transition-all hover:shadow-lg"
               >
-                {client.placeholder && (
-                  <div className="text-center">
-                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-brand-lightBlue/10 to-brand-navy/10 flex items-center justify-center mx-auto mb-2 group-hover:scale-110 transition-transform">
-                      <Icon name="Briefcase" size={20} className="text-brand-navy/30" />
-                    </div>
-                    <div className="text-xs text-brand-navy/20 font-medium">Logo</div>
-                  </div>
-                )}
+                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-brand-lightBlue/20 to-brand-navy/10 flex items-center justify-center mb-3 group-hover:scale-110 group-hover:from-brand-lightBlue/30 group-hover:to-brand-navy/20 transition-all" aria-hidden="true">
+                  <Icon name={sector.iconName} size={26} className="text-brand-navy/60 group-hover:text-brand-navy transition-colors" />
+                </div>
+                <div className="text-sm text-brand-navy/70 font-medium text-center">
+                  {sector.name}
+                </div>
               </div>
             ))}
           </div>
 
           {/* Note about confidentiality */}
           <div className="mt-12 text-center">
-            <p className="text-brand-navy/40 text-xs italic max-w-2xl mx-auto">
-              Por razões de confidencialidade, alguns clientes optam por não divulgar publicamente nossa parceria.
-            </p>
+            <div className="inline-flex items-center gap-2 text-brand-navy/40 text-xs italic">
+              <Icon name="ShieldCheck" size={14} aria-hidden="true" />
+              <span>Atuação discreta com clientes que valorizam confidencialidade</span>
+            </div>
           </div>
         </div>
       </div>

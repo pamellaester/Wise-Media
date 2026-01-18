@@ -74,49 +74,67 @@ export default function About() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="card-premium relative overflow-hidden group">
-              {/* Bold left gradient accent */}
-              <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brand-lightBlue to-brand-navy opacity-0 group-hover:opacity-100 transition-opacity"></div>
+            <article className="card-premium relative overflow-hidden group">
+              {/* Left gradient accent */}
+              <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brand-lightBlue to-brand-navy opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
 
               <div className="flex items-start gap-6 relative">
                 <div className="flex-shrink-0">
-                  <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center shadow-xl">
+                  <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center shadow-xl group-hover:scale-105 transition-transform">
                     <span className="text-3xl font-bold text-white">RC</span>
                   </div>
                 </div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-semibold text-brand-navy mb-2">Rosy Cordeiro</h3>
-                  <div className="inline-block px-3 py-1 rounded-full bg-gradient-to-r from-brand-lightBlue/10 to-brand-navy/10 text-brand-navy/70 text-xs font-medium mb-4 border border-brand-lightBlue/20">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gradient-to-r from-brand-lightBlue/10 to-brand-navy/10 text-brand-navy/70 text-xs font-medium mb-4 border border-brand-lightBlue/20">
+                    <Icon name="Tv" size={12} aria-hidden="true" />
                     Jornalista, Estilista e Apresentadora
                   </div>
-                  <p className="text-brand-navy/70 leading-relaxed text-[15px]">
+                  <p className="text-brand-navy/70 leading-relaxed text-[15px] mb-4">
                     Experiência em televisão e moda, com atuação em programas relevantes e expertise na interseção entre mídia e comunicação estratégica.
                   </p>
+                  <div className="flex gap-2">
+                    <span className="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-brand-lightBlue/5 text-brand-navy/50 text-xs">
+                      <Icon name="Mic" size={10} aria-hidden="true" /> Mídia
+                    </span>
+                    <span className="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-brand-lightBlue/5 text-brand-navy/50 text-xs">
+                      <Icon name="Sparkles" size={10} aria-hidden="true" /> Moda
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
+            </article>
 
-            <div className="card-premium relative overflow-hidden group">
-              {/* Bold left gradient accent */}
-              <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brand-navy to-brand-lightBlue opacity-0 group-hover:opacity-100 transition-opacity"></div>
+            <article className="card-premium relative overflow-hidden group">
+              {/* Left gradient accent */}
+              <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brand-navy to-brand-lightBlue opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
 
               <div className="flex items-start gap-6 relative">
                 <div className="flex-shrink-0">
-                  <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-brand-navy to-brand-lightBlue flex items-center justify-center shadow-xl">
+                  <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-brand-navy to-brand-lightBlue flex items-center justify-center shadow-xl group-hover:scale-105 transition-transform">
                     <span className="text-3xl font-bold text-white">DT</span>
                   </div>
                 </div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-semibold text-brand-navy mb-2">Débora Tawil</h3>
-                  <div className="inline-block px-3 py-1 rounded-full bg-gradient-to-r from-brand-navy/10 to-brand-lightBlue/10 text-brand-navy/70 text-xs font-medium mb-4 border border-brand-navy/20">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gradient-to-r from-brand-navy/10 to-brand-lightBlue/10 text-brand-navy/70 text-xs font-medium mb-4 border border-brand-navy/20">
+                    <Icon name="UserCog" size={12} aria-hidden="true" />
                     Mentora de Desenvolvimento Humano & Gestão de Imagem
                   </div>
-                  <p className="text-brand-navy/70 leading-relaxed text-[15px]">
+                  <p className="text-brand-navy/70 leading-relaxed text-[15px] mb-4">
                     Especialista em posicionamento e gestão de crises, lidera operações estratégicas para expansão e proteção de reputação de marcas.
                   </p>
+                  <div className="flex gap-2">
+                    <span className="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-brand-navy/5 text-brand-navy/50 text-xs">
+                      <Icon name="Target" size={10} aria-hidden="true" /> Estratégia
+                    </span>
+                    <span className="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-brand-navy/5 text-brand-navy/50 text-xs">
+                      <Icon name="Shield" size={10} aria-hidden="true" /> Crises
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
+            </article>
           </div>
         </div>
 

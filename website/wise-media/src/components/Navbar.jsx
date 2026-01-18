@@ -14,8 +14,8 @@ export default function Navbar({ background = "dark" }) {
   }, [background]);
 
   const navLinks = [
-    { to: "/servicos", label: "Serviços" },
-    { to: "/sobre", label: "Sobre" },
+    { to: "/servicos", label: "Serviços", iconName: "Briefcase" },
+    { to: "/sobre", label: "Sobre", iconName: "Users" },
   ];
 
   return (
@@ -51,18 +51,19 @@ export default function Navbar({ background = "dark" }) {
               <Link
                 key={link.to}
                 to={link.to}
-                className={`relative font-medium transition-colors ${textColor} hover:text-brand-lightBlue`}
+                className={`relative font-medium transition-colors ${textColor} hover:text-brand-lightBlue inline-flex items-center gap-2 group`}
               >
+                <Icon name={link.iconName} size={16} className="opacity-60 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
                 {link.label}
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-brand-lightBlue to-brand-navy group-hover:w-full transition-all"></span>
               </Link>
             ))}
 
             {/* Contact Button */}
             <Link
               to="/contato"
-              className="px-6 py-2 bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white rounded-full font-semibold shadow-lg hover:scale-105 transition-all"
+              className="px-6 py-2 bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white rounded-full font-semibold shadow-lg hover:scale-105 transition-all inline-flex items-center gap-2"
             >
+              <Icon name="MessageSquare" size={16} aria-hidden="true" />
               Contato
             </Link>
           </div>
@@ -84,23 +85,25 @@ export default function Navbar({ background = "dark" }) {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-white/5 backdrop-blur-lg border-t border-brand-navy/10 shadow-xl transition-colors">
-          <div className="mx-auto max-w-7xl px-6 py-6 flex flex-col gap-4">
+        <div className="md:hidden absolute top-full left-0 right-0 bg-white/95 backdrop-blur-lg border-t border-brand-navy/10 shadow-xl transition-colors mt-2 mx-4 rounded-2xl">
+          <div className="px-4 py-6 flex flex-col gap-2">
             {navLinks.map((link) => (
               <Link
                 key={link.to}
                 to={link.to}
                 onClick={() => setMobileMenuOpen(false)}
-                className={`py-3 px-4 rounded-lg font-medium transition-colors ${textColor} hover:bg-brand-lightBlue/10 hover:text-brand-lightBlue`}
+                className="py-3 px-4 rounded-xl font-medium transition-colors text-brand-navy hover:bg-brand-lightBlue/10 hover:text-brand-lightBlue inline-flex items-center gap-3"
               >
+                <Icon name={link.iconName} size={20} className="text-brand-lightBlue" aria-hidden="true" />
                 {link.label}
               </Link>
             ))}
             <Link
               to="/contato"
               onClick={() => setMobileMenuOpen(false)}
-              className="py-3 px-4 rounded-lg font-semibold bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white text-center shadow-lg hover:scale-105 transition-all"
+              className="py-3 px-4 rounded-xl font-semibold bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white shadow-lg hover:scale-105 transition-all inline-flex items-center justify-center gap-2 mt-2"
             >
+              <Icon name="MessageSquare" size={18} aria-hidden="true" />
               Contato
             </Link>
           </div>
