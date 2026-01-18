@@ -42,11 +42,14 @@ export default function MissionVision() {
             />
 
             <div className="relative">
-              <div
-                className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy mb-6 shadow-lg group-hover:scale-105 transition-transform"
-                aria-hidden="true"
-              >
-                <Icon name="Eye" size={32} className="text-white" />
+              <div className="relative inline-block mb-6">
+                <div className="absolute inset-0 w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue/30 to-brand-navy/20 blur-lg opacity-60 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
+                <div
+                  className="relative w-16 h-16 rounded-full bg-gradient-to-br from-white to-gray-50 flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform ring-1 ring-brand-navy/10"
+                  aria-hidden="true"
+                >
+                  <Icon name="Eye" size={32} className="text-brand-navy" />
+                </div>
               </div>
               <span className="inline-block px-4 py-1 rounded-full bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white text-xs font-bold uppercase tracking-wider mb-4 shadow">
                 Visão
@@ -72,11 +75,14 @@ export default function MissionVision() {
             />
 
             <div className="relative">
-              <div
-                className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-brand-navy to-brand-lightBlue mb-6 shadow-lg group-hover:scale-105 transition-transform"
-                aria-hidden="true"
-              >
-                <Icon name="Compass" size={32} className="text-white" />
+              <div className="relative inline-block mb-6">
+                <div className="absolute inset-0 w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue/30 to-brand-navy/20 blur-lg opacity-60 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
+                <div
+                  className="relative w-16 h-16 rounded-full bg-gradient-to-br from-white to-gray-50 flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform ring-1 ring-brand-navy/10"
+                  aria-hidden="true"
+                >
+                  <Icon name="Compass" size={32} className="text-brand-navy" />
+                </div>
               </div>
               <span className="inline-block px-4 py-1 rounded-full bg-gradient-to-r from-brand-navy to-brand-lightBlue text-white text-xs font-bold uppercase tracking-wider mb-4 shadow">
                 Missão

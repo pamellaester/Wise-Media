@@ -33,8 +33,11 @@ export default function Contact() {
                 {/* Left gradient accent on hover */}
                 <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brand-lightBlue to-brand-navy opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
 
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy mb-6 shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
-                  <Icon name="Mail" size={28} className="text-white" />
+                <div className="relative inline-block mb-6">
+                  <div className="absolute inset-0 w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue/30 to-brand-navy/20 blur-lg opacity-60 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
+                  <div className="relative w-16 h-16 rounded-full bg-gradient-to-br from-white to-gray-50 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform ring-1 ring-brand-navy/10" aria-hidden="true">
+                    <Icon name="Mail" size={28} className="text-brand-navy" />
+                  </div>
                 </div>
                 <h3 className="text-xl font-semibold text-brand-navy mb-2">Email</h3>
                 <p className="text-sm text-brand-navy/60 mb-4">Preferencial para discrição</p>
@@ -50,8 +53,11 @@ export default function Contact() {
                 {/* Left gradient accent on hover */}
                 <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brand-navy to-brand-lightBlue opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
 
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-brand-navy to-brand-lightBlue mb-6 shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
-                  <Icon name="MessageCircle" size={28} className="text-white" />
+                <div className="relative inline-block mb-6">
+                  <div className="absolute inset-0 w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue/30 to-brand-navy/20 blur-lg opacity-60 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
+                  <div className="relative w-16 h-16 rounded-full bg-gradient-to-br from-white to-gray-50 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform ring-1 ring-brand-navy/10" aria-hidden="true">
+                    <Icon name="MessageCircle" size={28} className="text-brand-navy" />
+                  </div>
                 </div>
                 <h3 className="text-xl font-semibold text-brand-navy mb-2">WhatsApp</h3>
                 <p className="text-sm text-brand-navy/60 mb-4">Resposta em até 24 horas</p>
@@ -69,8 +75,11 @@ export default function Contact() {
                 {/* Left gradient accent on hover */}
                 <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brand-lightBlue to-brand-navy opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
 
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy mb-6 shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
-                  <Icon name="Instagram" size={28} className="text-white" />
+                <div className="relative inline-block mb-6">
+                  <div className="absolute inset-0 w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue/30 to-brand-navy/20 blur-lg opacity-60 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
+                  <div className="relative w-16 h-16 rounded-full bg-gradient-to-br from-white to-gray-50 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform ring-1 ring-brand-navy/10" aria-hidden="true">
+                    <Icon name="Instagram" size={28} className="text-brand-navy" />
+                  </div>
                 </div>
                 <h3 className="text-xl font-semibold text-brand-navy mb-2">Instagram</h3>
                 <p className="text-sm text-brand-navy/60 mb-4">Institucional</p>
@@ -97,9 +106,10 @@ export default function Contact() {
 
             <div className="space-y-10 max-w-3xl mx-auto relative">
               <div className="flex gap-6 group">
-                <div className="flex-shrink-0">
-                  <div className="w-14 h-14 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
-                    <Icon name="MessageSquare" size={24} className="text-white" />
+                <div className="flex-shrink-0 relative">
+                  <div className="absolute inset-0 w-14 h-14 rounded-full bg-gradient-to-br from-brand-lightBlue/30 to-brand-navy/20 blur-lg opacity-60 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
+                  <div className="relative w-14 h-14 rounded-full bg-gradient-to-br from-white to-gray-50 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform ring-1 ring-brand-navy/10" aria-hidden="true">
+                    <Icon name="MessageSquare" size={24} className="text-brand-navy" />
                   </div>
                 </div>
                 <div>
@@ -111,9 +121,10 @@ export default function Contact() {
               </div>
 
               <div className="flex gap-6 group">
-                <div className="flex-shrink-0">
-                  <div className="w-14 h-14 rounded-full bg-gradient-to-br from-brand-navy to-brand-lightBlue flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
-                    <Icon name="Search" size={24} className="text-white" />
+                <div className="flex-shrink-0 relative">
+                  <div className="absolute inset-0 w-14 h-14 rounded-full bg-gradient-to-br from-brand-lightBlue/30 to-brand-navy/20 blur-lg opacity-60 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
+                  <div className="relative w-14 h-14 rounded-full bg-gradient-to-br from-white to-gray-50 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform ring-1 ring-brand-navy/10" aria-hidden="true">
+                    <Icon name="Search" size={24} className="text-brand-navy" />
                   </div>
                 </div>
                 <div>
@@ -125,9 +136,10 @@ export default function Contact() {
               </div>
 
               <div className="flex gap-6 group">
-                <div className="flex-shrink-0">
-                  <div className="w-14 h-14 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
-                    <Icon name="FileText" size={24} className="text-white" />
+                <div className="flex-shrink-0 relative">
+                  <div className="absolute inset-0 w-14 h-14 rounded-full bg-gradient-to-br from-brand-lightBlue/30 to-brand-navy/20 blur-lg opacity-60 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
+                  <div className="relative w-14 h-14 rounded-full bg-gradient-to-br from-white to-gray-50 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform ring-1 ring-brand-navy/10" aria-hidden="true">
+                    <Icon name="FileText" size={24} className="text-brand-navy" />
                   </div>
                 </div>
                 <div>
@@ -143,8 +155,8 @@ export default function Contact() {
           {/* Discretion Assurance & CTA */}
           <div className="text-center">
             <div className="inline-flex items-center gap-3 text-sm mb-8 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full border border-white/20">
-              <div className="w-6 h-6 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center flex-shrink-0" aria-hidden="true">
-                <Icon name="Lock" size={14} className="text-white" />
+              <div className="w-6 h-6 rounded-full bg-gradient-to-br from-white to-gray-100 flex items-center justify-center flex-shrink-0 shadow-sm ring-1 ring-white/20" aria-hidden="true">
+                <Icon name="Lock" size={14} className="text-brand-navy" />
               </div>
               <span className="text-white/90">Todas as conversas são tratadas com confidencialidade e responsabilidade institucional.</span>
             </div>

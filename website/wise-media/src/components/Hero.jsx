@@ -47,8 +47,11 @@ export default function Hero() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20 group hover:bg-white/15 transition-all">
               <div className="flex items-center gap-3 mb-3">
-                <div className="w-10 h-10 rounded-lg bg-white/20 flex items-center justify-center group-hover:scale-110 transition-transform" aria-hidden="true">
-                  <Icon name="Users" size={20} className="text-white" />
+                <div className="relative">
+                  <div className="absolute inset-0 w-10 h-10 rounded-lg bg-white/40 blur-md opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
+                  <div className="relative w-10 h-10 rounded-lg bg-white/20 flex items-center justify-center group-hover:scale-110 transition-transform ring-1 ring-white/30" aria-hidden="true">
+                    <Icon name="Users" size={20} className="text-white drop-shadow-sm" />
+                  </div>
                 </div>
                 <div className="text-3xl font-bold text-white">+50</div>
               </div>
@@ -56,8 +59,11 @@ export default function Hero() {
             </div>
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20 group hover:bg-white/15 transition-all">
               <div className="flex items-center gap-3 mb-3">
-                <div className="w-10 h-10 rounded-lg bg-white/20 flex items-center justify-center group-hover:scale-110 transition-transform" aria-hidden="true">
-                  <Icon name="Zap" size={20} className="text-white" />
+                <div className="relative">
+                  <div className="absolute inset-0 w-10 h-10 rounded-lg bg-white/40 blur-md opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
+                  <div className="relative w-10 h-10 rounded-lg bg-white/20 flex items-center justify-center group-hover:scale-110 transition-transform ring-1 ring-white/30" aria-hidden="true">
+                    <Icon name="Zap" size={20} className="text-white drop-shadow-sm" />
+                  </div>
                 </div>
                 <div className="text-3xl font-bold text-white">24h</div>
               </div>
@@ -65,8 +71,11 @@ export default function Hero() {
             </div>
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20 group hover:bg-white/15 transition-all">
               <div className="flex items-center gap-3 mb-3">
-                <div className="w-10 h-10 rounded-lg bg-white/20 flex items-center justify-center group-hover:scale-110 transition-transform" aria-hidden="true">
-                  <Icon name="ShieldCheck" size={20} className="text-white" />
+                <div className="relative">
+                  <div className="absolute inset-0 w-10 h-10 rounded-lg bg-white/40 blur-md opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
+                  <div className="relative w-10 h-10 rounded-lg bg-white/20 flex items-center justify-center group-hover:scale-110 transition-transform ring-1 ring-white/30" aria-hidden="true">
+                    <Icon name="ShieldCheck" size={20} className="text-white drop-shadow-sm" />
+                  </div>
                 </div>
                 <div className="text-3xl font-bold text-white">100%</div>
               </div>

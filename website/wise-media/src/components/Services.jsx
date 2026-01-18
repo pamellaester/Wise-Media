@@ -71,10 +71,11 @@ export default function Services() {
                 <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brand-lightBlue to-brand-navy opacity-0 group-hover:opacity-100 transition-opacity"></div>
 
                 <div className="flex flex-col md:flex-row gap-8">
-                  {/* Icon */}
-                  <div className="flex-shrink-0">
-                    <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center shadow-lg">
-                      <Icon name={service.iconName} size={36} className="text-white" />
+                  {/* Icon with glow effect */}
+                  <div className="flex-shrink-0 relative">
+                    <div className="absolute inset-0 w-20 h-20 rounded-2xl bg-gradient-to-br from-brand-lightBlue/30 to-brand-navy/20 blur-lg opacity-60 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
+                    <div className="relative w-20 h-20 rounded-2xl bg-gradient-to-br from-white to-gray-50 flex items-center justify-center shadow-lg ring-1 ring-brand-navy/10 group-hover:scale-105 transition-transform" aria-hidden="true">
+                      <Icon name={service.iconName} size={36} className="text-brand-navy drop-shadow-sm" />
                     </div>
                   </div>
 

@@ -35,8 +35,11 @@ export default function ContactHome() {
               <div className="h-2 bg-gradient-to-r from-brand-lightBlue via-brand-navy to-brand-lightBlue" aria-hidden="true" />
 
               <div className="p-12 text-center">
-                <div className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy mb-8 shadow-xl" aria-hidden="true">
-                  <Icon name="Send" size={44} className="text-white" />
+                <div className="relative inline-block mb-8">
+                  <div className="absolute inset-0 w-24 h-24 rounded-full bg-gradient-to-br from-brand-lightBlue/40 to-brand-navy/30 blur-xl opacity-70 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
+                  <div className="relative w-24 h-24 rounded-full bg-gradient-to-br from-white to-gray-50 flex items-center justify-center shadow-xl ring-1 ring-brand-navy/10 group-hover:scale-105 transition-transform" aria-hidden="true">
+                    <Icon name="Send" size={44} className="text-brand-navy" />
+                  </div>
                 </div>
 
                 <h3 className="text-2xl font-semibold text-brand-navy mb-4">

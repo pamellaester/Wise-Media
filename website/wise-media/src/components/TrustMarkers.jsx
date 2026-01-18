@@ -44,8 +44,11 @@ export default function TrustMarkers() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-5xl mx-auto mb-20">
           {stats.map((stat, index) => (
             <div key={index} className="text-center group">
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy mb-4 shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
-                <Icon name={stat.iconName} size={28} className="text-white" />
+              <div className="relative inline-block mb-4">
+                <div className="absolute inset-0 w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue/30 to-brand-navy/20 blur-lg opacity-60 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
+                <div className="relative w-16 h-16 rounded-full bg-gradient-to-br from-white to-gray-50 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform ring-1 ring-brand-navy/10" aria-hidden="true">
+                  <Icon name={stat.iconName} size={28} className="text-brand-navy drop-shadow-sm" />
+                </div>
               </div>
               <div className="text-4xl font-bold text-brand-navy mb-2 bg-gradient-to-r from-brand-navy to-brand-lightBlue bg-clip-text text-transparent">
                 {stat.number}

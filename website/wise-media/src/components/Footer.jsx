@@ -24,8 +24,12 @@ export default function Footer() {
             {/* Brand */}
             <div className="md:col-span-2">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-lightBlue to-white/20 flex items-center justify-center shadow-lg" aria-hidden="true">
-                  <span className="text-white font-bold text-lg">W</span>
+                <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center shadow-lg">
+                  <img
+                    src="/bluelogo.svg"
+                    alt="Wise Media Logo"
+                    className="w-8 h-8 object-contain"
+                  />
                 </div>
                 <div>
                   <div className="text-xl font-bold text-white">Wise Media</div>

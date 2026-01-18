@@ -55,14 +55,20 @@ export default function ServicesOverview() {
               className="card-service group relative overflow-hidden"
             >
               {/* Gradient border on hover */}
-              <div className="absolute inset-0 bg-gradient-to-br from-brand-lightBlue to-brand-navy opacity-0 group-hover:opacity-100 transition-opacity -z-10 blur-xl"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-brand-lightBlue to-brand-navy opacity-0 group-hover:opacity-100 transition-opacity -z-10 blur-xl" aria-hidden="true" />
 
-              {/* Bold left border accent */}
-              <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brand-lightBlue to-brand-navy opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              {/* Left border accent */}
+              <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brand-lightBlue to-brand-navy opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
 
-              <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg">
-                <Icon name={service.iconName} size={28} className="text-white" />
+              {/* Icon container with glow effect */}
+              <div className="relative mb-6">
+                {/* Glow effect behind icon */}
+                <div className="absolute inset-0 w-16 h-16 rounded-xl bg-gradient-to-br from-brand-lightBlue/30 to-brand-navy/20 blur-lg opacity-60 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
+                <div className="relative w-16 h-16 rounded-xl bg-gradient-to-br from-white to-gray-50 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg ring-1 ring-brand-navy/10" aria-hidden="true">
+                  <Icon name={service.iconName} size={28} className="text-brand-navy drop-shadow-sm" />
+                </div>
               </div>
+
               <h3 className="text-xl font-semibold text-brand-navy mb-4 leading-tight">
                 {service.title}
               </h3>
@@ -70,8 +76,8 @@ export default function ServicesOverview() {
                 {service.outcome}
               </p>
 
-              {/* Bold corner accent */}
-              <div className="absolute top-0 right-0 w-20 h-20 bg-brand-lightBlue/5 rounded-bl-full transform translate-x-10 -translate-y-10 group-hover:bg-brand-lightBlue/10 transition-colors"></div>
+              {/* Corner accent */}
+              <div className="absolute top-0 right-0 w-20 h-20 bg-brand-lightBlue/5 rounded-bl-full transform translate-x-10 -translate-y-10 group-hover:bg-brand-lightBlue/10 transition-colors" aria-hidden="true" />
             </div>
           ))}
         </div>
