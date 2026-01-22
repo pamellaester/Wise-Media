@@ -1,8 +1,8 @@
 import { useTranslation } from 'react-i18next';
 
-export default function LanguageSwitcher() {
+export default function LanguageSwitcher({ isDark = true }) {
   const { i18n } = useTranslation();
-  const currentLang = i18n.language;
+  const currentLang = i18n.language?.substring(0, 2) || 'pt';
 
   const toggleLanguage = () => {
     const newLang = currentLang === 'pt' ? 'en' : 'pt';
@@ -12,14 +12,33 @@ export default function LanguageSwitcher() {
   return (
     <button
       onClick={toggleLanguage}
-      className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/10 hover:bg-white/20 border border-white/20 transition-all text-sm font-medium"
+      className={`relative flex items-center gap-0.5 p-1 rounded-lg transition-all duration-300 text-xs font-semibold ${
+        isDark
+          ? "bg-white/10 hover:bg-white/20"
+          : "bg-brand-navy/10 hover:bg-brand-navy/20"
+      }`}
       aria-label={currentLang === 'pt' ? 'Switch to English' : 'Mudar para Português'}
     >
-      <span className={`transition-opacity ${currentLang === 'pt' ? 'opacity-100' : 'opacity-50'}`}>
+      <span className={`px-2 py-1 rounded-md transition-all duration-300 ${
+        currentLang === 'pt'
+          ? isDark
+            ? 'bg-white text-brand-navy shadow-sm'
+            : 'bg-brand-navy text-white shadow-sm'
+          : isDark
+            ? 'text-white/60 hover:text-white/80'
+            : 'text-brand-navy/60 hover:text-brand-navy/80'
+      }`}>
         PT
       </span>
-      <span className="text-white/40">|</span>
-      <span className={`transition-opacity ${currentLang === 'en' ? 'opacity-100' : 'opacity-50'}`}>
+      <span className={`px-2 py-1 rounded-md transition-all duration-300 ${
+        currentLang === 'en'
+          ? isDark
+            ? 'bg-white text-brand-navy shadow-sm'
+            : 'bg-brand-navy text-white shadow-sm'
+          : isDark
+            ? 'text-white/60 hover:text-white/80'
+            : 'text-brand-navy/60 hover:text-brand-navy/80'
+      }`}>
         EN
       </span>
     </button>
