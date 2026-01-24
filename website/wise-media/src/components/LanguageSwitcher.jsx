@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 
-export default function LanguageSwitcher({ isDark = true }) {
+export default function LanguageSwitcher({ scrolled = false }) {
   const { i18n } = useTranslation();
   const currentLang = i18n.language?.substring(0, 2) || 'pt';
 
@@ -12,32 +12,25 @@ export default function LanguageSwitcher({ isDark = true }) {
   return (
     <button
       onClick={toggleLanguage}
-      className={`relative flex items-center gap-0.5 p-1 rounded-lg transition-all duration-300 text-xs font-semibold ${
-        isDark
-          ? "bg-white/10 hover:bg-white/20"
-          : "bg-brand-navy/10 hover:bg-brand-navy/20"
-      }`}
+      className="flex items-center gap-1 text-xs font-medium transition-colors duration-300"
       aria-label={currentLang === 'pt' ? 'Switch to English' : 'Mudar para Português'}
     >
-      <span className={`px-2 py-1 rounded-md transition-all duration-300 ${
+      <span className={`transition-colors duration-300 ${
         currentLang === 'pt'
-          ? isDark
-            ? 'bg-white text-brand-navy shadow-sm'
-            : 'bg-brand-navy text-white shadow-sm'
-          : isDark
-            ? 'text-white/60 hover:text-white/80'
-            : 'text-brand-navy/60 hover:text-brand-navy/80'
+          ? scrolled ? 'text-brand-navy' : 'text-white'
+          : scrolled ? 'text-brand-navy/40' : 'text-white/40'
       }`}>
         PT
       </span>
-      <span className={`px-2 py-1 rounded-md transition-all duration-300 ${
+      <span className={`transition-colors duration-300 ${
+        scrolled ? 'text-brand-navy/30' : 'text-white/30'
+      }`}>
+        /
+      </span>
+      <span className={`transition-colors duration-300 ${
         currentLang === 'en'
-          ? isDark
-            ? 'bg-white text-brand-navy shadow-sm'
-            : 'bg-brand-navy text-white shadow-sm'
-          : isDark
-            ? 'text-white/60 hover:text-white/80'
-            : 'text-brand-navy/60 hover:text-brand-navy/80'
+          ? scrolled ? 'text-brand-navy' : 'text-white'
+          : scrolled ? 'text-brand-navy/40' : 'text-white/40'
       }`}>
         EN
       </span>

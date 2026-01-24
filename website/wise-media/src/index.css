@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+@theme {
+  --color-brand-navy: #001F3F;
+  --color-brand-lightBlue: #41C2F3;
+  --color-brand-accent: #00a7d6;
+  --color-brand-white: #FFFFFF;
+}
+
 /* ================================
    🔷 WISE MEDIA DESIGN SYSTEM
    Premium, organized, professional

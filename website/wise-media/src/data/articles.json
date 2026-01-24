@@ -1,0 +1,115 @@
+{
+  "company": "Wise Media Group",
+  "location": "São Paulo",
+  "totalArticles": 9,
+  "articles": [
+    {
+      "title": {
+        "pt": "Conheça os benefícios dos pets de assistência emocional para pessoas autistas",
+        "en": "Discover the benefits of emotional support pets for autistic individuals"
+      },
+      "link": "https://oglobo.globo.com/ela/gente/noticia/2025/07/29/conheca-os-beneficios-dos-pets-de-assistencia-emocional-para-pessoas-autistas.ghtml",
+      "category": "Articles",
+      "description": {
+        "pt": "Especialistas revelam como animais de assistência emocional podem transformar a qualidade de vida de pessoas no espectro autista.",
+        "en": "Experts reveal how emotional support animals can transform the quality of life for people on the autism spectrum."
+      }
+    },
+    {
+      "title": {
+        "pt": "Caipirinha com rapadura é destaque no cardápio de drinks do Dunguinhas",
+        "en": "Caipirinha with rapadura is the highlight of Dunguinhas' drink menu"
+      },
+      "link": "https://catracalivre.com.br/vila-mundo/caipirinha-com-rapadura-e-destaque-no-cardapio-de-drinks-do-dunguinhas/",
+      "category": "Articles",
+      "description": {
+        "pt": "O bar Dunguinhas inova com drink que combina tradição brasileira e mixologia moderna, conquistando o público paulistano.",
+        "en": "Dunguinhas bar innovates with a drink that blends Brazilian tradition and modern mixology, winning over São Paulo's audience."
+      }
+    },
+    {
+      "title": {
+        "pt": "Como democratizar o jurídico pode transformar o futuro dos pequenos empreendedores",
+        "en": "How democratizing legal services can transform the future of small entrepreneurs"
+      },
+      "link": "https://jornaldebrasilia.com.br/entretenimento/katia-flavia/um-contrato-muda-tudo-como-democratizar-o-juridico-pode-transformar-o-futuro-dos-pequenos-empreendedores/",
+      "category": "Debate",
+      "description": {
+        "pt": "Um contrato muda tudo: a democratização do acesso jurídico como ferramenta de empoderamento para micro e pequenos negócios.",
+        "en": "One contract changes everything: democratizing legal access as an empowerment tool for micro and small businesses."
+      }
+    },
+    {
+      "title": {
+        "pt": "A liderança técnica por trás dos projetos de engenharia mais estratégicos dos EUA",
+        "en": "The technical leadership behind the most strategic engineering projects in the US"
+      },
+      "link": "https://www.band.com.br/band-vale/noticias/a-lideranca-tecnica-por-tras-de-alguns-dos-projetos-de-engenharia-mais-estrategicos-dos-estados-unidos-202511271459",
+      "category": "Articles",
+      "description": {
+        "pt": "Profissional brasileiro se destaca à frente de grandes projetos de engenharia nos Estados Unidos com liderança técnica de excelência.",
+        "en": "Brazilian professional stands out leading major engineering projects in the United States with excellent technical leadership."
+      }
+    },
+    {
+      "title": {
+        "pt": "3Rinka divulga lançamento de nova faixa romântica",
+        "en": "3Rinka announces the release of a new romantic track"
+      },
+      "link": "https://istoe.com.br/despedida-3rinka-divulga-lancamento-de-nova-faixa-romantica",
+      "category": "Articles",
+      "description": {
+        "pt": "Artista 3Rinka anuncia 'Despedida', nova faixa romântica que promete emocionar fãs com letras intimistas e produção sofisticada.",
+        "en": "Artist 3Rinka announces 'Despedida', a new romantic track that promises to move fans with intimate lyrics and sophisticated production."
+      }
+    },
+    {
+      "title": {
+        "pt": "Leandro Lourenço lidera operação que levou água potável a cidades afetadas por desastre",
+        "en": "Leandro Lourenço leads operation that brought clean water to disaster-affected cities"
+      },
+      "link": "https://cartaodevisita.r7.com/conteudo/56712/leandro-lourenco-lidera-operacao-que-levou-agua-potavel-a-cidades-afetadas-por-desastre-no-sudeste",
+      "category": "Debate",
+      "description": {
+        "pt": "Operação humanitária liderada por Leandro Lourenço garantiu acesso à água potável para comunidades atingidas por desastre no Sudeste.",
+        "en": "Humanitarian operation led by Leandro Lourenço ensured access to clean water for communities affected by disaster in Southeast Brazil."
+      }
+    },
+    {
+      "title": {
+        "pt": "Influenciadora Letícia Alves promove palestra sobre autismo em São Paulo",
+        "en": "Influencer Letícia Alves hosts autism awareness talk in São Paulo"
+      },
+      "link": "https://gazetacentrooeste.com.br/noticia/35972/influenciadora-leticia-alves-promove-palestra-sobre-autismo-em-sao-paulo",
+      "category": "Case",
+      "description": {
+        "pt": "Letícia Alves leva conscientização sobre o espectro autista a São Paulo com evento que reuniu centenas de participantes.",
+        "en": "Letícia Alves brings autism spectrum awareness to São Paulo with an event that gathered hundreds of attendees."
+      }
+    },
+    {
+      "title": {
+        "pt": "Networking estratégico: a chave para se destacar na recolocação profissional",
+        "en": "Strategic networking: the key to standing out in career transitions"
+      },
+      "link": "https://globo.valorbusiness.com.br/networking-estrategico-a-chave-para-se-destacar-na-recolocacao-profissional/",
+      "category": "Debate",
+      "description": {
+        "pt": "Estratégias de networking inteligente que estão ajudando profissionais a conquistar novas oportunidades no mercado competitivo.",
+        "en": "Smart networking strategies that are helping professionals land new opportunities in the competitive market."
+      }
+    },
+    {
+      "title": {
+        "pt": "Famosas adotam técnicas de inteligência emocional em suas receitas de sucesso",
+        "en": "Celebrities adopt emotional intelligence techniques in their recipes for success"
+      },
+      "link": "https://oglobo.globo.com/ela/noticia/2025/04/15/famosas-adotam-tecnicas-de-inteligencia-emocional-em-suas-receitas-de-sucesso.ghtml",
+      "category": "Articles",
+      "description": {
+        "pt": "Celebridades compartilham como a inteligência emocional se tornou peça-chave em suas trajetórias pessoais e profissionais.",
+        "en": "Celebrities share how emotional intelligence has become a key element in their personal and professional journeys."
+      }
+    }
+  ]
+}

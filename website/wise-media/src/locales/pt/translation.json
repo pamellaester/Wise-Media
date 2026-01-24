@@ -1,6 +1,8 @@
 {
   "nav": {
+    "home": "Início",
     "services": "Serviços",
+    "articles": "Artigos",
     "about": "Sobre",
     "contact": "Contato",
     "tagline": "Comunicação Estratégica",
@@ -217,6 +219,8 @@
         "when": "Necessário em situações de exposição negativa, polêmicas públicas, vazamentos ou qualquer cenário que ameace a reputação."
       }
     },
+    "seeMore": "Saiba mais",
+    "seeLess": "Ver menos",
     "trustTitle": "Atuamos com inteligência, precisão e responsabilidade.",
     "trustDescription": "Cada serviço é personalizado para atender suas necessidades específicas. Entre em contato para uma avaliação inicial sem compromisso.",
     "cta": "Fale com a Wise Media"
@@ -323,6 +327,15 @@
     },
     "confidentiality": "Todas as conversas são tratadas com confidencialidade e responsabilidade institucional.",
     "cta": "Iniciar Conversa"
+  },
+  "reviews": {
+    "title": "O que nossos clientes dizem",
+    "reviewCount": "avaliações"
+  },
+  "articles": {
+    "title": "Debate & Artigos",
+    "description": "Publicações, cases e debates sobre comunicação, reputação e estratégia na mídia.",
+    "all": "Todos"
   },
   "footer": {
     "tagline": "Comunicação Estratégica",

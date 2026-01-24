@@ -1,6 +1,8 @@
 {
   "nav": {
+    "home": "Home",
     "services": "Services",
+    "articles": "Articles",
     "about": "About",
     "contact": "Contact",
     "tagline": "Strategic Communication",
@@ -217,6 +219,8 @@
         "when": "Necessary in situations of negative exposure, public controversies, leaks, or any scenario threatening reputation."
       }
     },
+    "seeMore": "Learn more",
+    "seeLess": "See less",
     "trustTitle": "We work with intelligence, precision, and responsibility.",
     "trustDescription": "Each service is customized to meet your specific needs. Contact us for a no-obligation initial assessment.",
     "cta": "Talk to Wise Media"
@@ -323,6 +327,15 @@
     },
     "confidentiality": "All conversations are treated with confidentiality and institutional responsibility.",
     "cta": "Start a Conversation"
+  },
+  "reviews": {
+    "title": "What our clients say",
+    "reviewCount": "reviews"
+  },
+  "articles": {
+    "title": "Debate & Articles",
+    "description": "Publications, cases, and debates on communication, reputation, and media strategy.",
+    "all": "All"
   },
   "footer": {
     "tagline": "Strategic Communication",

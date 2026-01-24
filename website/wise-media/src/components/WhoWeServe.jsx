@@ -63,7 +63,7 @@ export default function WhoWeServe() {
           <p className="text-white/80 text-sm mb-6">
             {t('whoWeServe.cta')}
           </p>
-          <a href="/contato" className="inline-flex items-center gap-2 bg-white text-brand-navy px-8 py-4 rounded-lg font-bold hover:shadow-2xl transition-all hover:scale-105">
+          <a href="/contato" className="inline-flex items-center gap-2 bg-brand-accent text-white px-8 py-4 rounded-lg font-bold hover:shadow-2xl hover:shadow-brand-accent/30 transition-all hover:scale-105">
             {t('whoWeServe.ctaButton')}
             <Icon name="ArrowRight" size={20} aria-hidden="true" />
           </a>

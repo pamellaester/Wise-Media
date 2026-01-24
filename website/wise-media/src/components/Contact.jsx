@@ -28,14 +28,11 @@ export default function Contact() {
           {/* Contact Methods */}
           <div className="mb-20">
             <h2 className="text-h2 text-white mb-12 heading-secondary text-center">
-              {t('contact.methodsTitle')}
+              c
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <article className="card-premium text-center group relative overflow-hidden">
-                {/* Left gradient accent on hover */}
-                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brand-lightBlue to-brand-navy opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
-
                 <div className="relative inline-block mb-6">
                   <div className="absolute inset-0 w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue/30 to-brand-navy/20 blur-lg opacity-60 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
                   <div className="relative w-16 h-16 rounded-full bg-gradient-to-br from-white to-gray-50 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform ring-1 ring-brand-navy/10" aria-hidden="true">
@@ -53,9 +50,6 @@ export default function Contact() {
               </article>
 
               <article className="card-premium text-center group relative overflow-hidden">
-                {/* Left gradient accent on hover */}
-                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brand-navy to-brand-lightBlue opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
-
                 <div className="relative inline-block mb-6">
                   <div className="absolute inset-0 w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue/30 to-brand-navy/20 blur-lg opacity-60 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
                   <div className="relative w-16 h-16 rounded-full bg-gradient-to-br from-white to-gray-50 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform ring-1 ring-brand-navy/10" aria-hidden="true">
@@ -75,9 +69,6 @@ export default function Contact() {
               </article>
 
               <article className="card-premium text-center group relative overflow-hidden">
-                {/* Left gradient accent on hover */}
-                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brand-lightBlue to-brand-navy opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
-
                 <div className="relative inline-block mb-6">
                   <div className="absolute inset-0 w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue/30 to-brand-navy/20 blur-lg opacity-60 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
                   <div className="relative w-16 h-16 rounded-full bg-gradient-to-br from-white to-gray-50 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform ring-1 ring-brand-navy/10" aria-hidden="true">
@@ -98,60 +89,54 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Process with gradient */}
-          <div className="mb-20 relative overflow-hidden bg-gradient-to-br from-brand-lightBlue/5 via-white to-brand-navy/5 rounded-2xl p-12">
-            {/* Top gradient accent */}
-            <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-lightBlue via-brand-navy to-brand-lightBlue" aria-hidden="true" />
-
-            <h2 className="text-h2 text-brand-navy mb-12 heading-secondary text-center relative">
+          {/* Process */}
+          <div className="mb-20">
+            <h2 className="text-h2 text-white mb-12 heading-secondary text-center">
               {t('contact.processTitle')}
             </h2>
 
-            <div className="space-y-10 max-w-3xl mx-auto relative">
-              <div className="flex gap-6 group">
-                <div className="flex-shrink-0 relative">
-                  <div className="absolute inset-0 w-14 h-14 rounded-full bg-gradient-to-br from-brand-lightBlue/30 to-brand-navy/20 blur-lg opacity-60 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
-                  <div className="relative w-14 h-14 rounded-full bg-gradient-to-br from-white to-gray-50 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform ring-1 ring-brand-navy/10" aria-hidden="true">
-                    <Icon name="MessageSquare" size={24} className="text-brand-navy" />
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+              <article className="relative group">
+                <div className="absolute -inset-1 bg-gradient-to-br from-white/30 to-brand-lightBlue/30 rounded-2xl blur opacity-75 group-hover:opacity-100 transition" aria-hidden="true" />
+                <div className="relative bg-white/10 backdrop-blur-lg rounded-xl p-8 border border-white/20 h-full">
+                  <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-br from-brand-lightBlue to-white mb-6 shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
+                    <Icon name="MessageSquare" size={26} className="text-brand-navy" />
                   </div>
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-brand-navy mb-3">{t('contact.process.initial.title')}</h3>
-                  <p className="text-brand-navy/70 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-3">{t('contact.process.initial.title')}</h3>
+                  <p className="text-white/80 leading-relaxed text-sm">
                     {t('contact.process.initial.description')}
                   </p>
+                  <div className="absolute bottom-0 right-0 w-24 h-24 bg-gradient-to-tl from-brand-lightBlue/20 to-transparent rounded-tl-full" aria-hidden="true" />
                 </div>
-              </div>
+              </article>
 
-              <div className="flex gap-6 group">
-                <div className="flex-shrink-0 relative">
-                  <div className="absolute inset-0 w-14 h-14 rounded-full bg-gradient-to-br from-brand-lightBlue/30 to-brand-navy/20 blur-lg opacity-60 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
-                  <div className="relative w-14 h-14 rounded-full bg-gradient-to-br from-white to-gray-50 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform ring-1 ring-brand-navy/10" aria-hidden="true">
-                    <Icon name="Search" size={24} className="text-brand-navy" />
+              <article className="relative group">
+                <div className="absolute -inset-1 bg-gradient-to-br from-brand-lightBlue/30 to-white/30 rounded-2xl blur opacity-75 group-hover:opacity-100 transition" aria-hidden="true" />
+                <div className="relative bg-white/10 backdrop-blur-lg rounded-xl p-8 border border-white/20 h-full">
+                  <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-br from-brand-lightBlue to-white mb-6 shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
+                    <Icon name="Search" size={26} className="text-brand-navy" />
                   </div>
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-brand-navy mb-3">{t('contact.process.analysis.title')}</h3>
-                  <p className="text-brand-navy/70 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-3">{t('contact.process.analysis.title')}</h3>
+                  <p className="text-white/80 leading-relaxed text-sm">
                     {t('contact.process.analysis.description')}
                   </p>
+                  <div className="absolute bottom-0 right-0 w-24 h-24 bg-gradient-to-tl from-brand-lightBlue/20 to-transparent rounded-tl-full" aria-hidden="true" />
                 </div>
-              </div>
+              </article>
 
-              <div className="flex gap-6 group">
-                <div className="flex-shrink-0 relative">
-                  <div className="absolute inset-0 w-14 h-14 rounded-full bg-gradient-to-br from-brand-lightBlue/30 to-brand-navy/20 blur-lg opacity-60 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
-                  <div className="relative w-14 h-14 rounded-full bg-gradient-to-br from-white to-gray-50 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform ring-1 ring-brand-navy/10" aria-hidden="true">
-                    <Icon name="FileText" size={24} className="text-brand-navy" />
+              <article className="relative group">
+                <div className="absolute -inset-1 bg-gradient-to-br from-white/30 to-brand-lightBlue/30 rounded-2xl blur opacity-75 group-hover:opacity-100 transition" aria-hidden="true" />
+                <div className="relative bg-white/10 backdrop-blur-lg rounded-xl p-8 border border-white/20 h-full">
+                  <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-br from-brand-lightBlue to-white mb-6 shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
+                    <Icon name="FileText" size={26} className="text-brand-navy" />
                   </div>
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-brand-navy mb-3">{t('contact.process.plan.title')}</h3>
-                  <p className="text-brand-navy/70 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-3">{t('contact.process.plan.title')}</h3>
+                  <p className="text-white/80 leading-relaxed text-sm">
                     {t('contact.process.plan.description')}
                   </p>
+                  <div className="absolute bottom-0 right-0 w-24 h-24 bg-gradient-to-tl from-brand-lightBlue/20 to-transparent rounded-tl-full" aria-hidden="true" />
                 </div>
-              </div>
+              </article>
             </div>
           </div>
 
@@ -166,7 +151,7 @@ export default function Contact() {
             <div>
               <a
                 href="mailto:wisemediasolucoes@gmail.com"
-                className="inline-flex items-center gap-2 bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white px-10 py-4 rounded-lg font-bold hover:shadow-xl transition-all hover:scale-105"
+                className="inline-flex items-center gap-2 bg-brand-accent text-white px-10 py-4 rounded-lg font-bold hover:shadow-xl hover:shadow-brand-accent/30 transition-all hover:scale-105"
               >
                 {t('contact.cta')}
                 <Icon name="ArrowRight" size={20} aria-hidden="true" />

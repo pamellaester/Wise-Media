@@ -36,7 +36,7 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-wrap gap-4 items-center mb-20">
-            <a href="#contact" className="bg-white text-brand-navy px-10 py-4 rounded-lg font-bold text-[15px] hover:shadow-2xl transition-all hover:scale-105 inline-flex items-center gap-2">
+            <a href="#contact" className="bg-brand-accent text-white px-10 py-4 rounded-lg font-bold text-[15px] hover:shadow-2xl hover:shadow-brand-accent/30 transition-all hover:scale-105 inline-flex items-center gap-2">
               {t('hero.cta')}
               <Icon name="ArrowRight" size={20} aria-hidden="true" />
             </a>

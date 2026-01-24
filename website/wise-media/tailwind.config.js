@@ -8,7 +8,8 @@ export default {
         colors: {
           brand: {
             navy: "#001F3F",      // Primary - dominates large areas
-            lightBlue: "#41C2F3", // Accent - CTAs, links, highlights only
+            lightBlue: "#41C2F3", // Accent - links, highlights
+            accent: "#00a7d6",    // CTA buttons - vibrant, attention-grabbing
             white: "#FFFFFF",     // Background / text contrast
           },
         },

@@ -57,7 +57,7 @@ export default function ContactHome() {
                     href="https://wa.me/5511922250182"
                     target="_blank"
                     rel="noreferrer"
-                    className="bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white px-10 py-4 rounded-lg font-bold hover:shadow-xl transition-all hover:scale-105 inline-flex items-center justify-center gap-2"
+                    className="bg-brand-accent text-white px-10 py-4 rounded-lg font-bold hover:shadow-xl hover:shadow-brand-accent/30 transition-all hover:scale-105 inline-flex items-center justify-center gap-2"
                   >
                     {t('contactHome.cta')}
                     <Icon name="ArrowRight" size={20} className="text-white" />

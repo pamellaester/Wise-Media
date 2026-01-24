@@ -1,0 +1,56 @@
+{
+  "company": "Wise Media Group",
+  "location": "São Paulo",
+  "averageRating": 4.9,
+  "totalReviews": 8,
+  "reviews": [
+    {
+      "author": "Marcela R.",
+      "rating": 5,
+      "text": "Excelente trabalho de comunicação estratégica. A equipe da Wise Media entendeu perfeitamente nossas necessidades e entregou resultados surpreendentes.",
+      "date": "2 semanas atrás"
+    },
+    {
+      "author": "Felipe S.",
+      "rating": 5,
+      "text": "Profissionais extremamente competentes e discretos. Recomendo para qualquer empresa que valoriza sua reputação.",
+      "date": "1 mês atrás"
+    },
+    {
+      "author": "Carolina M.",
+      "rating": 5,
+      "text": "A Wise Media transformou nossa presença digital. Atendimento personalizado e estratégias que realmente funcionam.",
+      "date": "1 mês atrás"
+    },
+    {
+      "author": "Ricardo T.",
+      "rating": 4,
+      "text": "Ótimo serviço de assessoria de imprensa. Conseguimos uma cobertura de mídia muito acima do esperado.",
+      "date": "2 meses atrás"
+    },
+    {
+      "author": "Ana Paula L.",
+      "rating": 5,
+      "text": "Trabalho impecável na gestão de crise. Agiram rápido e com muita inteligência. Equipe nota 10!",
+      "date": "2 meses atrás"
+    },
+    {
+      "author": "Eduardo K.",
+      "rating": 5,
+      "text": "Parceria sólida e resultados consistentes. A Wise Media é referência em comunicação empresarial em São Paulo.",
+      "date": "3 meses atrás"
+    },
+    {
+      "author": "Juliana F.",
+      "rating": 5,
+      "text": "Desde que contratamos a Wise Media, nossa visibilidade no mercado cresceu significativamente. Super recomendo!",
+      "date": "4 meses atrás"
+    },
+    {
+      "author": "Bruno A.",
+      "rating": 4,
+      "text": "Serviço de alta qualidade com foco em resultados. Equipe sempre disponível e muito profissional.",
+      "date": "5 meses atrás"
+    }
+  ]
+}

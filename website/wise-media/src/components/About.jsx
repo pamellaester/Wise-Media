@@ -193,73 +193,68 @@ export default function About() {
           </div>
         </div>
 
-        {/* Values Section with bold gradient */}
+        {/* Values Section */}
         <div className="max-w-5xl mx-auto mb-24">
-          <div className="relative overflow-hidden bg-gradient-to-br from-brand-lightBlue/5 via-white to-brand-navy/5 rounded-2xl p-12 border border-brand-navy/5">
-            {/* Bold top gradient accent */}
-            <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-lightBlue via-brand-navy to-brand-lightBlue"></div>
+          <div className="text-center mb-12">
+            <h2 className="text-h2 text-white mb-4 heading-secondary">{t('about.values.title')}</h2>
+          </div>
 
-            <div className="text-center mb-12 relative">
-              <h2 className="text-h2 text-brand-navy mb-4 heading-secondary">{t('about.values.title')}</h2>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto relative">
-              <div className="flex items-start gap-4 group">
-                <div className="flex-shrink-0">
-                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
-                    <Icon name="Scale" size={18} className="text-white" />
-                  </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <article className="relative group">
+              <div className="absolute -inset-1 bg-gradient-to-br from-white/30 to-brand-lightBlue/30 rounded-2xl blur opacity-75 group-hover:opacity-100 transition" aria-hidden="true" />
+              <div className="relative bg-white/10 backdrop-blur-lg rounded-xl p-8 border border-white/20 h-full">
+                <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-br from-brand-lightBlue to-white mb-6 shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
+                  <Icon name="Scale" size={26} className="text-brand-navy" />
                 </div>
-                <div>
-                  <h4 className="font-semibold text-brand-navy mb-2">{t('about.values.items.ethics.title')}</h4>
-                  <p className="text-brand-navy/70 text-sm leading-relaxed">
-                    {t('about.values.items.ethics.description')}
-                  </p>
-                </div>
+                <h4 className="text-xl font-semibold text-white mb-3">{t('about.values.items.ethics.title')}</h4>
+                <p className="text-white/80 text-sm leading-relaxed">
+                  {t('about.values.items.ethics.description')}
+                </p>
+                <div className="absolute bottom-0 right-0 w-24 h-24 bg-gradient-to-tl from-brand-lightBlue/20 to-transparent rounded-tl-full" aria-hidden="true" />
               </div>
+            </article>
 
-              <div className="flex items-start gap-4 group">
-                <div className="flex-shrink-0">
-                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-navy to-brand-lightBlue flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
-                    <Icon name="Gem" size={18} className="text-white" />
-                  </div>
+            <article className="relative group">
+              <div className="absolute -inset-1 bg-gradient-to-br from-brand-lightBlue/30 to-white/30 rounded-2xl blur opacity-75 group-hover:opacity-100 transition" aria-hidden="true" />
+              <div className="relative bg-white/10 backdrop-blur-lg rounded-xl p-8 border border-white/20 h-full">
+                <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-br from-brand-lightBlue to-white mb-6 shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
+                  <Icon name="Gem" size={26} className="text-brand-navy" />
                 </div>
-                <div>
-                  <h4 className="font-semibold text-brand-navy mb-2">{t('about.values.items.excellence.title')}</h4>
-                  <p className="text-brand-navy/70 text-sm leading-relaxed">
-                    {t('about.values.items.excellence.description')}
-                  </p>
-                </div>
+                <h4 className="text-xl font-semibold text-white mb-3">{t('about.values.items.excellence.title')}</h4>
+                <p className="text-white/80 text-sm leading-relaxed">
+                  {t('about.values.items.excellence.description')}
+                </p>
+                <div className="absolute bottom-0 right-0 w-24 h-24 bg-gradient-to-tl from-brand-lightBlue/20 to-transparent rounded-tl-full" aria-hidden="true" />
               </div>
+            </article>
 
-              <div className="flex items-start gap-4 group">
-                <div className="flex-shrink-0">
-                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
-                    <Icon name="KeyRound" size={18} className="text-white" />
-                  </div>
+            <article className="relative group">
+              <div className="absolute -inset-1 bg-gradient-to-br from-white/30 to-brand-lightBlue/30 rounded-2xl blur opacity-75 group-hover:opacity-100 transition" aria-hidden="true" />
+              <div className="relative bg-white/10 backdrop-blur-lg rounded-xl p-8 border border-white/20 h-full">
+                <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-br from-brand-lightBlue to-white mb-6 shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
+                  <Icon name="KeyRound" size={26} className="text-brand-navy" />
                 </div>
-                <div>
-                  <h4 className="font-semibold text-brand-navy mb-2">{t('about.values.items.confidentiality.title')}</h4>
-                  <p className="text-brand-navy/70 text-sm leading-relaxed">
-                    {t('about.values.items.confidentiality.description')}
-                  </p>
-                </div>
+                <h4 className="text-xl font-semibold text-white mb-3">{t('about.values.items.confidentiality.title')}</h4>
+                <p className="text-white/80 text-sm leading-relaxed">
+                  {t('about.values.items.confidentiality.description')}
+                </p>
+                <div className="absolute bottom-0 right-0 w-24 h-24 bg-gradient-to-tl from-brand-lightBlue/20 to-transparent rounded-tl-full" aria-hidden="true" />
               </div>
+            </article>
 
-              <div className="flex items-start gap-4 group">
-                <div className="flex-shrink-0">
-                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-navy to-brand-lightBlue flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
-                    <Icon name="Brain" size={18} className="text-white" />
-                  </div>
+            <article className="relative group">
+              <div className="absolute -inset-1 bg-gradient-to-br from-brand-lightBlue/30 to-white/30 rounded-2xl blur opacity-75 group-hover:opacity-100 transition" aria-hidden="true" />
+              <div className="relative bg-white/10 backdrop-blur-lg rounded-xl p-8 border border-white/20 h-full">
+                <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-br from-brand-lightBlue to-white mb-6 shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
+                  <Icon name="Brain" size={26} className="text-brand-navy" />
                 </div>
-                <div>
-                  <h4 className="font-semibold text-brand-navy mb-2">{t('about.values.items.intelligence.title')}</h4>
-                  <p className="text-brand-navy/70 text-sm leading-relaxed">
-                    {t('about.values.items.intelligence.description')}
-                  </p>
-                </div>
+                <h4 className="text-xl font-semibold text-white mb-3">{t('about.values.items.intelligence.title')}</h4>
+                <p className="text-white/80 text-sm leading-relaxed">
+                  {t('about.values.items.intelligence.description')}
+                </p>
+                <div className="absolute bottom-0 right-0 w-24 h-24 bg-gradient-to-tl from-brand-lightBlue/20 to-transparent rounded-tl-full" aria-hidden="true" />
               </div>
-            </div>
+            </article>
           </div>
         </div>
 
