@@ -29,60 +29,53 @@ export default function Services() {
 
       <div className="container-content section-spacing relative">
         {/* Header */}
-        <header className="max-w-4xl mx-auto mb-14 text-center">
-          <div className="inline-block px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm border border-white/30 mb-6">
-            <span className="text-white/90 text-sm font-semibold tracking-wide">{t('services.title')}</span>
-          </div>
-          <h1 className="text-h1 text-white mb-6 heading-primary">{t('services.title')}</h1>
-          <p className="text-white/80 text-lg max-w-2xl mx-auto">
+        <header className="max-w-3xl mx-auto mb-10 md:mb-12 text-center">
+          <div className="accent-line-bold mx-auto mb-5" aria-hidden="true" />
+          <h1 className="text-h1 text-white mb-4 heading-primary">{t('services.title')}</h1>
+          <p className="text-white/70 text-base md:text-lg max-w-xl mx-auto leading-relaxed">
             {t('services.description')}
           </p>
         </header>
 
-        {/* Services Grid - compact 2x3 */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl mx-auto mb-16">
+        {/* Services Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto mb-12">
           {services.map((service) => {
             const isActive = activeService === service.key;
 
             return (
               <article
                 key={service.key}
-                className="relative group cursor-pointer"
+                className="cursor-pointer"
                 onClick={() => setActiveService(isActive ? null : service.key)}
               >
-                {/* Gradient border glow */}
-                <div className={`absolute -inset-1 bg-gradient-to-br from-white/30 to-brand-lightBlue/30 rounded-2xl blur transition ${
-                  isActive ? "opacity-100" : "opacity-75 group-hover:opacity-100"
-                }`} aria-hidden="true" />
-
-                <div className={`relative bg-white/10 backdrop-blur-lg rounded-xl p-6 border h-full transition-all duration-300 ${
-                  isActive ? "border-brand-lightBlue/40" : "border-white/20"
+                <div className={`bg-white/8 backdrop-blur-sm rounded-xl p-5 border h-full transition-all duration-300 ${
+                  isActive ? "border-brand-lightBlue/30 bg-white/12" : "border-white/10 hover:bg-white/10 hover:border-white/15"
                 }`}>
                   {/* Icon + Title */}
-                  <div className="flex items-center gap-4 mb-4">
-                    <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-br from-brand-lightBlue to-white shadow-lg group-hover:scale-110 transition-transform flex-shrink-0" aria-hidden="true">
-                      <Icon name={service.iconName} size={22} className="text-brand-navy" />
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-to-br from-brand-lightBlue/90 to-white shadow-sm flex-shrink-0">
+                      <Icon name={service.iconName} size={18} className="text-brand-navy" />
                     </div>
-                    <h2 className="text-lg font-semibold text-white leading-tight">
+                    <h2 className="text-base font-semibold text-white leading-snug">
                       {t(`services.items.${service.key}.title`)}
                     </h2>
                   </div>
 
                   {/* Deliver - always visible */}
-                  <p className="text-white/70 text-sm leading-relaxed mb-3">
+                  <p className="text-white/55 text-sm leading-relaxed mb-2">
                     {t(`services.items.${service.key}.deliver`)}
                   </p>
 
                   {/* Expandable "When to use" */}
                   <div className={`overflow-hidden transition-all duration-300 ${
-                    isActive ? "max-h-40 opacity-100 mt-4" : "max-h-0 opacity-0"
+                    isActive ? "max-h-48 opacity-100 mt-3" : "max-h-0 opacity-0"
                   }`}>
-                    <div className="bg-white/5 rounded-lg p-4 border border-white/10">
+                    <div className="bg-white/5 rounded-lg p-3 border border-white/10">
                       <div className="flex items-start gap-2">
-                        <Icon name="Info" size={14} className="text-brand-lightBlue flex-shrink-0 mt-0.5" aria-hidden="true" />
+                        <Icon name="Info" size={12} className="text-brand-lightBlue/70 flex-shrink-0 mt-0.5" aria-hidden="true" />
                         <div>
-                          <span className="text-xs font-semibold text-white/60 block mb-1">{t('services.whenLabel')}</span>
-                          <p className="text-white/60 text-xs leading-relaxed">
+                          <span className="text-xs font-medium text-white/50 block mb-1">{t('services.whenLabel')}</span>
+                          <p className="text-white/50 text-xs leading-relaxed">
                             {t(`services.items.${service.key}.when`)}
                           </p>
                         </div>
@@ -91,13 +84,10 @@ export default function Services() {
                   </div>
 
                   {/* Expand indicator */}
-                  <div className="flex items-center gap-1 mt-3 text-xs text-brand-lightBlue/80">
-                    <Icon name={isActive ? "ChevronUp" : "ChevronDown"} size={14} />
-                    <span>{isActive ? (t('services.seeLess') || "Less") : (t('services.seeMore') || "More")}</span>
+                  <div className="flex items-center gap-1 mt-2 text-xs text-brand-lightBlue/70">
+                    <Icon name={isActive ? "ChevronUp" : "ChevronDown"} size={12} />
+                    <span>{isActive ? t('services.seeLess') : t('services.seeMore')}</span>
                   </div>
-
-                  {/* Decorative corner */}
-                  <div className="absolute bottom-0 right-0 w-20 h-20 bg-gradient-to-tl from-brand-lightBlue/15 to-transparent rounded-tl-full" aria-hidden="true" />
                 </div>
               </article>
             );
@@ -106,9 +96,9 @@ export default function Services() {
 
         {/* CTA */}
         <div className="text-center">
-          <a href="/contato" className="inline-flex items-center gap-2 bg-brand-accent text-white px-10 py-4 rounded-lg font-bold hover:shadow-2xl hover:shadow-brand-accent/30 transition-all hover:scale-105">
+          <a href="/contato" className="inline-flex items-center gap-2 bg-brand-accent text-white px-6 py-3 rounded-lg font-semibold text-sm hover:shadow-lg hover:shadow-brand-accent/25 transition-all hover:translate-y-[-1px]">
             {t('services.cta')}
-            <Icon name="ArrowRight" size={20} aria-hidden="true" />
+            <Icon name="ArrowRight" size={18} aria-hidden="true" />
           </a>
         </div>
       </div>

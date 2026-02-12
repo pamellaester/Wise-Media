@@ -26,35 +26,34 @@ export default function TrustMarkers() {
       <div className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-br from-brand-lightBlue/5 to-transparent"></div>
 
       <div className="container-content section-spacing relative">
-        {/* Stats Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-5xl mx-auto mb-20">
+        {/* Stats Grid - tighter spacing */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 max-w-4xl mx-auto mb-14 md:mb-16">
           {stats.map((stat) => (
             <div key={stat.key} className="text-center group">
-              <div className="relative inline-block mb-4">
-                <div className="absolute inset-0 w-16 h-16 rounded-full bg-gradient-to-br from-brand-lightBlue/30 to-brand-navy/20 blur-lg opacity-60 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
-                <div className="relative w-16 h-16 rounded-full bg-gradient-to-br from-white to-gray-50 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform ring-1 ring-brand-navy/10" aria-hidden="true">
-                  <Icon name={stat.iconName} size={28} className="text-brand-navy drop-shadow-sm" />
+              <div className="relative inline-block mb-3">
+                <div className="relative w-12 h-12 md:w-14 md:h-14 rounded-full bg-gradient-to-br from-white to-gray-50 flex items-center justify-center shadow-md group-hover:scale-105 transition-transform ring-1 ring-brand-navy/10" aria-hidden="true">
+                  <Icon name={stat.iconName} size={24} className="text-brand-navy" />
                 </div>
               </div>
-              <div className="text-4xl font-bold text-brand-navy mb-2 bg-gradient-to-r from-brand-navy to-brand-lightBlue bg-clip-text text-transparent">
+              <div className="text-2xl md:text-3xl font-bold text-brand-navy mb-1">
                 {t(`trustMarkers.stats.${stat.key}Value`)}
               </div>
-              <div className="text-sm text-brand-navy/70 font-medium">
+              <div className="text-xs md:text-sm text-brand-navy/60 font-medium">
                 {t(`trustMarkers.stats.${stat.key}`)}
               </div>
             </div>
           ))}
         </div>
 
-        {/* Divider with gradient */}
-        <div className="max-w-5xl mx-auto mb-20">
-          <div className="h-px bg-gradient-to-r from-transparent via-brand-navy/20 to-transparent"></div>
+        {/* Divider */}
+        <div className="max-w-3xl mx-auto mb-12 md:mb-14">
+          <div className="h-px bg-gradient-to-r from-transparent via-brand-navy/15 to-transparent"></div>
         </div>
 
         {/* Client Sectors Section */}
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-12">
-            <h3 className="text-xl font-semibold text-brand-navy/60 mb-3">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-8 md:mb-10">
+            <h3 className="text-lg font-semibold text-brand-navy/70 mb-2">
               {t('trustMarkers.sectorsTitle')}
             </h3>
             <p className="text-brand-navy/50 text-sm">
@@ -62,17 +61,17 @@ export default function TrustMarkers() {
             </p>
           </div>
 
-          {/* Sectors Grid */}
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 items-center">
+          {/* Sectors Grid - more compact */}
+          <div className="grid grid-cols-3 md:grid-cols-6 gap-3 md:gap-4">
             {clientSectors.map((sector) => (
               <div
                 key={sector.id}
-                className="group relative flex flex-col items-center justify-center p-6 rounded-xl bg-gradient-to-br from-gray-50 to-white border border-brand-navy/5 hover:border-brand-lightBlue/30 transition-all hover:shadow-lg"
+                className="group flex flex-col items-center justify-center p-4 md:p-5 rounded-lg bg-gray-50/80 border border-brand-navy/5 hover:border-brand-lightBlue/30 hover:bg-white transition-all"
               >
-                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-brand-lightBlue/20 to-brand-navy/10 flex items-center justify-center mb-3 group-hover:scale-110 group-hover:from-brand-lightBlue/30 group-hover:to-brand-navy/20 transition-all" aria-hidden="true">
-                  <Icon name={sector.iconName} size={26} className="text-brand-navy/60 group-hover:text-brand-navy transition-colors" />
+                <div className="w-10 h-10 md:w-11 md:h-11 rounded-lg bg-brand-navy/5 flex items-center justify-center mb-2 group-hover:bg-brand-lightBlue/15 transition-colors" aria-hidden="true">
+                  <Icon name={sector.iconName} size={20} className="text-brand-navy/50 group-hover:text-brand-navy transition-colors" />
                 </div>
-                <div className="text-sm text-brand-navy/70 font-medium text-center">
+                <div className="text-xs text-brand-navy/60 font-medium text-center leading-tight">
                   {t(`trustMarkers.sectors.${sector.key}`)}
                 </div>
               </div>
@@ -80,9 +79,9 @@ export default function TrustMarkers() {
           </div>
 
           {/* Note about confidentiality */}
-          <div className="mt-12 text-center">
-            <div className="inline-flex items-center gap-2 text-brand-navy/40 text-xs italic">
-              <Icon name="ShieldCheck" size={14} aria-hidden="true" />
+          <div className="mt-8 text-center">
+            <div className="inline-flex items-center gap-2 text-brand-navy/40 text-xs">
+              <Icon name="ShieldCheck" size={12} aria-hidden="true" />
               <span>{t('trustMarkers.confidentialityNote')}</span>
             </div>
           </div>

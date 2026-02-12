@@ -14,6 +14,7 @@
     "description": "Atuamos com inteligência, precisão e responsabilidade para apoiar profissionais e marcas em cenários de alta exposição — da assessoria de imprensa à gestão de crise, com total discrição.",
     "cta": "Fale com a Wise Media",
     "ctaSecondary": "Conheça os Serviços",
+    "teamNote": "Equipe especializada em comunicação estratégica",
     "metrics": {
       "clients": "Clientes Atendidos",
       "clientsValue": "+50",
@@ -250,7 +251,9 @@
         "role": "Estrategista de comunicação",
         "description": "Especialista em comunicação de crise e gestão de reputação, com atuação em cenários complexos que exigem inteligência e discrição.",
         "tags": ["Crises", "Reputação", "Estratégia"]
-      }
+      },
+      "eventAlt": "Equipe Wise Media em evento corporativo",
+      "eventCaption": "Nossa equipe em ação — construindo conexões estratégicas em eventos corporativos."
     },
     "howWeWork": {
       "title": "Como Atuamos",
@@ -327,6 +330,12 @@
     },
     "confidentiality": "Todas as conversas são tratadas com confidencialidade e responsabilidade institucional.",
     "cta": "Iniciar Conversa"
+  },
+  "teamBanner": {
+    "alt": "Equipe Wise Media em evento corporativo",
+    "title": "Conexões estratégicas que geram resultados",
+    "subtitle": "Nossa equipe atua em eventos, mídia e bastidores para fortalecer sua presença.",
+    "cta": "Conheça a equipe"
   },
   "reviews": {
     "title": "O que nossos clientes dizem",

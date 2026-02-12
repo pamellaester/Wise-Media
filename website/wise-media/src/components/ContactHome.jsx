@@ -17,74 +17,68 @@ export default function ContactHome() {
       />
 
       <div className="container-content section-spacing relative">
-        <div className="max-w-4xl mx-auto">
-          <header className="text-center mb-16">
-            <div className="accent-line-bold mx-auto mb-6" aria-hidden="true" />
-            <h2 id="contact-home-heading" className="text-h2 text-white mb-6 heading-secondary">
+        <div className="max-w-3xl mx-auto">
+          <header className="text-center mb-10 md:mb-12">
+            <div className="accent-line-bold mx-auto mb-5" aria-hidden="true" />
+            <h2 id="contact-home-heading" className="text-h2 text-white mb-4 heading-secondary">
               {t('contactHome.title')}
             </h2>
-            <p className="text-white max-w-2xl mx-auto">
+            <p className="text-white/70 max-w-lg mx-auto text-base leading-relaxed">
               {t('contactHome.description')}
             </p>
           </header>
 
-          {/* Premium CTA Card with bold gradient */}
-          <div className="relative max-w-2xl mx-auto group">
-            {/* Gradient glow */}
-            <div className="absolute -inset-2 bg-gradient-to-r from-brand-lightBlue via-brand-navy to-brand-lightBlue rounded-2xl blur-xl opacity-40 group-hover:opacity-60 transition" aria-hidden="true" />
-
-            <div className="relative bg-white rounded-xl shadow-2xl overflow-hidden">
+          {/* Clean CTA Card */}
+          <div className="relative max-w-xl mx-auto">
+            <div className="relative bg-white rounded-xl shadow-xl overflow-hidden">
               {/* Top accent */}
-              <div className="h-2 bg-gradient-to-r from-brand-lightBlue via-brand-navy to-brand-lightBlue" aria-hidden="true" />
+              <div className="h-1 bg-gradient-to-r from-brand-lightBlue via-brand-navy to-brand-lightBlue" aria-hidden="true" />
 
-              <div className="p-12 text-center">
-                <div className="relative inline-block mb-8">
-                  <div className="absolute inset-0 w-24 h-24 rounded-full bg-gradient-to-br from-brand-lightBlue/40 to-brand-navy/30 blur-xl opacity-70 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
-                  <div className="relative w-24 h-24 rounded-full bg-gradient-to-br from-white to-gray-50 flex items-center justify-center shadow-xl ring-1 ring-brand-navy/10 group-hover:scale-105 transition-transform" aria-hidden="true">
-                    <Icon name="Send" size={44} className="text-brand-navy" />
-                  </div>
+              <div className="p-6 md:p-8 text-center">
+                <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-brand-navy/5 mb-5">
+                  <Icon name="Send" size={28} className="text-brand-navy" />
                 </div>
 
-                <h3 className="text-2xl font-semibold text-brand-navy mb-4">
+                <h3 className="text-xl font-semibold text-brand-navy mb-2">
                   {t('contactHome.cardTitle')}
                 </h3>
-                <p className="text-brand-navy/70 mb-10">
+                <p className="text-brand-navy/60 text-sm mb-6">
                   {t('contactHome.cardDescription')}
                 </p>
 
-                <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
+                <div className="flex flex-col sm:flex-row gap-3 justify-center mb-6">
                   <a
                     href="https://wa.me/5511922250182"
                     target="_blank"
                     rel="noreferrer"
-                    className="bg-brand-accent text-white px-10 py-4 rounded-lg font-bold hover:shadow-xl hover:shadow-brand-accent/30 transition-all hover:scale-105 inline-flex items-center justify-center gap-2"
+                    className="bg-brand-accent text-white px-6 py-3 rounded-lg font-semibold text-sm hover:shadow-lg hover:shadow-brand-accent/25 transition-all hover:translate-y-[-1px] inline-flex items-center justify-center gap-2"
                   >
                     {t('contactHome.cta')}
-                    <Icon name="ArrowRight" size={20} className="text-white" />
+                    <Icon name="ArrowRight" size={16} className="text-white" />
                   </a>
                   <a
                     href="mailto:wisemediasolucoes@gmail.com"
-                    className="bg-white border-2 border-brand-navy text-brand-navy px-10 py-4 rounded-lg font-semibold hover:bg-brand-navy hover:text-white transition-all"
+                    className="bg-white border border-brand-navy/20 text-brand-navy px-6 py-3 rounded-lg font-medium text-sm hover:bg-brand-navy/5 transition-all"
                   >
                     {t('contactHome.ctaEmail')}
                   </a>
                 </div>
 
-                {/* Contact info with gradient accents */}
-                <div className="pt-10 border-t border-brand-navy/10">
-                  <div className="flex flex-col sm:flex-row gap-6 justify-center text-sm">
+                {/* Contact info */}
+                <div className="pt-5 border-t border-brand-navy/10">
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center text-xs">
                     <a
                       href="mailto:wisemediasolucoes@gmail.com"
-                      className="text-brand-navy/70 hover:text-brand-lightBlue transition-colors font-medium"
+                      className="text-brand-navy/50 hover:text-brand-navy transition-colors"
                     >
                       wisemediasolucoes@gmail.com
                     </a>
-                    <span className="hidden sm:block text-brand-navy/30">•</span>
+                    <span className="hidden sm:block text-brand-navy/20">•</span>
                     <a
                       href="https://instagram.com/wisemediasolucoes11"
                       target="_blank"
                       rel="noreferrer"
-                      className="text-brand-navy/70 hover:text-brand-lightBlue transition-colors font-medium"
+                      className="text-brand-navy/50 hover:text-brand-navy transition-colors"
                     >
                       @wisemediasolucoes11
                     </a>

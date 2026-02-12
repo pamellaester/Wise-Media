@@ -19,52 +19,52 @@ export default function FAQ() {
 
       <div className="container-content section-spacing relative">
         {/* Header */}
-        <header className="text-center mb-16">
-          <div className="accent-line-bold mx-auto mb-6" aria-hidden="true" />
-          <h2 id="faq-heading" className="text-h2 text-brand-navy mb-6 heading-secondary">
+        <header className="text-center mb-10 md:mb-12">
+          <div className="accent-line-bold mx-auto mb-5" aria-hidden="true" />
+          <h2 id="faq-heading" className="text-h2 text-brand-navy mb-4 heading-secondary">
             {t('faq.title')}
           </h2>
-          <p className="text-premium max-w-2xl mx-auto">
+          <p className="text-brand-navy/70 max-w-xl mx-auto text-base leading-relaxed">
             {t('faq.description')}
           </p>
         </header>
 
         {/* FAQ List */}
-        <div className="max-w-3xl mx-auto space-y-4" role="list">
+        <div className="max-w-3xl mx-auto space-y-3" role="list">
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="card-premium relative overflow-hidden group cursor-pointer"
+              className="card-compact relative overflow-hidden cursor-pointer hover:shadow-md transition-shadow"
               onClick={() => toggleFAQ(index)}
               onKeyDown={(e) => e.key === 'Enter' && toggleFAQ(index)}
               role="listitem"
               tabIndex={0}
               aria-expanded={openIndex === index}
             >
-              {/* Left gradient accent when open */}
+              {/* Left accent when open */}
               <div
-                className={`absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brand-lightBlue to-brand-navy transition-opacity ${openIndex === index ? 'opacity-100' : 'opacity-0'}`}
+                className={`absolute left-0 top-0 bottom-0 w-0.5 bg-gradient-to-b from-brand-lightBlue to-brand-navy transition-opacity ${openIndex === index ? 'opacity-100' : 'opacity-0'}`}
                 aria-hidden="true"
               />
 
-              <div className="flex items-start justify-between gap-4">
-                <div className="flex-1">
-                  <h3 className="text-lg font-semibold text-brand-navy mb-2 pr-8">
+              <div className="flex items-start justify-between gap-3">
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-base font-medium text-brand-navy pr-4">
                     {faq.question}
                   </h3>
 
-                  {openIndex === index && (
-                    <p className="text-brand-navy/70 leading-relaxed text-[15px] mt-4 animate-fadeIn">
+                  <div className={`overflow-hidden transition-all duration-300 ${openIndex === index ? 'max-h-96 opacity-100 mt-3' : 'max-h-0 opacity-0'}`}>
+                    <p className="text-brand-navy/65 leading-relaxed text-sm">
                       {faq.answer}
                     </p>
-                  )}
+                  </div>
                 </div>
 
                 <div
-                  className={`flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-br from-brand-lightBlue to-brand-navy flex items-center justify-center transition-transform ${openIndex === index ? 'rotate-180' : ''}`}
+                  className={`flex-shrink-0 w-7 h-7 rounded-full bg-brand-navy/10 flex items-center justify-center transition-all duration-300 ${openIndex === index ? 'rotate-180 bg-brand-navy' : ''}`}
                   aria-hidden="true"
                 >
-                  <Icon name="ChevronDown" size={16} className="text-white" />
+                  <Icon name="ChevronDown" size={14} className={openIndex === index ? 'text-white' : 'text-brand-navy/60'} />
                 </div>
               </div>
             </div>
@@ -72,16 +72,16 @@ export default function FAQ() {
         </div>
 
         {/* Contact CTA */}
-        <div className="text-center mt-16">
-          <p className="text-brand-navy/60 mb-6">
+        <div className="text-center mt-12">
+          <p className="text-brand-navy/60 mb-5 text-sm">
             {t('faq.cta')}
           </p>
           <a
             href="/contato"
-            className="inline-flex items-center gap-2 bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white px-10 py-4 rounded-lg font-bold hover:shadow-xl transition-all hover:scale-105"
+            className="inline-flex items-center gap-2 bg-brand-accent text-white px-6 py-3 rounded-lg font-semibold text-sm hover:shadow-lg hover:shadow-brand-accent/25 transition-all hover:translate-y-[-1px]"
           >
             {t('faq.ctaButton')}
-            <Icon name="ArrowRight" size={20} aria-hidden="true" />
+            <Icon name="ArrowRight" size={18} aria-hidden="true" />
           </a>
         </div>
       </div>

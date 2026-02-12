@@ -26,46 +26,40 @@ export default function ServicesOverview() {
       />
 
       <div className="container-content section-spacing relative">
-        <header className="text-center mb-20">
-          <div className="inline-block px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm border border-white/30 mb-6">
-            <span className="text-white/90 text-sm font-semibold tracking-wide">{t('servicesOverview.title')}</span>
+        <header className="text-center mb-10 md:mb-14">
+          <div className="inline-block px-3 py-1.5 rounded-full bg-white/15 border border-white/20 mb-5">
+            <span className="text-white/80 text-xs font-semibold tracking-wide uppercase">{t('servicesOverview.tag')}</span>
           </div>
-          <h2 className="text-h2 text-white mb-6 heading-secondary">{t('servicesOverview.title')}</h2>
-          <p className="text-white/80 text-lg max-w-2xl mx-auto">
+          <h2 className="text-h2 text-white mb-4 heading-secondary">{t('servicesOverview.title')}</h2>
+          <p className="text-white/70 text-base md:text-lg max-w-xl mx-auto leading-relaxed">
             {t('servicesOverview.description')}
           </p>
         </header>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5 max-w-5xl mx-auto">
           {services.map((service) => (
             <article key={service.key} className="relative group">
-              {/* Gradient border glow */}
-              <div className="absolute -inset-1 bg-gradient-to-br from-white/30 to-brand-lightBlue/30 rounded-2xl blur opacity-75 group-hover:opacity-100 transition" aria-hidden="true" />
-
-              <div className="relative bg-white/10 backdrop-blur-lg rounded-xl p-8 border border-white/20 h-full">
+              <div className="relative bg-white/8 backdrop-blur-sm rounded-xl p-5 md:p-6 border border-white/10 h-full hover:bg-white/12 hover:border-white/20 transition-all duration-300">
                 {/* Icon badge */}
-                <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-br from-brand-lightBlue to-white mb-6 shadow-lg group-hover:scale-110 transition-transform" aria-hidden="true">
-                  <Icon name={service.iconName} size={26} className="text-brand-navy" />
+                <div className="inline-flex items-center justify-center w-11 h-11 rounded-xl bg-gradient-to-br from-brand-lightBlue/90 to-white mb-4 shadow-md group-hover:scale-105 transition-transform" aria-hidden="true">
+                  <Icon name={service.iconName} size={22} className="text-brand-navy" />
                 </div>
 
-                <h3 className="text-xl font-semibold text-white mb-4 leading-tight">
+                <h3 className="text-base md:text-lg font-semibold text-white mb-2 leading-snug">
                   {t(`servicesOverview.services.${service.key}.title`)}
                 </h3>
-                <p className="text-white/80 leading-relaxed text-[15px]">
+                <p className="text-white/60 leading-relaxed text-sm">
                   {t(`servicesOverview.services.${service.key}.description`)}
                 </p>
-
-                {/* Decorative corner */}
-                <div className="absolute bottom-0 right-0 w-24 h-24 bg-gradient-to-tl from-brand-lightBlue/20 to-transparent rounded-tl-full" aria-hidden="true" />
               </div>
             </article>
           ))}
         </div>
 
-        <div className="text-center mt-16">
-          <a href="/servicos" className="bg-gradient-to-r from-brand-lightBlue to-brand-navy text-white px-10 py-4 rounded-lg font-semibold hover:shadow-xl transition-all inline-flex items-center gap-2 hover:scale-105">
+        <div className="text-center mt-10 md:mt-12">
+          <a href="/servicos" className="bg-white/10 backdrop-blur-sm text-white border border-white/20 px-6 py-3 rounded-lg font-medium text-sm hover:bg-white/20 transition-all inline-flex items-center gap-2">
             {t('servicesOverview.cta')}
-            <Icon name="ArrowRight" size={20} aria-hidden="true" />
+            <Icon name="ArrowRight" size={18} aria-hidden="true" />
           </a>
         </div>
       </div>

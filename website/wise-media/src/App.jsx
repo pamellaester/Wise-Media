@@ -1,7 +1,8 @@
 import AppRoutes from "./routes/AppRoutes";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import InteractiveBackground from "./components/InteractiveBackground"; // <- importa o Canvas
+import InteractiveBackground from "./components/InteractiveBackground";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <AppRoutes />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }

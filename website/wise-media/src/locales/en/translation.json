@@ -14,6 +14,7 @@
     "description": "We work with intelligence, precision, and responsibility to support professionals and brands in high-exposure scenarios — from press relations to crisis management, with complete discretion.",
     "cta": "Talk to Wise Media",
     "ctaSecondary": "Explore Our Services",
+    "teamNote": "Specialized team in strategic communication",
     "metrics": {
       "clients": "Clients Served",
       "clientsValue": "+50",
@@ -250,7 +251,9 @@
         "role": "Communication Strategist",
         "description": "Specialist in crisis communication and reputation management, with experience in complex scenarios requiring intelligence and discretion.",
         "tags": ["Crisis", "Reputation", "Strategy"]
-      }
+      },
+      "eventAlt": "Wise Media team at corporate event",
+      "eventCaption": "Our team in action — building strategic connections at corporate events."
     },
     "howWeWork": {
       "title": "How We Work",
@@ -327,6 +330,12 @@
     },
     "confidentiality": "All conversations are treated with confidentiality and institutional responsibility.",
     "cta": "Start a Conversation"
+  },
+  "teamBanner": {
+    "alt": "Wise Media team at corporate event",
+    "title": "Strategic connections that drive results",
+    "subtitle": "Our team works at events, media, and behind the scenes to strengthen your presence.",
+    "cta": "Meet the team"
   },
   "reviews": {
     "title": "What our clients say",

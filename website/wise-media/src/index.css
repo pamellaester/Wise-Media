@@ -29,6 +29,17 @@ body {
 }
 
 /* ================================
+   📱 RESPONSIVE TYPOGRAPHY
+   ================================= */
+.text-h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+.text-h2 {
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+}
+
+/* ================================
    🔘 BUTTONS - Premium Design
    ================================= */
 .btn-primary {
@@ -81,15 +92,36 @@ body {
 .card-premium {
   background-color: white;
   border-radius: 12px;
-  padding: 48px;
+  padding: 32px;
   border: 1px solid rgba(0, 31, 63, 0.08);
   box-shadow: 0 2px 8px rgba(0, 31, 63, 0.04);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media (min-width: 768px) {
+  .card-premium {
+    padding: 40px;
+  }
+}
+
 .card-premium:hover {
   box-shadow: 0 8px 24px rgba(0, 31, 63, 0.12);
-  transform: translateY(-4px);
+  transform: translateY(-2px);
+  border-color: rgba(65, 194, 243, 0.3);
+}
+
+/* Compact variant for FAQ items */
+.card-compact {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px 24px;
+  border: 1px solid rgba(0, 31, 63, 0.08);
+  box-shadow: 0 1px 4px rgba(0, 31, 63, 0.04);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-compact:hover {
+  box-shadow: 0 4px 16px rgba(0, 31, 63, 0.1);
   border-color: rgba(65, 194, 243, 0.3);
 }
 
@@ -134,14 +166,34 @@ body {
 }
 
 .section-spacing {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .section-spacing {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-spacing {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+/* Tighter spacing variant */
+.section-spacing-tight {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+@media (min-width: 768px) {
+  .section-spacing-tight {
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
 }
 
