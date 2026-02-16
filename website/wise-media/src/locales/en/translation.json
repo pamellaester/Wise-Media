@@ -1,4 +1,26 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wise Media | Strategic Communication & Reputation Management",
+      "description": "Agency specialized in press relations, reputation management, and strategic communication for high-visibility professionals."
+    },
+    "services": {
+      "title": "Services | Wise Media - Press Relations & Crisis Management",
+      "description": "Press relations, crisis management, reputation recovery and personalized strategic communication for your needs."
+    },
+    "about": {
+      "title": "About | Wise Media - Who We Are",
+      "description": "Meet Wise Media: a specialized team in strategic communication with expertise in media, reputation, and image management."
+    },
+    "contact": {
+      "title": "Contact | Wise Media - Get in Touch",
+      "description": "Contact Wise Media for a strategic conversation about communication and reputation management."
+    },
+    "articles": {
+      "title": "Articles | Wise Media - Insights & Publications",
+      "description": "Articles, case studies, and discussions about strategic communication, reputation, and media image management."
+    }
+  },
   "nav": {
     "home": "Home",
     "services": "Services",

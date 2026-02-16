@@ -8,8 +8,6 @@ export default function Hero() {
 
   return (
     <section className="relative w-full overflow-hidden" aria-labelledby="hero-heading">
-      {/* Bold gradient background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-brand-lightBlue via-brand-lightBlue/90 to-brand-navy" aria-hidden="true" />
 
       {/* Pattern overlay */}
       <div

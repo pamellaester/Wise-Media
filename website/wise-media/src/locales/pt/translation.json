@@ -1,4 +1,26 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wise Media | Comunicação Estratégica e Gestão de Reputação",
+      "description": "Agência especializada em assessoria de imprensa, gestão de reputação e comunicação estratégica para profissionais de alta visibilidade."
+    },
+    "services": {
+      "title": "Serviços | Wise Media - Assessoria de Imprensa e Gestão de Crise",
+      "description": "Assessoria de imprensa, gestão de crise, limpa nome e comunicação estratégica personalizada para sua necessidade."
+    },
+    "about": {
+      "title": "Sobre | Wise Media - Quem Somos",
+      "description": "Conheça a Wise Media: equipe especializada em comunicação estratégica com experiência em mídia, reputação e gestão de imagem."
+    },
+    "contact": {
+      "title": "Contato | Wise Media - Fale Conosco",
+      "description": "Entre em contato com a Wise Media para uma conversa estratégica sobre comunicação e gestão de reputação."
+    },
+    "articles": {
+      "title": "Artigos | Wise Media - Debates e Publicações",
+      "description": "Artigos, cases e debates sobre comunicação estratégica, reputação e gestão de imagem na mídia."
+    }
+  },
   "nav": {
     "home": "Início",
     "services": "Serviços",
