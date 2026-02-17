@@ -1,0 +1,57 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build production
+        run: npm run build
+
+      - name: Deploy to deploy branch
+        run: |
+          # Configure git
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+
+          # Save dist folder
+          cp -r dist /tmp/dist-deploy
+
+          # Create or switch to deploy branch (orphan if new)
+          git checkout --orphan deploy-temp
+
+          # Remove all files
+          git rm -rf .
+          git clean -fd
+
+          # Copy dist contents to root
+          cp -r /tmp/dist-deploy/* .
+          cp /tmp/dist-deploy/.htaccess . 2>/dev/null || true
+
+          # Add and commit
+          git add -A
+          git commit -m "Automated production build"
+
+          # Force push to deploy branch
+          git push origin deploy-temp:deploy --force
+
+          echo "Deployment complete!"
