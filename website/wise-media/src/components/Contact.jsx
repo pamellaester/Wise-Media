@@ -64,7 +64,11 @@ export default function Contact() {
 
               <article className="bg-white rounded-xl p-5 text-center group hover:shadow-md transition-shadow">
                 <div className="inline-flex items-center justify-center w-11 h-11 rounded-lg bg-brand-navy/5 mb-4 group-hover:bg-brand-navy/10 transition-colors">
-                  <Icon name="Instagram" size={20} className="text-brand-navy" />
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-brand-navy">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                  </svg>
                 </div>
                 <h3 className="text-base font-semibold text-brand-navy mb-1">{t('contact.methods.instagram.title')}</h3>
                 <p className="text-xs text-brand-navy/50 mb-3">{t('contact.methods.instagram.description')}</p>
