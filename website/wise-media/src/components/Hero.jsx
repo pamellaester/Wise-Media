@@ -35,23 +35,23 @@ export default function Hero() {
             {t('hero.description')}
           </p>
 
-          {/* Team avatars - larger for better visibility */}
-          <div className="flex items-center gap-4 mb-6">
-            <div className="flex -space-x-2">
+          {/* Team avatars - premium size for better visibility */}
+          <div className="flex items-center gap-4 mb-8">
+            <div className="flex -space-x-3">
               <img
                 src={rosyPhoto}
                 alt=""
-                className="w-11 h-11 rounded-full object-cover border-2 border-white/70 shadow-lg"
+                className="w-14 h-14 rounded-full object-cover border-[3px] border-white/80 shadow-xl ring-2 ring-white/20"
                 style={{ objectPosition: '50% 15%' }}
               />
               <img
                 src={deboraPhoto}
                 alt=""
-                className="w-11 h-11 rounded-full object-cover border-2 border-white/70 shadow-lg"
+                className="w-14 h-14 rounded-full object-cover border-[3px] border-white/80 shadow-xl ring-2 ring-white/20"
                 style={{ objectPosition: '50% 20%' }}
               />
             </div>
-            <p className="text-white/70 text-sm">{t('hero.teamNote')}</p>
+            <p className="text-white/80 text-sm font-medium">{t('hero.teamNote')}</p>
           </div>
 
           <div className="flex flex-wrap gap-3 items-center mb-12 md:mb-16">
@@ -65,34 +65,34 @@ export default function Hero() {
             </a>
           </div>
 
-          {/* Trust indicators - clean, balanced grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl">
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/15 group hover:bg-white/15 transition-all">
-              <div className="flex items-center gap-3 mb-2">
-                <div className="w-9 h-9 rounded-lg bg-white/15 flex items-center justify-center ring-1 ring-white/20">
-                  <Icon name="Users" size={18} className="text-white" />
+          {/* Trust indicators - premium balanced grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-5 max-w-3xl">
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/15 group hover:bg-white/15 hover:border-white/25 transition-all duration-300">
+              <div className="flex items-center gap-3.5 mb-2.5">
+                <div className="w-10 h-10 rounded-xl bg-white/15 flex items-center justify-center ring-1 ring-white/20 group-hover:ring-white/30 transition-all">
+                  <Icon name="Users" size={20} className="text-white" />
                 </div>
-                <span className="text-2xl font-bold text-white">{t('hero.metrics.clientsValue')}</span>
+                <span className="text-2xl lg:text-3xl font-bold text-white">{t('hero.metrics.clientsValue')}</span>
               </div>
-              <p className="text-sm text-white/70">{t('hero.metrics.clients')}</p>
+              <p className="text-sm text-white/70 leading-relaxed">{t('hero.metrics.clients')}</p>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/15 group hover:bg-white/15 transition-all">
-              <div className="flex items-center gap-3 mb-2">
-                <div className="w-9 h-9 rounded-lg bg-white/15 flex items-center justify-center ring-1 ring-white/20">
-                  <Icon name="Zap" size={18} className="text-white" />
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/15 group hover:bg-white/15 hover:border-white/25 transition-all duration-300">
+              <div className="flex items-center gap-3.5 mb-2.5">
+                <div className="w-10 h-10 rounded-xl bg-white/15 flex items-center justify-center ring-1 ring-white/20 group-hover:ring-white/30 transition-all">
+                  <Icon name="Zap" size={20} className="text-white" />
                 </div>
-                <span className="text-2xl font-bold text-white">{t('hero.metrics.responseValue')}</span>
+                <span className="text-2xl lg:text-3xl font-bold text-white">{t('hero.metrics.responseValue')}</span>
               </div>
-              <p className="text-sm text-white/70">{t('hero.metrics.response')}</p>
+              <p className="text-sm text-white/70 leading-relaxed">{t('hero.metrics.response')}</p>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/15 group hover:bg-white/15 transition-all">
-              <div className="flex items-center gap-3 mb-2">
-                <div className="w-9 h-9 rounded-lg bg-white/15 flex items-center justify-center ring-1 ring-white/20">
-                  <Icon name="ShieldCheck" size={18} className="text-white" />
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/15 group hover:bg-white/15 hover:border-white/25 transition-all duration-300">
+              <div className="flex items-center gap-3.5 mb-2.5">
+                <div className="w-10 h-10 rounded-xl bg-white/15 flex items-center justify-center ring-1 ring-white/20 group-hover:ring-white/30 transition-all">
+                  <Icon name="ShieldCheck" size={20} className="text-white" />
                 </div>
-                <span className="text-2xl font-bold text-white">{t('hero.metrics.confidentialityValue')}</span>
+                <span className="text-2xl lg:text-3xl font-bold text-white">{t('hero.metrics.confidentialityValue')}</span>
               </div>
-              <p className="text-sm text-white/70">{t('hero.metrics.confidentiality')}</p>
+              <p className="text-sm text-white/70 leading-relaxed">{t('hero.metrics.confidentiality')}</p>
             </div>
           </div>
         </div>

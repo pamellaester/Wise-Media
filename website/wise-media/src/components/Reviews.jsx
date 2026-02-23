@@ -18,31 +18,31 @@ function Stars({ rating, size = 16 }) {
   );
 }
 
-// Individual review card - clean minimal style
+// Individual review card - premium minimal style
 function ReviewCard({ review }) {
   return (
     <article className="relative group">
-      <div className="relative bg-white/8 backdrop-blur-sm rounded-xl p-4 md:p-5 border border-white/10 h-full flex flex-col hover:bg-white/12 hover:border-white/15 transition-all duration-300">
+      <div className="relative bg-white/8 backdrop-blur-sm rounded-2xl p-5 md:p-6 border border-white/10 h-full flex flex-col hover:bg-white/12 hover:border-white/20 transition-all duration-300">
         {/* Author info */}
-        <div className="flex items-center gap-2.5 mb-3">
-          <div className="w-8 h-8 rounded-full bg-white/15 flex items-center justify-center flex-shrink-0">
-            <span className="text-xs font-semibold text-white">
+        <div className="flex items-center gap-3 mb-4">
+          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-brand-lightBlue/30 to-white/10 flex items-center justify-center flex-shrink-0 ring-1 ring-white/15">
+            <span className="text-sm font-bold text-white">
               {review.author.charAt(0)}
             </span>
           </div>
           <div className="min-w-0">
-            <p className="text-sm font-medium text-white truncate">{review.author}</p>
-            <p className="text-xs text-white/40">{review.date}</p>
+            <p className="text-sm font-semibold text-white truncate">{review.author}</p>
+            <p className="text-xs text-white/50">{review.date}</p>
           </div>
         </div>
 
         {/* Star rating */}
-        <div className="mb-3">
-          <Stars rating={review.rating} size={14} />
+        <div className="mb-4">
+          <Stars rating={review.rating} size={15} />
         </div>
 
         {/* Review text */}
-        <p className="text-sm text-white/60 leading-relaxed flex-1">
+        <p className="text-sm text-white/65 leading-relaxed flex-1">
           "{review.text}"
         </p>
       </div>

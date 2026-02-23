@@ -108,10 +108,10 @@ body {
    ================================= */
 .card-premium {
   background-color: white;
-  border-radius: 12px;
+  border-radius: 16px;
   padding: 32px;
-  border: 1px solid rgba(0, 31, 63, 0.08);
-  box-shadow: 0 2px 8px rgba(0, 31, 63, 0.04);
+  border: 1px solid rgba(0, 31, 63, 0.06);
+  box-shadow: 0 4px 12px rgba(0, 31, 63, 0.04);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -122,24 +122,24 @@ body {
 }
 
 .card-premium:hover {
-  box-shadow: 0 8px 24px rgba(0, 31, 63, 0.12);
-  transform: translateY(-2px);
-  border-color: rgba(65, 194, 243, 0.3);
+  box-shadow: 0 12px 32px rgba(0, 31, 63, 0.12);
+  transform: translateY(-3px);
+  border-color: rgba(65, 194, 243, 0.35);
 }
 
 /* Compact variant for FAQ items */
 .card-compact {
   background-color: white;
-  border-radius: 12px;
-  padding: 20px 24px;
-  border: 1px solid rgba(0, 31, 63, 0.08);
-  box-shadow: 0 1px 4px rgba(0, 31, 63, 0.04);
+  border-radius: 16px;
+  padding: 24px 28px;
+  border: 1px solid rgba(0, 31, 63, 0.06);
+  box-shadow: 0 2px 8px rgba(0, 31, 63, 0.04);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-compact:hover {
-  box-shadow: 0 4px 16px rgba(0, 31, 63, 0.1);
-  border-color: rgba(65, 194, 243, 0.3);
+  box-shadow: 0 8px 24px rgba(0, 31, 63, 0.1);
+  border-color: rgba(65, 194, 243, 0.35);
 }
 
 .card-service {
@@ -365,4 +365,55 @@ body {
 ::selection {
   background-color: var(--brand-light-blue);
   color: var(--brand-navy);
+}
+
+/* ================================
+   🎯 PREMIUM IMAGE TREATMENTS
+   ================================= */
+.image-premium {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 31, 63, 0.12);
+}
+
+.image-premium img {
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.image-premium:hover img {
+  transform: scale(1.02);
+}
+
+/* Premium glass card effect */
+.glass-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+}
+
+.glass-card:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Smooth image loading */
+img {
+  image-rendering: -webkit-optimize-contrast;
+}
+
+/* Premium shadows */
+.shadow-premium {
+  box-shadow:
+    0 4px 6px -1px rgba(0, 31, 63, 0.05),
+    0 10px 20px -5px rgba(0, 31, 63, 0.1),
+    0 25px 50px -12px rgba(0, 31, 63, 0.15);
+}
+
+.shadow-premium-lg {
+  box-shadow:
+    0 10px 15px -3px rgba(0, 31, 63, 0.08),
+    0 25px 50px -12px rgba(0, 31, 63, 0.12),
+    0 50px 100px -20px rgba(0, 31, 63, 0.18);
 }

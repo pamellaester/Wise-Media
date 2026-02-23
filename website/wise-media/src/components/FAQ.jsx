@@ -30,11 +30,11 @@ export default function FAQ() {
         </header>
 
         {/* FAQ List */}
-        <div className="max-w-3xl mx-auto space-y-3" role="list">
+        <div className="max-w-3xl mx-auto space-y-4" role="list">
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="card-compact relative overflow-hidden cursor-pointer hover:shadow-md transition-shadow"
+              className="relative overflow-hidden cursor-pointer bg-white rounded-2xl p-6 border border-brand-navy/8 shadow-sm hover:shadow-lg hover:border-brand-lightBlue/30 transition-all duration-300"
               onClick={() => toggleFAQ(index)}
               onKeyDown={(e) => e.key === 'Enter' && toggleFAQ(index)}
               role="listitem"
@@ -43,28 +43,28 @@ export default function FAQ() {
             >
               {/* Left accent when open */}
               <div
-                className={`absolute left-0 top-0 bottom-0 w-0.5 bg-gradient-to-b from-brand-lightBlue to-brand-navy transition-opacity ${openIndex === index ? 'opacity-100' : 'opacity-0'}`}
+                className={`absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brand-lightBlue to-brand-navy transition-opacity duration-300 ${openIndex === index ? 'opacity-100' : 'opacity-0'}`}
                 aria-hidden="true"
               />
 
-              <div className="flex items-start justify-between gap-3">
+              <div className="flex items-start justify-between gap-4">
                 <div className="flex-1 min-w-0">
-                  <h3 className="text-base font-medium text-brand-navy pr-4">
+                  <h3 className="text-base font-semibold text-brand-navy pr-4 leading-snug">
                     {faq.question}
                   </h3>
 
-                  <div className={`overflow-hidden transition-all duration-300 ${openIndex === index ? 'max-h-96 opacity-100 mt-3' : 'max-h-0 opacity-0'}`}>
-                    <p className="text-brand-navy/65 leading-relaxed text-sm">
+                  <div className={`overflow-hidden transition-all duration-300 ${openIndex === index ? 'max-h-96 opacity-100 mt-4' : 'max-h-0 opacity-0'}`}>
+                    <p className="text-brand-navy/70 leading-relaxed text-sm">
                       {faq.answer}
                     </p>
                   </div>
                 </div>
 
                 <div
-                  className={`flex-shrink-0 w-7 h-7 rounded-full bg-brand-navy/10 flex items-center justify-center transition-all duration-300 ${openIndex === index ? 'rotate-180 bg-brand-navy' : ''}`}
+                  className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 ${openIndex === index ? 'rotate-180 bg-brand-navy shadow-md' : 'bg-brand-navy/10'}`}
                   aria-hidden="true"
                 >
-                  <Icon name="ChevronDown" size={14} className={openIndex === index ? 'text-white' : 'text-brand-navy/60'} />
+                  <Icon name="ChevronDown" size={16} className={openIndex === index ? 'text-white' : 'text-brand-navy/60'} />
                 </div>
               </div>
             </div>

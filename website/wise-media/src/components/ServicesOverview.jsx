@@ -36,19 +36,19 @@ export default function ServicesOverview() {
           </p>
         </header>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5 lg:gap-6 max-w-5xl mx-auto">
           {services.map((service) => (
             <article key={service.key} className="relative group">
-              <div className="relative bg-white/8 backdrop-blur-sm rounded-xl p-5 md:p-6 border border-white/10 h-full hover:bg-white/12 hover:border-white/20 transition-all duration-300">
-                {/* Icon badge */}
-                <div className="inline-flex items-center justify-center w-11 h-11 rounded-xl bg-gradient-to-br from-brand-lightBlue/90 to-white mb-4 shadow-md group-hover:scale-105 transition-transform" aria-hidden="true">
-                  <Icon name={service.iconName} size={22} className="text-brand-navy" />
+              <div className="relative bg-white/8 backdrop-blur-sm rounded-2xl p-6 md:p-7 border border-white/10 h-full hover:bg-white/12 hover:border-white/20 transition-all duration-300">
+                {/* Icon badge - standardized 12x12 */}
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-brand-lightBlue/90 to-white mb-5 shadow-lg group-hover:scale-105 group-hover:shadow-xl transition-all duration-300" aria-hidden="true">
+                  <Icon name={service.iconName} size={24} className="text-brand-navy" />
                 </div>
 
-                <h3 className="text-base md:text-lg font-semibold text-white mb-2 leading-snug">
+                <h3 className="text-lg font-semibold text-white mb-3 leading-snug">
                   {t(`servicesOverview.services.${service.key}.title`)}
                 </h3>
-                <p className="text-white/60 leading-relaxed text-sm">
+                <p className="text-white/65 leading-relaxed text-sm">
                   {t(`servicesOverview.services.${service.key}.description`)}
                 </p>
               </div>
