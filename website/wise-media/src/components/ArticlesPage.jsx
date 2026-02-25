@@ -46,7 +46,7 @@ function ArticleCard({ article, lang }) {
       </div>
 
       {/* Title */}
-      <h3 className="text-base font-semibold text-white mb-2 group-hover:text-brand-accent transition-colors duration-300 line-clamp-2">
+      <h3 className="text-base font-semibold text-brand-navy mb-2 group-hover:text-brand-accent transition-colors duration-300 line-clamp-2">
         {title}
       </h3>
 
@@ -83,22 +83,22 @@ export default function ArticlesPage() {
       : articlesData.articles.filter((a) => a.category === activeCategory);
 
   return (
-    <section className="w-full relative overflow-hidden" aria-labelledby="articles-heading">
+    <section className="w-full relative overflow-hidden bg-brand-navy" aria-labelledby="articles-heading">
       {/* Top accent line */}
-      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-accent via-brand-navy to-brand-accent" aria-hidden="true" />
+      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-accent via-brand-lightBlue to-brand-accent" aria-hidden="true" />
 
       {/* Background decoration */}
-      <div className="absolute top-0 right-0 w-1/3 h-96 bg-gradient-to-bl from-brand-accent/5 to-transparent" aria-hidden="true" />
+      <div className="absolute top-0 right-0 w-1/3 h-96 bg-gradient-to-bl from-brand-lightBlue/10 to-transparent" aria-hidden="true" />
 
       <div className="container-content section-spacing relative">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <header className="text-center mb-12">
             <div className="accent-line-bold mx-auto mb-8" aria-hidden="true" />
-            <h1 id="articles-heading" className="text-h1 text-brand-navy mb-4 heading-primary">
+            <h1 id="articles-heading" className="text-h1 text-white mb-4 heading-primary">
               {t('articles.title')}
             </h1>
-            <p className="text-brand-navy/60 max-w-2xl mx-auto">
+            <p className="text-white/70 max-w-2xl mx-auto">
               {t('articles.description')}
             </p>
           </header>
@@ -110,8 +110,8 @@ export default function ArticlesPage() {
               onClick={() => setActiveCategory("all")}
               className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                 activeCategory === "all"
-                  ? "bg-brand-navy text-white shadow-md"
-                  : "bg-gray-100 text-brand-navy/70 hover:bg-gray-200"
+                  ? "bg-white text-brand-navy shadow-md"
+                  : "bg-white/10 text-white/80 hover:bg-white/20"
               }`}
             >
               {t('articles.all')} ({articlesData.totalArticles})
@@ -124,8 +124,8 @@ export default function ArticlesPage() {
                 onClick={() => setActiveCategory(cat)}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 inline-flex items-center gap-1.5 ${
                   activeCategory === cat
-                    ? "bg-brand-navy text-white shadow-md"
-                    : "bg-gray-100 text-brand-navy/70 hover:bg-gray-200"
+                    ? "bg-white text-brand-navy shadow-md"
+                    : "bg-white/10 text-white/80 hover:bg-white/20"
                 }`}
               >
                 <Icon name={categoryIcons[cat]} size={14} />
@@ -143,7 +143,7 @@ export default function ArticlesPage() {
 
           {/* Bottom info */}
           <div className="mt-12 text-center">
-            <p className="text-sm text-brand-navy/50">
+            <p className="text-sm text-white/50">
               {articlesData.company} — {articlesData.location}
             </p>
           </div>
