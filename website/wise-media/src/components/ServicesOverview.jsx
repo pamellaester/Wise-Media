@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router";
 import Icon from "./Icon";
 
 export default function ServicesOverview() {
@@ -57,10 +58,10 @@ export default function ServicesOverview() {
         </div>
 
         <div className="text-center mt-10 md:mt-12">
-          <a href="/servicos" className="bg-white/10 backdrop-blur-sm text-white border border-white/20 px-6 py-3 rounded-lg font-medium text-sm hover:bg-white/20 transition-all inline-flex items-center gap-2">
+          <Link to="/servicos" className="bg-white/10 backdrop-blur-sm text-white border border-white/20 px-6 py-3 rounded-lg font-medium text-sm hover:bg-white/20 transition-all inline-flex items-center gap-2">
             {t('servicesOverview.cta')}
             <Icon name="ArrowRight" size={18} aria-hidden="true" />
-          </a>
+          </Link>
         </div>
       </div>
     </section>

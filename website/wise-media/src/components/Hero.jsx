@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router";
 import Icon from "./Icon";
 import rosyPhoto from "../assets/wisemediaphotos/rosy-bluephoto.jpeg";
 import deboraPhoto from "../assets/wisemediaphotos/debora-blue-photo.jpeg";
@@ -59,10 +60,10 @@ export default function Hero() {
               {t('hero.cta')}
               <Icon name="ArrowRight" size={18} aria-hidden="true" />
             </a>
-            <a href="/servicos" className="bg-white/10 backdrop-blur-sm text-white border border-white/30 px-6 py-3.5 rounded-lg font-medium text-sm hover:bg-white/20 transition-all inline-flex items-center gap-2">
+            <Link to="/servicos" className="bg-white/10 backdrop-blur-sm text-white border border-white/30 px-6 py-3.5 rounded-lg font-medium text-sm hover:bg-white/20 transition-all inline-flex items-center gap-2">
               {t('hero.ctaSecondary')}
               <Icon name="Sparkles" size={16} className="text-white/70" aria-hidden="true" />
-            </a>
+            </Link>
           </div>
 
           {/* Trust indicators - premium balanced grid */}

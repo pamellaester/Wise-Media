@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router";
 import Icon from "./Icon";
 
 export default function FAQ() {
@@ -76,13 +77,13 @@ export default function FAQ() {
           <p className="text-brand-navy/60 mb-5 text-sm">
             {t('faq.cta')}
           </p>
-          <a
-            href="/contato"
+          <Link
+            to="/contato"
             className="inline-flex items-center gap-2 bg-brand-accent text-white px-6 py-3 rounded-lg font-semibold text-sm hover:shadow-lg hover:shadow-brand-accent/25 transition-all hover:translate-y-[-1px]"
           >
             {t('faq.ctaButton')}
             <Icon name="ArrowRight" size={18} aria-hidden="true" />
-          </a>
+          </Link>
         </div>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router";
 import Icon from "./Icon";
 
 export default function Testimonials() {
@@ -81,13 +82,13 @@ export default function Testimonials() {
           <p className="text-white/70 text-sm mb-6">
             {t('testimonials.cta')}
           </p>
-          <a
-            href="/contato"
+          <Link
+            to="/contato"
             className="inline-flex items-center gap-2 bg-white text-brand-navy px-10 py-4 rounded-lg font-bold hover:shadow-2xl transition-all hover:scale-105"
           >
             {t('testimonials.ctaButton')}
             <Icon name="ArrowRight" size={20} aria-hidden="true" />
-          </a>
+          </Link>
         </div>
       </div>
     </section>

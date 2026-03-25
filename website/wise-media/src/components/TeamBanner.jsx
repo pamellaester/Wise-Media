@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router";
 import eventPhoto from "../assets/wisemediaphotos/client-event-photo.JPG";
 
 export default function TeamBanner() {
@@ -34,15 +35,15 @@ export default function TeamBanner() {
                     {t('teamBanner.subtitle')}
                   </p>
                 </div>
-                <a
-                  href="/sobre"
+                <Link
+                  to="/sobre"
                   className="inline-flex items-center gap-2 text-brand-lightBlue text-sm font-semibold hover:text-white transition-colors group"
                 >
                   {t('teamBanner.cta')}
                   <svg className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
