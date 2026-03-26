@@ -82,6 +82,9 @@ export default function Footer() {
                 <Link to="/" className="block text-white/70 hover:text-white transition-colors">
                   {t('common.home')}
                 </Link>
+                <Link to="/metodo" className="block text-white/70 hover:text-white transition-colors">
+                  {t('nav.method')}
+                </Link>
                 <Link to="/servicos" className="block text-white/70 hover:text-white transition-colors">
                   {t('nav.services')}
                 </Link>

@@ -1,389 +1,430 @@
 {
   "seo": {
     "home": {
-      "title": "Wise Media | Strategic Communication & Reputation Management",
-      "description": "Agency specialized in press relations, reputation management, and strategic communication for high-visibility professionals."
+      "title": "Wise Media | We Build Authority for the Elite",
+      "description": "Strategic positioning and authority building for doctors, lawyers, entrepreneurs, and specialists who refuse to be treated as commodities."
     },
     "services": {
-      "title": "Services | Wise Media - Press Relations & Crisis Management",
-      "description": "Press relations, crisis management, reputation recovery and personalized strategic communication for your needs."
+      "title": "Services | Wise Media - Authority Dominance",
+      "description": "We turn invisible professionals into undisputed references. Selective service for those ready to dominate."
     },
     "about": {
-      "title": "About | Wise Media - Who We Are",
-      "description": "Meet Wise Media: a specialized team in strategic communication with expertise in media, reputation, and image management."
+      "title": "About | Wise Media - Architects of Dominance",
+      "description": "We don't work with just anyone. We work with professionals ready to claim their rightful position at the top."
     },
     "contact": {
-      "title": "Contact | Wise Media - Get in Touch",
-      "description": "Contact Wise Media for a strategic conversation about communication and reputation management."
+      "title": "Contact | Wise Media - Start Selection Process",
+      "description": "Apply to work with Wise Media. Rigorous process. Limited spots."
     },
     "articles": {
-      "title": "Articles | Wise Media - Insights & Publications",
-      "description": "Articles, case studies, and discussions about strategic communication, reputation, and media image management."
+      "title": "Articles | Wise Media - Exclusive Insights",
+      "description": "Strategic content on positioning, authority, and market dominance."
+    },
+    "method": {
+      "title": "WISE Method | Wise Media - Our System of Dominance",
+      "description": "Discover the system that transforms competent professionals into undisputed authorities in their markets."
     }
   },
   "nav": {
     "home": "Home",
     "services": "Services",
+    "method": "Method",
     "articles": "Articles",
     "about": "About",
     "contact": "Contact",
-    "tagline": "Strategic Communication",
+    "tagline": "Authority Dominance",
     "openMenu": "Open navigation menu",
     "closeMenu": "Close navigation menu"
   },
   "hero": {
-    "title": "Strategic communication that protects, positions, and strengthens reputations.",
-    "description": "We work with intelligence, precision, and responsibility to support professionals and brands in high-exposure scenarios — from press relations to crisis management, with complete discretion.",
-    "cta": "Talk to Wise Media",
-    "ctaSecondary": "Explore Our Services",
-    "teamNote": "Specialized team in strategic communication",
+    "tag": "EXCLUSIVE POSITIONING",
+    "title": "Common names don't dominate markets. Authorities do.",
+    "subtitle": "You didn't build your career to be just another name.",
+    "description": "Doctors, lawyers, entrepreneurs who refuse to be commodities. We transform professionals with real substance into undisputed market authorities.",
+    "cta": "Apply",
+    "ctaSecondary": "See the Method",
     "metrics": {
-      "clients": "Clients Served",
-      "clientsValue": "+50",
-      "response": "Crisis Response",
-      "responseValue": "24h",
+      "authorities": "Authorities built",
+      "authoritiesValue": "+50",
+      "media": "Strategic placements",
+      "mediaValue": "+200",
       "confidentiality": "Confidentiality",
-      "confidentialityValue": "100%"
+      "confidentialityValue": "Absolute"
     }
   },
-  "trustMarkers": {
-    "stats": {
-      "clients": "Clients Served",
-      "clientsValue": "50+",
-      "experience": "Years of Experience",
-      "experienceValue": "5+",
-      "satisfaction": "Satisfaction Rate",
-      "satisfactionValue": "98%",
-      "responseTime": "Response Time",
-      "responseTimeValue": "24h"
-    },
-    "sectorsTitle": "Industries We Serve",
-    "sectorsDescription": "Strategic communication expertise across diverse sectors",
-    "sectors": {
-      "technology": "Technology",
-      "finance": "Finance",
-      "health": "Healthcare",
-      "legal": "Legal",
-      "entertainment": "Entertainment",
-      "executives": "Executives"
-    },
-    "confidentialityNote": "Discreet approach with clients who value confidentiality"
+  "authorityHook": {
+    "title": "Those not seen as authorities are treated as commodities.",
+    "description": "Credentials don't guarantee respect. Titles don't guarantee demand. While you wait to 'be discovered', less qualified professionals are taking your space because they understood the game before you: perception dictates reality."
   },
-  "servicesOverview": {
-    "tag": "SERVICES",
-    "title": "Services",
-    "description": "Specialized solutions to protect, position, and strengthen your strategic presence.",
-    "cta": "View All Details",
-    "services": {
-      "pressAdvisory": {
-        "title": "Press Relations",
-        "description": "Building and strengthening public image through strategic media placements."
+  "problem": {
+    "tag": "THE BRUTAL REALITY",
+    "title": "You can be the best and still be invisible.",
+    "subtitle": "The market doesn't reward competence. It rewards perception. And perception is built — or lost — every day you remain invisible.",
+    "items": {
+      "unknown": {
+        "title": "Being anonymous",
+        "description": "You built your reputation through work. Meanwhile, less prepared professionals gain space, clients, and recognition simply because they understood that being seen matters as much as being good."
       },
-      "strategicAdvisory": {
-        "title": "Strategic Consulting",
-        "description": "Specialized consulting for specific moments requiring precise positioning."
+      "ignored": {
+        "title": "Being replaceable",
+        "description": "Without authority, you're just another option. The client weighs who seems most reliable, not who actually is. And you lose to the appearance of competence."
       },
-      "visaAdvisory": {
-        "title": "Visa Advisory",
-        "description": "Specialized support for visa processes with integrated media strategy."
-      },
-      "googleBusiness": {
-        "title": "Google Business Management",
-        "description": "Digital presence optimization and reputation in local searches."
-      },
-      "cleanName": {
-        "title": "Reputation Repair",
-        "description": "Removal of negative content and digital reputation recovery."
-      },
-      "crisisManagement": {
-        "title": "Crisis Management",
-        "description": "Swift and strategic action to protect your image in critical moments."
+      "undervalued": {
+        "title": "Being devalued",
+        "description": "You charge less than you're worth. You accept projects below your level. You negotiate with those who should be honored to have you. Lack of positioning destroyed your negotiating power."
       }
     }
   },
-  "whoWeServe": {
-    "tag": "TARGET AUDIENCE",
-    "title": "Who We Serve",
-    "description": "Specialists in supporting professionals facing public exposure who need strategic communication.",
-    "segments": {
-      "highVisibility": {
-        "title": "High-Visibility Professionals",
-        "description": "Executives, artists, influencers, and public figures who need strategic image management and communication."
+  "solution": {
+    "tag": "THE SOLUTION",
+    "title": "We build market dominance.",
+    "description": "We transform competence into perception. History into power narrative. A name into a reference that commands respect and demand.",
+    "items": {
+      "positioning": {
+        "title": "Dominant positioning",
+        "description": "We define your unique market position. Not 'differentiation' — dominance. You become the obvious choice, the only logical option."
       },
-      "entrepreneurs": {
-        "title": "Entrepreneurs & Special Visas",
-        "description": "Business owners expanding internationally and professionals seeking strategic visibility for visa processes."
+      "media": {
+        "title": "Strategic media",
+        "description": "Presence in media that matters. Not vanity, not volume — surgical impact that consolidates your authority with the audience that pays what you're worth."
+      },
+      "narrative": {
+        "title": "Power narrative",
+        "description": "We build the story that positions you as a leader, not a competitor. You stop competing for attention and become the reference to be followed."
+      },
+      "reputation": {
+        "title": "Fortified reputation",
+        "description": "Image protection that turns exposure into strength. No vulnerability. No unnecessary risk. Only reputation that works for you."
       }
-    },
-    "cta": "If this sounds like you, we're ready to support your strategy.",
-    "ctaButton": "Start a Conversation"
-  },
-  "missionVision": {
-    "title": "Vision & Mission",
-    "description": "Our institutional purpose and commitment to excellence in strategic communication.",
-    "vision": {
-      "label": "Vision",
-      "text": "To be a national reference in strategic communication and reputation management, offering ethical, intelligent, and consistent solutions for brands and leaders."
-    },
-    "mission": {
-      "label": "Mission",
-      "text": "To help our clients communicate with clarity, intelligence, and credibility, transforming narratives into real and sustainable results."
     }
   },
-  "testimonials": {
-    "tag": "TESTIMONIALS",
-    "title": "What Our Clients Say",
-    "description": "Trust built through real results and lasting relationships.",
+  "wiseMethod": {
+    "tag": "EXCLUSIVE METHODOLOGY",
+    "title": "The WISE Method",
+    "description": "A system built to transform competent professionals into undisputed authorities. Nothing generic. Nothing replicable. Personalized for those ready to dominate.",
+    "steps": {
+      "w": {
+        "title": "Who",
+        "subtitle": "Unique Identity",
+        "description": "We define what makes you irreplaceable. Your competitive differentiator that can't be copied. Without clarity here, everything else is noise."
+      },
+      "i": {
+        "title": "Image",
+        "subtitle": "Authority Perception",
+        "description": "We build the image that communicates your authority before you speak. Perception that precedes reputation."
+      },
+      "s": {
+        "title": "Strategic",
+        "subtitle": "Dominance Plan",
+        "description": "Personalized action plan to position you where it matters, with those who pay what you're worth. No waste."
+      },
+      "e": {
+        "title": "Expansion",
+        "subtitle": "Consolidation",
+        "description": "We expand your presence and cement your position. You become not an option, but the reference."
+      }
+    },
+    "cta": "See the complete method"
+  },
+  "socialProof": {
+    "tag": "CONFIDENTIAL RESULTS",
+    "title": "Some of the authorities we helped build",
+    "description": "Many of our clients will never be publicly mentioned. These are some who authorized us to share.",
     "items": [
       {
-        "quote": "Wise Media completely transformed our media presence. Unmatched professionalism and discretion.",
-        "author": "Carlos M.",
-        "role": "CEO, Tech Solutions",
-        "rating": "Client since 2022"
+        "quote": "I stopped competing for clients. Today, clients compete for my schedule. That's what Wise delivered.",
+        "author": "Dr. Carlos M.",
+        "role": "Plastic Surgeon"
       },
       {
-        "quote": "At a critical moment in my career, the Wise Media team was essential. Quick response and flawless strategy.",
-        "author": "Ana P.",
-        "role": "Media Executive",
-        "rating": "Client since 2021"
+        "quote": "I was the best-kept secret in the market. Wise turned me into the obvious reference. My fee doubled.",
+        "author": "Dr. Ana P.",
+        "role": "Tax Attorney"
       },
       {
-        "quote": "The advisory for my visa process was exceptional. Attention to detail and results beyond expectations.",
+        "quote": "The placements opened doors I spent years knocking on. Today I choose who I work with.",
         "author": "Roberto S.",
-        "role": "Entrepreneur",
-        "rating": "Client since 2023"
+        "role": "CEO"
       }
+    ]
+  },
+  "offer": {
+    "title": "This isn't for everyone.",
+    "description": "We don't work with beginners, those unprepared for exposure, or those seeking cheap shortcuts. We select professionals with real substance who are ready to claim their rightful position.",
+    "whoTitle": "Who we work with",
+    "whatTitle": "What's included",
+    "audience": [
+      "Doctors who want to be references, not just specialists",
+      "Lawyers seeking high-value clients who pay without negotiating",
+      "Entrepreneurs ready to be recognized as visionaries",
+      "Specialists tired of being the best-kept secret",
+      "Public figures requiring fortified and protected image"
     ],
-    "cta": "Be the next to build authority with strategic communication.",
-    "ctaButton": "Talk to Wise Media"
+    "included": [
+      "Complete current positioning diagnostic",
+      "Personalized dominance strategy",
+      "Media presence management with surgical placements",
+      "Power narrative construction",
+      "Reputation fortification and protection",
+      "Continuous monitoring with strategic adjustments"
+    ],
+    "transformationTitle": "The transformation",
+    "transformationDescription": "From anonymous to undisputed reference. From replaceable to exclusive. From devalued to premium."
   },
   "faq": {
-    "title": "Frequently Asked Questions",
-    "description": "Clear answers to common questions about our services and approach.",
+    "title": "For Those Considering",
+    "description": "Direct answers. Without corporate speak.",
     "items": [
       {
-        "question": "How does press relations work?",
-        "answer": "We work to build and strengthen your public image through strategic media placements, journalist relationships, and relevant content production. Each strategy is customized according to your goals and profile."
+        "question": "How long to see results?",
+        "answer": "First impacts in 30-60 days. Solid authority, the kind that changes your negotiating position, is built in 6-12 months. Those seeking shortcuts won't find them here."
       },
       {
-        "question": "Do you handle crisis situations?",
-        "answer": "Yes, we offer crisis management with swift and strategic action. Our team is prepared to respond within 24 hours, protecting your image and reputation in critical moments."
+        "question": "Do you guarantee results?",
+        "answer": "We guarantee high-level strategy and full team commitment. Results depend on your willingness to show up. We only work with those willing to do their part."
       },
       {
-        "question": "What is the Reputation Repair service?",
-        "answer": "It's a specialized service for removing negative content from the internet and recovering digital reputation. We use legal and ethical techniques to restore your online image."
+        "question": "What's the investment?",
+        "answer": "Compatible with the level of results we deliver. After the selection conversation, we present a customized proposal. If you're looking for cheap, we're not the right fit."
       },
       {
-        "question": "How does visa advisory work?",
-        "answer": "We offer complete support for visa processes, including integrated media strategy that strengthens your professional profile and increases approval chances."
+        "question": "Do you work with anyone?",
+        "answer": "No. We have a rigorous selection process. We only accept professionals with real substance ready to assume authority position. Many are declined."
       },
       {
-        "question": "How long until I see results?",
-        "answer": "Timelines vary by service and objectives. Press relations typically shows results in 30-90 days, while crisis management has immediate response. We present a detailed timeline in the proposal."
+        "question": "How does confidentiality work?",
+        "answer": "Absolute and non-negotiable. Many of our most successful clients will never be publicly mentioned. Your secrets are safe."
       },
       {
-        "question": "Do you guarantee confidentiality?",
-        "answer": "Absolutely. Confidentiality is one of the pillars of our work. All clients and projects are treated with complete discretion and professional secrecy."
-      },
-      {
-        "question": "Do you serve clients outside São Paulo?",
-        "answer": "Yes, we serve clients throughout Brazil and abroad. Our approach is adapted to meet the specific needs of each region and market."
-      },
-      {
-        "question": "How is pricing determined?",
-        "answer": "After an initial conversation to understand your needs, we present a customized proposal with scope, timeline, and investment. We don't work with generic packages."
+        "question": "Do you manage social media?",
+        "answer": "Our focus is strategic positioning and media presence. We can orient your team to align with the overall strategy, but we don't execute operational work."
       }
     ],
-    "cta": "Still have questions? We're ready for a conversation.",
+    "cta": "Other questions?",
     "ctaButton": "Talk to Wise Media"
   },
-  "contactHome": {
-    "title": "Communication starts with trust.",
-    "description": "Get in touch to discuss how we can support your strategy with intelligence and discretion.",
-    "cardTitle": "Ready to strengthen your reputation?",
-    "cardDescription": "Our team is ready for a strategic conversation about your communication challenges.",
-    "cta": "Start a Conversation",
-    "ctaEmail": "Send Email"
+  "finalCta": {
+    "title": "You can remain mediocre. Or claim your position.",
+    "description": "While you evaluate, others are taking the space that should be yours. The elite doesn't wait. They decide.",
+    "cta": "Start selection process",
+    "whatsapp": "Apply via WhatsApp",
+    "closing": "Selection process. Limited spots."
   },
-  "services": {
-    "title": "Services",
-    "description": "Strategic communication at Wise Media means applied intelligence, absolute discretion, and measurable results. Each service is designed to protect, position, and strengthen your presence.",
-    "deliverLabel": "WHAT WE DELIVER",
-    "whenLabel": "WHEN TO HIRE",
-    "items": {
-      "pressAdvisory": {
-        "title": "Press Relations",
-        "deliver": "Building and strengthening public image through strategic relationships with media outlets, press release production, media training, and interview management.",
-        "when": "Ideal for professionals seeking controlled visibility, building market authority, or preparing for public exposure moments."
+  "metodo": {
+    "hero": {
+      "tag": "EXCLUSIVE SYSTEM",
+      "title": "The WISE Method",
+      "description": "The methodology we created to transform competent professionals into undisputed authorities. Nothing generic. Everything personalized."
+    },
+    "intro": {
+      "title": "Why common strategies don't work",
+      "description": "After years working with elite professionals, we identified the pattern: generic marketing doesn't build authority. It builds noise. The WISE Method was created to do what agencies can't: dominate markets."
+    },
+    "steps": {
+      "w": {
+        "letter": "W",
+        "title": "Who — Your Unique Identity",
+        "subtitle": "Definition and differentiation",
+        "description": "Before communicating, you need absolute clarity. We define what makes you irreplaceable. Your competitive differentiator that can't be copied. Without this, any strategy is a shot in the dark.",
+        "includes": [
+          "Competitive differentiator mapping",
+          "Unique positioning definition",
+          "Premium audience identification",
+          "Value proposition that eliminates competition"
+        ]
       },
-      "strategicAdvisory": {
-        "title": "Strategic Consulting",
-        "deliver": "Specialized consulting for specific situations requiring precise positioning, scenario analysis, and strategic communication guidance.",
-        "when": "Recommended for decisive moments like launches, mergers, career changes, or any situation demanding specialized guidance."
+      "i": {
+        "letter": "I",
+        "title": "Image — Perception of Authority",
+        "subtitle": "Visual and narrative construction",
+        "description": "Your image needs to communicate dominance before you speak. We build the narrative and visual elements that convey authority, credibility, and differentiation instantly.",
+        "includes": [
+          "Power narrative development",
+          "Strategic biography construction",
+          "Visual communication that commands respect",
+          "Media preparation"
+        ]
       },
-      "visaAdvisory": {
-        "title": "Visa Advisory",
-        "deliver": "Complete support for special visa processes, including professional profile building in media, visibility documentation, and positioning strategy.",
-        "when": "Essential for entrepreneurs, executives, and professionals seeking work visas, investor visas, or extraordinary ability visas."
+      "s": {
+        "letter": "S",
+        "title": "Strategic — Dominance Plan",
+        "subtitle": "Surgical action plan",
+        "description": "Strategy without execution is fantasy. We develop a concrete plan to position you in the right places, with the right messages, for the audience that pays what you're worth.",
+        "includes": [
+          "Strategic outlet mapping",
+          "Media placement planning",
+          "Relevant story creation",
+          "Strategic relationship building"
+        ]
       },
-      "googleBusiness": {
-        "title": "Google Business Management",
-        "deliver": "Complete profile optimization, review management, local content strategy, and search performance monitoring.",
-        "when": "Fundamental for businesses dependent on local presence, freelance professionals, and companies wanting to improve their online reputation."
-      },
-      "cleanName": {
-        "title": "Reputation Repair",
-        "deliver": "Identification and removal of negative content, reputation SEO strategy, continuous monitoring, and digital image recovery.",
-        "when": "Indicated for those facing harmful content in search results, old negative news, or online reputation attacks."
-      },
-      "crisisManagement": {
-        "title": "Crisis Management",
-        "deliver": "Rapid response to critical situations, official positioning development, stakeholder communication management, and image recovery strategy.",
-        "when": "Necessary in situations of negative exposure, public controversies, leaks, or any scenario threatening reputation."
+      "e": {
+        "letter": "E",
+        "title": "Expansion — Consolidation",
+        "subtitle": "Dominance and protection",
+        "description": "Authority isn't a destination, it's continuous construction. We expand your presence, cement your position, and protect your reputation. You become the reference, not an option.",
+        "includes": [
+          "Strategic presence expansion",
+          "Authority consolidation",
+          "Reputation fortification",
+          "Continuous monitoring and adjustment"
+        ]
       }
     },
-    "seeMore": "Learn more",
-    "seeLess": "See less",
-    "trustTitle": "We work with intelligence, precision, and responsibility.",
-    "trustDescription": "Each service is customized to meet your specific needs. Contact us for a no-obligation initial assessment.",
-    "cta": "Talk to Wise Media"
+    "cta": {
+      "title": "Ready to apply the WISE Method?",
+      "description": "Start the selection process and discover if you're ready to dominate your market.",
+      "button": "Start selection process"
+    }
   },
   "about": {
-    "title": "About",
-    "description": "Strategic communication agency specialized in press relations, reputation management, and handling sensitive public exposure scenarios.",
+    "tag": "WHO WE ARE",
+    "title": "Wise Media",
+    "subtitle": "We're not a marketing agency. We're architects of dominance.",
+    "description": "Founded by professionals who understand how power works. We work for those who refuse mediocrity and are ready to claim their position at the top.",
     "mission": {
       "label": "Mission",
-      "text": "To help our clients communicate with clarity, intelligence, and credibility, transforming narratives into real and sustainable results."
+      "text": "To transform professionals with real substance into undisputed authorities in their markets, using strategy, media, and narrative as dominance tools."
     },
     "vision": {
       "label": "Vision",
-      "text": "To be a national reference in strategic communication and reputation management, offering ethical, intelligent, and consistent solutions for brands and leaders."
+      "text": "To be the reference in authority building for the elite of Brazilian professionals."
     },
     "founders": {
       "title": "Founders",
-      "description": "Proven experience in media, corporate communication, and strategic image management.",
+      "description": "Tested experience in media, reputation, and strategic positioning.",
       "rosy": {
         "name": "Rosy Cordeiro",
-        "role": "Journalist and Press Advisor",
-        "description": "Solid experience as journalist, editor at major media outlets, and press advisor for high-end brands and personalities.",
-        "tags": ["Media", "Fashion", "Strategy"]
+        "role": "Media Strategist",
+        "description": "Journalist with over 15 years in major media newsrooms. Knows how the game works from the inside. Knows exactly what it takes to position professionals where they deserve.",
+        "tags": ["Media", "Journalism", "Strategy"]
       },
       "debora": {
-        "name": "Débora Tawil",
-        "role": "Communication Strategist",
-        "description": "Specialist in crisis communication and reputation management, with experience in complex scenarios requiring intelligence and discretion.",
-        "tags": ["Crisis", "Reputation", "Strategy"]
-      },
-      "eventAlt": "Wise Media team at corporate event",
-      "eventCaption": "Our team in action — building strategic connections at corporate events."
-    },
-    "howWeWork": {
-      "title": "How We Work",
-      "pillars": {
-        "analytical": {
-          "title": "Analytical",
-          "description": "Decisions based on data and deep scenario analysis."
-        },
-        "discreet": {
-          "title": "Discreet",
-          "description": "Absolute confidentiality at every stage of the work."
-        },
-        "strategic": {
-          "title": "Strategic",
-          "description": "Every action is planned to generate consistent results."
-        }
+        "name": "Debora Tawil",
+        "role": "Positioning Strategist",
+        "description": "Specialist in corporate communication and reputation management. Has worked with high-end brands and public figures in high-exposure and risk scenarios.",
+        "tags": ["Positioning", "Reputation", "Strategy"]
       }
     },
     "values": {
-      "title": "Our Values",
+      "title": "How we operate",
       "items": {
-        "ethics": {
-          "title": "Ethics",
-          "description": "Integrity and transparency in all relationships."
-        },
         "excellence": {
           "title": "Excellence",
-          "description": "Commitment to quality and superior results."
+          "description": "We don't do mediocre work. Every project receives the attention that only selective service allows."
         },
         "confidentiality": {
           "title": "Confidentiality",
-          "description": "Absolute secrecy as the foundation of trust."
+          "description": "Absolute secrecy. Many of our best clients will never be publicly mentioned. And that's how they prefer it."
         },
-        "intelligence": {
-          "title": "Strategic Intelligence",
-          "description": "Analysis and planning for assertive decisions."
+        "selectivity": {
+          "title": "Selectivity",
+          "description": "We don't work with just anyone. We choose our clients as much as they choose us. Perhaps more."
+        },
+        "results": {
+          "title": "Results",
+          "description": "Focus on concrete results that change your negotiating position. No vanity metrics. No worthless reports."
         }
       }
     },
-    "cta": "Talk to Wise Media"
+    "cta": "Start selection process"
   },
   "contact": {
-    "title": "Communication starts with trust.",
-    "description": "Get in touch to discuss how we can support your strategy with intelligence, discretion, and responsibility.",
-    "methodsTitle": "Contact Methods",
+    "title": "Selection process.",
+    "description": "We don't work with just anyone. The first step is a conversation to see if there's a fit. Mutual.",
+    "methodsTitle": "Contact Channels",
     "methods": {
       "email": {
         "title": "Email",
-        "description": "Preferred for discretion"
+        "description": "For detailed matters"
       },
       "whatsapp": {
         "title": "WhatsApp",
-        "description": "Response within 24 hours"
+        "description": "For direct contact"
       },
       "instagram": {
         "title": "Instagram",
-        "description": "Institutional"
+        "description": "Updates"
       }
     },
-    "processTitle": "How It Works",
+    "processTitle": "How it works",
     "process": {
       "initial": {
-        "title": "Initial Conversation",
-        "description": "We understand your situation, goals, and communication challenges with absolute confidentiality."
+        "title": "Initial conversation",
+        "description": "We understand your situation, goals, and challenges. We also evaluate if there's a fit. Everything under absolute confidentiality."
       },
       "analysis": {
-        "title": "Strategic Analysis",
-        "description": "We evaluate scenarios, risks, and opportunities with analytical precision and long-term vision."
+        "title": "Strategic analysis",
+        "description": "We evaluate your current positioning, identify opportunities, and define whether you're ready for the process."
       },
       "plan": {
-        "title": "Customized Plan",
-        "description": "We present a clear strategy, realistic timeline, and necessary investment for consistent results."
+        "title": "Personalized proposal",
+        "description": "If there's a fit, we present strategy, timeline, and investment compatible with the result we'll deliver."
       }
     },
-    "confidentiality": "All conversations are treated with confidentiality and institutional responsibility.",
-    "cta": "Start a Conversation"
-  },
-  "teamBanner": {
-    "alt": "Wise Media team at corporate event",
-    "title": "Strategic connections that drive results",
-    "subtitle": "Our team works at events, media, and behind the scenes to strengthen your presence.",
-    "cta": "Meet the team"
-  },
-  "reviews": {
-    "title": "What our clients say",
-    "reviewCount": "reviews"
-  },
-  "articles": {
-    "title": "Debate & Articles",
-    "description": "Publications, cases, and debates on communication, reputation, and media strategy.",
-    "all": "All"
+    "confidentiality": "All conversations are treated with absolute confidentiality.",
+    "cta": "Apply"
   },
   "footer": {
-    "tagline": "Strategic Communication",
-    "description": "Agency specialized in strategic communication and reputation management for high-visibility professionals.",
+    "tagline": "Architects of Dominance",
+    "description": "Transforming names into market authorities.",
     "navigation": "Navigation",
     "contactTitle": "Contact",
     "copyright": "All rights reserved.",
-    "bottomTagline": "Strategic communication and reputation management.",
+    "bottomTagline": "Exclusive positioning and authority building.",
     "ariaLabels": {
-      "instagram": "Follow us on Instagram",
-      "email": "Send us an email",
-      "whatsapp": "Contact us on WhatsApp"
+      "instagram": "Follow on Instagram",
+      "email": "Contact via email",
+      "whatsapp": "Contact via WhatsApp"
     }
+  },
+  "services": {
+    "title": "Elite Services",
+    "description": "Each service is a strategic weapon. We don't offer generic packages — we build personalized arsenals for those who want to dominate.",
+    "whenLabel": "When to use",
+    "seeMore": "See more",
+    "seeLess": "See less",
+    "cta": "Start selection process",
+    "items": {
+      "pressAdvisory": {
+        "title": "Press Advisory",
+        "deliver": "Strategic placements in media that matters. It's not about appearing — it's about appearing right, to those who pay what you're worth.",
+        "when": "You need qualified visibility, not volume. You want to be seen as an authority by decision-makers."
+      },
+      "strategicAdvisory": {
+        "title": "Strategic Consulting",
+        "deliver": "Deep diagnostic + positioning architecture. We define exactly how you'll be perceived and the path to get there.",
+        "when": "You know you need positioning but don't know where to start. Or you've tried and it didn't work."
+      },
+      "visaAdvisory": {
+        "title": "EB1/EB2 Visa — Media",
+        "deliver": "Media presence building that proves extraordinary ability. Portfolio of evidence for elite immigration.",
+        "when": "You're seeking an extraordinary ability US visa and need proof of national/international recognition."
+      },
+      "googleBusiness": {
+        "title": "Google My Business",
+        "deliver": "Professional optimization of your Google presence. When they search for you, they'll find authority — not amateurism.",
+        "when": "Your Google presence doesn't reflect your real level. Potential clients find incomplete or outdated profiles."
+      },
+      "cleanName": {
+        "title": "Name Cleaning",
+        "deliver": "Strategic removal of negative content. Your digital reputation cleaned of noise that doesn't represent you.",
+        "when": "Online content is harming your image. Search results show what you don't want people to see."
+      },
+      "crisisManagement": {
+        "title": "Crisis Management",
+        "deliver": "Fast and strategic response to image crises. Reputation protection when it matters most.",
+        "when": "Negative exposure requires immediate action. Your image is under attack and you need protection."
+      }
+    }
+  },
+  "articles": {
+    "title": "Insights",
+    "description": "Strategic content on positioning, authority, and market dominance.",
+    "all": "All"
   },
   "common": {
     "home": "Home",
     "learnMore": "Learn More",
-    "getStarted": "Get Started"
+    "getStarted": "Apply"
   }
 }

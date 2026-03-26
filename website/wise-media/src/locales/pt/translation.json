@@ -1,389 +1,430 @@
 {
   "seo": {
     "home": {
-      "title": "Wise Media | Comunicação Estratégica e Gestão de Reputação",
-      "description": "Agência especializada em assessoria de imprensa, gestão de reputação e comunicação estratégica para profissionais de alta visibilidade."
+      "title": "Wise Media | Arquitetos de Autoridade",
+      "description": "Posicionamento de elite para profissionais que recusam a invisibilidade. Médicos, advogados, empresários e especialistas."
     },
     "services": {
-      "title": "Serviços | Wise Media - Assessoria de Imprensa e Gestão de Crise",
-      "description": "Assessoria de imprensa, gestão de crise, limpa nome e comunicação estratégica personalizada para sua necessidade."
+      "title": "Serviços | Wise Media - Posicionamento de Elite",
+      "description": "Construção de autoridade para profissionais de alta performance. Atendimento seletivo."
     },
     "about": {
-      "title": "Sobre | Wise Media - Quem Somos",
-      "description": "Conheça a Wise Media: equipe especializada em comunicação estratégica com experiência em mídia, reputação e gestão de imagem."
+      "title": "Sobre | Wise Media - Arquitetos de Autoridade",
+      "description": "Não somos agência. Somos arquitetos de autoridade para quem recusa ser mais um."
     },
     "contact": {
-      "title": "Contato | Wise Media - Fale Conosco",
-      "description": "Entre em contato com a Wise Media para uma conversa estratégica sobre comunicação e gestão de reputação."
+      "title": "Contato | Wise Media - Atendimento Seletivo",
+      "description": "Vagas limitadas. Processo seletivo criterioso. Entre em contato para avaliação."
     },
     "articles": {
-      "title": "Artigos | Wise Media - Debates e Publicações",
-      "description": "Artigos, cases e debates sobre comunicação estratégica, reputação e gestão de imagem na mídia."
+      "title": "Artigos | Wise Media - Inteligência Estratégica",
+      "description": "Conteúdo exclusivo sobre posicionamento, autoridade e domínio de mercado."
+    },
+    "method": {
+      "title": "Método WISE | Wise Media - Sistema Proprietário",
+      "description": "Metodologia exclusiva para transformar expertise em domínio de mercado."
     }
   },
   "nav": {
     "home": "Início",
     "services": "Serviços",
+    "method": "Método",
     "articles": "Artigos",
     "about": "Sobre",
     "contact": "Contato",
-    "tagline": "Comunicação Estratégica",
-    "openMenu": "Abrir menu de navegação",
-    "closeMenu": "Fechar menu de navegação"
+    "tagline": "Arquitetos de Autoridade",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu"
   },
   "hero": {
-    "title": "Comunicação estratégica que protege, posiciona e fortalece reputações.",
-    "description": "Atuamos com inteligência, precisão e responsabilidade para apoiar profissionais e marcas em cenários de alta exposição — da assessoria de imprensa à gestão de crise, com total discrição.",
-    "cta": "Fale com a Wise Media",
-    "ctaSecondary": "Conheça os Serviços",
-    "teamNote": "Equipe especializada em comunicação estratégica",
+    "tag": "POSICIONAMENTO DE ELITE",
+    "title": "Nomes comuns não dominam mercados.",
+    "subtitle": "Autoridades dominam.",
+    "description": "Para médicos, advogados, empresários e especialistas que recusam a mediocridade da invisibilidade.",
+    "cta": "Candidatar-se",
+    "ctaSecondary": "Ver o Método",
     "metrics": {
-      "clients": "Clientes Atendidos",
-      "clientsValue": "+50",
-      "response": "Resposta em Crises",
-      "responseValue": "24h",
-      "confidentiality": "Confidencialidade",
-      "confidentialityValue": "100%"
+      "authorities": "Autoridades construídas",
+      "authoritiesValue": "+50",
+      "media": "Inserções estratégicas",
+      "mediaValue": "+200",
+      "confidentiality": "Sigilo",
+      "confidentialityValue": "Absoluto"
     }
   },
-  "trustMarkers": {
-    "stats": {
-      "clients": "Clientes Atendidos",
-      "clientsValue": "50+",
-      "experience": "Anos de Experiência",
-      "experienceValue": "5+",
-      "satisfaction": "Taxa de Satisfação",
-      "satisfactionValue": "98%",
-      "responseTime": "Tempo de Resposta",
-      "responseTimeValue": "24h"
-    },
-    "sectorsTitle": "Setores que Atendemos",
-    "sectorsDescription": "Experiência em comunicação estratégica para diversos segmentos",
-    "sectors": {
-      "technology": "Tecnologia",
-      "finance": "Finanças",
-      "health": "Saúde",
-      "legal": "Jurídico",
-      "entertainment": "Entretenimento",
-      "executives": "Executivos"
-    },
-    "confidentialityNote": "Atuação discreta com clientes que valorizam confidencialidade"
+  "authorityHook": {
+    "title": "Quem não é visto como autoridade é tratado como commodity.",
+    "description": "Você compete por preço. Seus clientes questionam seu valor. Profissionais inferiores fecham os contratos que deveriam ser seus. Isso não é azar — é falta de posicionamento."
   },
-  "servicesOverview": {
-    "tag": "SERVIÇOS",
-    "title": "Serviços",
-    "description": "Soluções especializadas para proteger, posicionar e fortalecer sua presença estratégica.",
-    "cta": "Ver Todos os Detalhes",
-    "services": {
-      "pressAdvisory": {
-        "title": "Assessoria de Imprensa",
-        "description": "Construção e fortalecimento da imagem pública com inserções estratégicas na mídia."
+  "problem": {
+    "tag": "A VERDADE",
+    "title": "Competência não garante reconhecimento.",
+    "subtitle": "O mercado não premia os melhores. Premia os mais visíveis.",
+    "items": {
+      "unknown": {
+        "title": "Invisibilidade",
+        "description": "Você entrega resultados excepcionais para clientes que nunca deveriam ter chegado até você. Enquanto isso, profissionais medíocres dominam o mercado que deveria ser seu."
       },
-      "strategicAdvisory": {
-        "title": "Assessoria Estratégica e Pontual",
-        "description": "Consultoria especializada para momentos específicos que exigem posicionamento preciso."
+      "ignored": {
+        "title": "Commoditização",
+        "description": "Clientes comparam você com qualquer um. Pedem desconto. Questionam seu preço. Porque não te veem como categoria à parte."
       },
-      "visaAdvisory": {
-        "title": "Assessoria para Vistos",
-        "description": "Suporte especializado para processos de vistos com estratégia de mídia integrada."
-      },
-      "googleBusiness": {
-        "title": "Gestão do Google Meu Negócio",
-        "description": "Otimização da presença digital e reputação em buscas locais."
-      },
-      "cleanName": {
-        "title": "Serviço Limpa Nome",
-        "description": "Remoção de conteúdos negativos e recuperação da reputação digital."
-      },
-      "crisisManagement": {
-        "title": "Gestão de Crise",
-        "description": "Atuação rápida e estratégica para proteger sua imagem em momentos críticos."
+      "undervalued": {
+        "title": "Subvalorização",
+        "description": "Você cobra uma fração do que vale. Aceita projetos abaixo do seu nível. Negocia com quem deveria implorar para trabalhar com você."
       }
     }
   },
-  "whoWeServe": {
-    "tag": "PÚBLICO-ALVO",
-    "title": "Para Quem",
-    "description": "Especialistas em atender profissionais que enfrentam exposição pública e precisam de comunicação estratégica.",
-    "segments": {
-      "highVisibility": {
-        "title": "Profissionais de Alta Visibilidade",
-        "description": "Executivos, artistas, influenciadores e personalidades públicas que necessitam de gestão estratégica de imagem e comunicação."
+  "solution": {
+    "tag": "A VIRADA",
+    "title": "Posicionamento muda tudo.",
+    "description": "Quando você é percebido como autoridade, as regras mudam. Clientes vêm até você. Preço deixa de ser objeção. Você escolhe com quem trabalha.",
+    "items": {
+      "positioning": {
+        "title": "Posicionamento dominante",
+        "description": "Você não será mais uma opção. Será A opção. Ocupamos o espaço mental que te coloca em categoria própria."
       },
-      "entrepreneurs": {
-        "title": "Empreendedores e Vistos Especiais",
-        "description": "Empresários em expansão internacional e profissionais que buscam visibilidade estratégica para processos de visto."
+      "media": {
+        "title": "Presença estratégica",
+        "description": "Inserções cirúrgicas em veículos que importam. Não é sobre aparecer — é sobre aparecer certo."
+      },
+      "narrative": {
+        "title": "Narrativa de poder",
+        "description": "Sua história reescrita para comunicar domínio. Não expertise — domínio."
+      },
+      "reputation": {
+        "title": "Blindagem total",
+        "description": "Reputação protegida e fortalecida. Preparado para qualquer cenário de exposição."
       }
-    },
-    "cta": "Se você se identifica, estamos prontos para apoiar sua estratégia.",
-    "ctaButton": "Iniciar Conversa"
-  },
-  "missionVision": {
-    "title": "Visão e Missão",
-    "description": "Nosso propósito institucional e compromisso com a excelência em comunicação estratégica.",
-    "vision": {
-      "label": "Visão",
-      "text": "Ser referência nacional em comunicação estratégica e gestão de reputação, oferecendo soluções éticas, inteligentes e consistentes para marcas e líderes."
-    },
-    "mission": {
-      "label": "Missão",
-      "text": "Ajudar nossos clientes a comunicar com clareza, inteligência e credibilidade, transformando narrativas em resultados reais e sustentáveis."
     }
   },
-  "testimonials": {
-    "tag": "DEPOIMENTOS",
-    "title": "O Que Nossos Clientes Dizem",
-    "description": "Confiança construída através de resultados reais e relacionamentos duradouros.",
+  "wiseMethod": {
+    "tag": "SISTEMA PROPRIETÁRIO",
+    "title": "O Método WISE",
+    "description": "Não é fórmula. É arquitetura de autoridade desenvolvida em anos de trabalho com profissionais de elite.",
+    "steps": {
+      "w": {
+        "title": "Who",
+        "subtitle": "Definição de identidade",
+        "description": "Quem você é. O que te torna insubstituível. Por que alguém deveria pagar premium para trabalhar com você e não com qualquer outro."
+      },
+      "i": {
+        "title": "Image",
+        "subtitle": "Construção de percepção",
+        "description": "Sua imagem comunica autoridade antes de você abrir a boca. Ou comunica mediocridade. Nós garantimos a primeira."
+      },
+      "s": {
+        "title": "Strategic",
+        "subtitle": "Execução calculada",
+        "description": "Cada movimento é estratégico. Cada aparição é planejada. Nada é acaso. Tudo é arquitetado."
+      },
+      "e": {
+        "title": "Expansion",
+        "subtitle": "Domínio de território",
+        "description": "Expansão controlada até você se tornar sinônimo da sua categoria. Não referência — sinônimo."
+      }
+    },
+    "cta": "Conhecer o sistema completo"
+  },
+  "socialProof": {
+    "tag": "RESULTADOS",
+    "title": "Transformações reais",
+    "description": "Profissionais que decidiram parar de competir e começar a dominar.",
     "items": [
       {
-        "quote": "A Wise Media transformou completamente nossa presença na mídia. Profissionalismo e discrição incomparáveis.",
-        "author": "Carlos M.",
-        "role": "CEO, Tech Solutions",
-        "rating": "Cliente desde 2022"
+        "quote": "Em 8 meses, saí de desconhecido para ser procurado por pacientes que antes eu jamais alcançaria. Meu ticket médio triplicou.",
+        "author": "Dr. Carlos M.",
+        "role": "Cirurgião Plástico"
       },
       {
-        "quote": "Em um momento crítico para minha carreira, a equipe da Wise Media foi fundamental. Resposta rápida e estratégia impecável.",
-        "author": "Ana P.",
-        "role": "Executiva de Mídia",
-        "rating": "Cliente desde 2021"
+        "quote": "Parei de competir por preço. Hoje escolho meus casos. Clientes vêm indicados, já sabendo quanto custa. Não negocio mais.",
+        "author": "Dra. Ana P.",
+        "role": "Advogada Tributarista"
       },
       {
-        "quote": "A assessoria para meu processo de visto foi excepcional. Atenção aos detalhes e resultados acima das expectativas.",
+        "quote": "A Wise entendeu que eu não precisava de marketing. Precisava de posicionamento. A diferença é abismal.",
         "author": "Roberto S.",
-        "role": "Empreendedor",
-        "rating": "Cliente desde 2023"
+        "role": "CEO, Tech Solutions"
       }
+    ]
+  },
+  "offer": {
+    "title": "Isso não é para qualquer um.",
+    "description": "Trabalhamos com profissionais que já têm base sólida e estão prontos para assumir a posição que merecem. Se você ainda está construindo competência, não é o momento.",
+    "whoTitle": "Perfil que atendemos",
+    "whatTitle": "O que entregamos",
+    "audience": [
+      "Médicos prontos para serem referência nacional em suas especialidades",
+      "Advogados que querem casos de 6 e 7 dígitos",
+      "Empresários construindo legados, não apenas negócios",
+      "Especialistas que recusam cobrar como commodity",
+      "Figuras públicas que exigem gestão de imagem de alto nível"
     ],
-    "cta": "Seja o próximo a construir autoridade com comunicação estratégica.",
-    "ctaButton": "Fale com a Wise Media"
+    "included": [
+      "Diagnóstico profundo de posicionamento e gaps",
+      "Arquitetura completa de autoridade personalizada",
+      "Gestão de presença em mídia estratégica",
+      "Construção de narrativa de poder",
+      "Blindagem e gestão de reputação",
+      "Acompanhamento direto com as fundadoras"
+    ],
+    "transformationTitle": "O antes e depois",
+    "transformationDescription": "De opção para A opção. De ignorado para requisitado. De precificado pelo mercado para definidor de preço."
   },
   "faq": {
-    "title": "Perguntas Frequentes",
-    "description": "Respostas claras para dúvidas comuns sobre nossos serviços e atuação.",
+    "title": "Perguntas Diretas",
+    "description": "Sem rodeios.",
     "items": [
       {
-        "question": "Como funciona a assessoria de imprensa?",
-        "answer": "Trabalhamos para construir e fortalecer sua imagem pública através de inserções estratégicas na mídia, relacionamento com jornalistas e produção de conteúdo relevante. Cada estratégia é personalizada conforme seus objetivos e perfil."
+        "question": "Quanto tempo até ver resultado?",
+        "answer": "Primeiros sinais em 30-60 dias. Autoridade consolidada em 6-12 meses. Isso não é hack de crescimento — é construção de posição permanente."
       },
       {
-        "question": "Vocês atendem em situações de crise?",
-        "answer": "Sim, oferecemos gestão de crise com atuação rápida e estratégica. Nossa equipe está preparada para responder em até 24 horas, protegendo sua imagem e reputação em momentos críticos."
+        "question": "Vocês garantem resultado?",
+        "answer": "Garantimos estratégia de elite e execução impecável. Resultado depende também do seu comprometimento. Não trabalhamos com quem quer atalho."
       },
       {
-        "question": "O que é o serviço Limpa Nome?",
-        "answer": "É um serviço especializado em remoção de conteúdos negativos da internet e recuperação da reputação digital. Utilizamos técnicas legais e éticas para restaurar sua imagem online."
+        "question": "Qual o investimento?",
+        "answer": "Compatível com o nível de transformação. Não divulgamos valores publicamente. Após avaliação inicial, apresentamos proposta personalizada."
       },
       {
-        "question": "Como funciona a assessoria para vistos?",
-        "answer": "Oferecemos suporte completo para processos de vistos, incluindo estratégia de mídia integrada que fortalece seu perfil profissional e aumenta as chances de aprovação."
+        "question": "Vocês aceitam qualquer cliente?",
+        "answer": "Não. Temos processo seletivo. Precisamos acreditar no potencial de quem atendemos. Se não for fit, indicamos outro caminho."
       },
       {
-        "question": "Qual o prazo para ver resultados?",
-        "answer": "Os prazos variam conforme o serviço e objetivos. Assessoria de imprensa geralmente mostra resultados em 30-90 dias, enquanto gestão de crise tem resposta imediata. Apresentamos cronograma detalhado na proposta."
+        "question": "Qual a garantia de sigilo?",
+        "answer": "Absoluta. Muitos de nossos clientes mais bem-sucedidos jamais serão mencionados. Confidencialidade não é benefício — é premissa."
       },
       {
-        "question": "Vocês garantem confidencialidade?",
-        "answer": "Absolutamente. A confidencialidade é um dos pilares do nosso trabalho. Todos os clientes e projetos são tratados com total discrição e sigilo profissional."
-      },
-      {
-        "question": "Atendem clientes fora de São Paulo?",
-        "answer": "Sim, atendemos clientes em todo o Brasil e também no exterior. Nossa atuação é adaptada para atender às necessidades específicas de cada região e mercado."
-      },
-      {
-        "question": "Como é feito o orçamento?",
-        "answer": "Após uma conversa inicial para entender suas necessidades, apresentamos uma proposta personalizada com escopo, cronograma e investimento. Não trabalhamos com pacotes genéricos."
+        "question": "Fazem gestão de redes sociais?",
+        "answer": "Não. Redes sociais são tática. Nós fazemos estratégia. Podemos alinhar sua equipe, mas não operamos o dia a dia."
       }
     ],
-    "cta": "Ainda tem dúvidas? Estamos prontos para uma conversa.",
-    "ctaButton": "Fale com a Wise Media"
+    "cta": "Alguma dúvida específica?",
+    "ctaButton": "Entrar em contato"
   },
-  "contactHome": {
-    "title": "Comunicação começa com confiança.",
-    "description": "Entre em contato para discutir como podemos apoiar sua estratégia com inteligência e discrição.",
-    "cardTitle": "Pronto para fortalecer sua reputação?",
-    "cardDescription": "Nossa equipe está pronta para uma conversa estratégica sobre seus desafios de comunicação.",
-    "cta": "Iniciar Conversa",
-    "ctaEmail": "Enviar Email"
+  "finalCta": {
+    "title": "Invisibilidade é escolha.",
+    "description": "Enquanto você avalia, outros estão ocupando o espaço que poderia ser seu. A questão não é se você vai se posicionar — é quando. E quem vai ocupar seu lugar enquanto você espera.",
+    "cta": "Iniciar processo seletivo",
+    "whatsapp": "Falar agora",
+    "closing": "Vagas limitadas. Atendimento por seleção."
   },
-  "services": {
-    "title": "Serviços",
-    "description": "Comunicação estratégica na Wise Media significa inteligência aplicada, discrição absoluta e resultados mensuráveis. Cada serviço é desenhado para proteger, posicionar e fortalecer sua presença.",
-    "deliverLabel": "O QUE ENTREGAMOS",
-    "whenLabel": "QUANDO CONTRATAR",
-    "items": {
-      "pressAdvisory": {
-        "title": "Assessoria de Imprensa",
-        "deliver": "Construção e fortalecimento da imagem pública através de relacionamento estratégico com veículos de comunicação, produção de releases, media training e gestão de entrevistas.",
-        "when": "Ideal para profissionais que buscam aumentar sua visibilidade de forma controlada, construir autoridade no mercado ou preparar-se para momentos de exposição pública."
+  "metodo": {
+    "hero": {
+      "tag": "SISTEMA PROPRIETÁRIO",
+      "title": "O Método WISE",
+      "description": "Arquitetura de autoridade desenvolvida para profissionais que recusam ser mais um."
+    },
+    "intro": {
+      "title": "Por que isso existe",
+      "description": "Competência técnica nunca foi garantia de reconhecimento. O mercado premia quem se posiciona, não quem trabalha mais. Criamos o Método WISE para corrigir essa injustiça de forma sistemática."
+    },
+    "steps": {
+      "w": {
+        "letter": "W",
+        "title": "Who — Identidade",
+        "subtitle": "Definição do núcleo",
+        "description": "Antes de comunicar, é preciso saber exatamente quem você é. O que te torna único. Por que alguém deveria escolher você e pagar mais por isso. Sem clareza aqui, todo o resto é ruído.",
+        "includes": [
+          "Mapeamento de diferenciais únicos",
+          "Definição de posicionamento dominante",
+          "Identificação de audiência premium",
+          "Construção de proposta de valor irrecusável"
+        ]
       },
-      "strategicAdvisory": {
-        "title": "Assessoria Estratégica e Pontual",
-        "deliver": "Consultoria especializada para situações específicas que exigem posicionamento preciso, análise de cenário e orientação estratégica de comunicação.",
-        "when": "Recomendado para momentos decisivos como lançamentos, fusões, mudanças de carreira ou qualquer situação que demande orientação especializada."
+      "i": {
+        "letter": "I",
+        "title": "Image — Percepção",
+        "subtitle": "Arquitetura de imagem",
+        "description": "Sua imagem fala antes de você. Ela pode comunicar autoridade ou mediocridade. Construímos cada elemento para transmitir domínio — não competência, domínio.",
+        "includes": [
+          "Narrativa pessoal de poder",
+          "Biografia estratégica de impacto",
+          "Alinhamento de presença visual",
+          "Preparação para alta exposição"
+        ]
       },
-      "visaAdvisory": {
-        "title": "Assessoria para Vistos",
-        "deliver": "Suporte completo para processos de vistos especiais, incluindo construção de perfil profissional na mídia, documentação de visibilidade e estratégia de posicionamento.",
-        "when": "Essencial para empreendedores, executivos e profissionais que buscam vistos de trabalho, investidor ou habilidades extraordinárias."
+      "s": {
+        "letter": "S",
+        "title": "Strategic — Execução",
+        "subtitle": "Movimentos calculados",
+        "description": "Estratégia sem execução é fantasia. Cada aparição é calculada. Cada inserção é cirúrgica. Nada é deixado ao acaso. Tudo é arquitetado para máximo impacto.",
+        "includes": [
+          "Mapeamento de veículos de elite",
+          "Planejamento de inserções de alto impacto",
+          "Criação de pautas irresistíveis",
+          "Relacionamento com formadores de opinião"
+        ]
       },
-      "googleBusiness": {
-        "title": "Gestão do Google Meu Negócio",
-        "deliver": "Otimização completa do perfil, gestão de avaliações, estratégia de conteúdo local e monitoramento de performance em buscas.",
-        "when": "Fundamental para negócios que dependem de presença local, profissionais liberais e empresas que desejam melhorar sua reputação online."
-      },
-      "cleanName": {
-        "title": "Serviço Limpa Nome",
-        "deliver": "Identificação e remoção de conteúdos negativos, estratégia de SEO para reputação, monitoramento contínuo e recuperação da imagem digital.",
-        "when": "Indicado para quem enfrenta conteúdos prejudiciais nos resultados de busca, notícias antigas negativas ou ataques à reputação online."
-      },
-      "crisisManagement": {
-        "title": "Gestão de Crise",
-        "deliver": "Resposta rápida a situações críticas, elaboração de posicionamento oficial, gestão de comunicação com stakeholders e estratégia de recuperação de imagem.",
-        "when": "Necessário em situações de exposição negativa, polêmicas públicas, vazamentos ou qualquer cenário que ameace a reputação."
+      "e": {
+        "letter": "E",
+        "title": "Expansion — Domínio",
+        "subtitle": "Conquista de território",
+        "description": "Autoridade não é destino — é construção contínua. Expandimos sua presença até você se tornar sinônimo da sua categoria. O nome que vem à mente quando pensam no que você faz.",
+        "includes": [
+          "Expansão controlada de presença",
+          "Consolidação de posição dominante",
+          "Blindagem de reputação",
+          "Monitoramento e ajustes contínuos"
+        ]
       }
     },
-    "seeMore": "Saiba mais",
-    "seeLess": "Ver menos",
-    "trustTitle": "Atuamos com inteligência, precisão e responsabilidade.",
-    "trustDescription": "Cada serviço é personalizado para atender suas necessidades específicas. Entre em contato para uma avaliação inicial sem compromisso.",
-    "cta": "Fale com a Wise Media"
+    "cta": {
+      "title": "Pronto para o próximo nível?",
+      "description": "Vagas limitadas. Processo seletivo criterioso. Se você tem a base, nós construímos a autoridade.",
+      "button": "Candidatar-se"
+    }
   },
   "about": {
-    "title": "Sobre",
-    "description": "Agência de comunicação estratégica especializada em assessoria de imprensa, gestão de reputação e atuação em cenários sensíveis de exposição pública.",
+    "tag": "QUEM SOMOS",
+    "title": "Wise Media",
+    "subtitle": "Não somos agência. Somos arquitetos de autoridade.",
+    "description": "Fundada por estrategistas com décadas em mídia de alto nível. Trabalhamos exclusivamente com profissionais prontos para dominar seus mercados.",
     "mission": {
       "label": "Missão",
-      "text": "Ajudar nossos clientes a comunicar com clareza, inteligência e credibilidade, transformando narrativas em resultados reais e sustentáveis."
+      "text": "Transformar profissionais excepcionais em autoridades incontestáveis. Usando estratégia, mídia e narrativa para ocupar posições que ninguém mais pode ocupar."
     },
     "vision": {
       "label": "Visão",
-      "text": "Ser referência nacional em comunicação estratégica e gestão de reputação, oferecendo soluções éticas, inteligentes e consistentes para marcas e líderes."
+      "text": "Ser o nome por trás das maiores autoridades do Brasil. A força invisível que constrói posições de domínio."
     },
     "founders": {
       "title": "Fundadoras",
-      "description": "Experiência comprovada em mídia, comunicação corporativa e gestão estratégica de imagem.",
+      "description": "Estrategistas de elite com acesso e experiência que não se compra.",
       "rosy": {
         "name": "Rosy Cordeiro",
-        "role": "Jornalista e assessora de imprensa",
-        "description": "Sólida experiência como jornalista, editora em redações de grandes veículos e assessora de imprensa para marcas de alto padrão e personalidades.",
-        "tags": ["Mídia", "Moda", "Estratégia"]
+        "role": "Estrategista de Mídia",
+        "description": "15+ anos dentro das maiores redações do país. Sabe exatamente como a mídia funciona porque viveu do outro lado. Posiciona profissionais com precisão cirúrgica.",
+        "tags": ["Mídia", "Posicionamento", "Estratégia"]
       },
       "debora": {
         "name": "Débora Tawil",
-        "role": "Estrategista de comunicação",
-        "description": "Especialista em comunicação de crise e gestão de reputação, com atuação em cenários complexos que exigem inteligência e discrição.",
-        "tags": ["Crises", "Reputação", "Estratégia"]
-      },
-      "eventAlt": "Equipe Wise Media em evento corporativo",
-      "eventCaption": "Nossa equipe em ação — construindo conexões estratégicas em eventos corporativos."
-    },
-    "howWeWork": {
-      "title": "Como Atuamos",
-      "pillars": {
-        "analytical": {
-          "title": "Analítico",
-          "description": "Decisões baseadas em dados e análise profunda de cenário."
-        },
-        "discreet": {
-          "title": "Discreto",
-          "description": "Confidencialidade absoluta em todas as etapas do trabalho."
-        },
-        "strategic": {
-          "title": "Estratégico",
-          "description": "Cada ação é planejada para gerar resultados consistentes."
-        }
+        "role": "Estrategista de Reputação",
+        "description": "Especialista em construção e proteção de imagem para cenários de alta exposição. Trabalhou com marcas e personalidades que exigem excelência absoluta.",
+        "tags": ["Reputação", "Imagem", "Estratégia"]
       }
     },
     "values": {
-      "title": "Nossos Valores",
+      "title": "Como operamos",
       "items": {
-        "ethics": {
-          "title": "Ética",
-          "description": "Atuação íntegra e transparente em todas as relações."
-        },
         "excellence": {
-          "title": "Excelência",
-          "description": "Compromisso com a qualidade e resultados superiores."
+          "title": "Excelência obsessiva",
+          "description": "Mediocridade não existe aqui. Cada detalhe é tratado com obsessão."
         },
         "confidentiality": {
-          "title": "Confidencialidade",
-          "description": "Sigilo absoluto como base de confiança."
+          "title": "Sigilo absoluto",
+          "description": "Nossos melhores cases nunca serão públicos. É assim que deve ser."
         },
-        "intelligence": {
-          "title": "Inteligência Estratégica",
-          "description": "Análise e planejamento para decisões assertivas."
+        "selectivity": {
+          "title": "Seletividade radical",
+          "description": "Escolhemos com quem trabalhamos. Não aceitamos qualquer projeto."
+        },
+        "results": {
+          "title": "Resultados tangíveis",
+          "description": "Foco em transformação real. Métricas de vaidade não nos interessam."
         }
       }
     },
-    "cta": "Fale com a Wise Media"
+    "cta": "Iniciar conversa"
   },
   "contact": {
-    "title": "Comunicação começa com confiança.",
-    "description": "Entre em contato para discutir como podemos apoiar sua estratégia com inteligência, discrição e responsabilidade.",
-    "methodsTitle": "Formas de Contato",
+    "title": "Próximo passo.",
+    "description": "Se você chegou até aqui, provavelmente já sabe que precisa de posicionamento. A questão é se está pronto para o processo.",
+    "methodsTitle": "Canais",
     "methods": {
       "email": {
         "title": "Email",
-        "description": "Preferencial para discrição"
+        "description": "Para detalhamento inicial"
       },
       "whatsapp": {
         "title": "WhatsApp",
-        "description": "Resposta em até 24 horas"
+        "description": "Resposta em 24h"
       },
       "instagram": {
         "title": "Instagram",
-        "description": "Institucional"
+        "description": "Conteúdo exclusivo"
       }
     },
-    "processTitle": "Como Funciona",
+    "processTitle": "O processo",
     "process": {
       "initial": {
-        "title": "Conversa Inicial",
-        "description": "Entendemos sua situação, objetivos e desafios de comunicação com confidencialidade absoluta."
+        "title": "Avaliação inicial",
+        "description": "Entendemos sua situação, histórico e objetivos. Avaliamos se há fit para trabalharmos juntos."
       },
       "analysis": {
-        "title": "Análise Estratégica",
-        "description": "Avaliamos cenários, riscos e oportunidades com precisão analítica e visão de longo prazo."
+        "title": "Análise profunda",
+        "description": "Diagnóstico completo de posicionamento, gaps e oportunidades. Mapeamento do território a conquistar."
       },
       "plan": {
-        "title": "Plano Personalizado",
-        "description": "Apresentamos estratégia clara, cronograma realista e investimento necessário para resultados consistentes."
+        "title": "Proposta estratégica",
+        "description": "Arquitetura personalizada, cronograma e investimento. Decisão é sua."
       }
     },
-    "confidentiality": "Todas as conversas são tratadas com confidencialidade e responsabilidade institucional.",
-    "cta": "Iniciar Conversa"
-  },
-  "teamBanner": {
-    "alt": "Equipe Wise Media em evento corporativo",
-    "title": "Conexões estratégicas que geram resultados",
-    "subtitle": "Nossa equipe atua em eventos, mídia e bastidores para fortalecer sua presença.",
-    "cta": "Conheça a equipe"
-  },
-  "reviews": {
-    "title": "O que nossos clientes dizem",
-    "reviewCount": "avaliações"
-  },
-  "articles": {
-    "title": "Debate & Artigos",
-    "description": "Publicações, cases e debates sobre comunicação, reputação e estratégia na mídia.",
-    "all": "Todos"
+    "confidentiality": "Toda comunicação é tratada com sigilo absoluto.",
+    "cta": "Iniciar avaliação"
   },
   "footer": {
-    "tagline": "Comunicação Estratégica",
-    "description": "Agência especializada em comunicação estratégica e gestão de reputação para profissionais de alta visibilidade.",
+    "tagline": "Arquitetos de Autoridade",
+    "description": "Construindo posições de domínio para profissionais de elite.",
     "navigation": "Navegação",
     "contactTitle": "Contato",
     "copyright": "Todos os direitos reservados.",
-    "bottomTagline": "Comunicação estratégica e gestão de reputação.",
+    "bottomTagline": "Posicionamento de elite. Atendimento seletivo.",
     "ariaLabels": {
-      "instagram": "Siga-nos no Instagram",
-      "email": "Envie-nos um email",
-      "whatsapp": "Fale conosco no WhatsApp"
+      "instagram": "Instagram",
+      "email": "Email",
+      "whatsapp": "WhatsApp"
     }
   },
+  "services": {
+    "title": "Serviços de Elite",
+    "description": "Cada serviço é uma arma estratégica. Não oferecemos pacotes genéricos — construímos arsenais personalizados para quem quer dominar.",
+    "whenLabel": "Quando usar",
+    "seeMore": "Ver mais",
+    "seeLess": "Ver menos",
+    "cta": "Iniciar processo seletivo",
+    "items": {
+      "pressAdvisory": {
+        "title": "Assessoria de Imprensa",
+        "deliver": "Inserções estratégicas em veículos que importam. Não é sobre aparecer — é sobre aparecer certo, para quem paga o que você vale.",
+        "when": "Você precisa de visibilidade qualificada, não volume. Quer ser visto como autoridade por quem toma decisões."
+      },
+      "strategicAdvisory": {
+        "title": "Consultoria Estratégica",
+        "deliver": "Diagnóstico profundo + arquitetura de posicionamento. Definimos exatamente como você será percebido e o caminho para chegar lá.",
+        "when": "Você sabe que precisa se posicionar, mas não sabe por onde começar. Ou já tentou e não funcionou."
+      },
+      "visaAdvisory": {
+        "title": "Visto EB1/EB2 — Mídia",
+        "deliver": "Construção de presença em mídia que comprova habilidade extraordinária. Portfolio de evidências para imigração de elite.",
+        "when": "Você busca visto americano de habilidade extraordinária e precisa de provas de reconhecimento nacional/internacional."
+      },
+      "googleBusiness": {
+        "title": "Google Meu Negócio",
+        "deliver": "Otimização profissional da sua presença no Google. Quando procurarem por você, encontrarão autoridade — não amadorismo.",
+        "when": "Sua presença no Google não reflete seu nível real. Clientes potenciais encontram perfil incompleto ou desatualizado."
+      },
+      "cleanName": {
+        "title": "Limpeza de Nome",
+        "deliver": "Remoção estratégica de conteúdo negativo. Sua reputação digital limpa de ruídos que não te representam.",
+        "when": "Existe conteúdo online prejudicando sua imagem. Resultados de busca mostram o que você não quer que vejam."
+      },
+      "crisisManagement": {
+        "title": "Gestão de Crise",
+        "deliver": "Resposta rápida e estratégica a crises de imagem. Proteção de reputação quando mais importa.",
+        "when": "Situação de exposição negativa exige ação imediata. Sua imagem está sob ataque e você precisa de blindagem."
+      }
+    }
+  },
+  "articles": {
+    "title": "Inteligência Estratégica",
+    "description": "Conteúdo exclusivo sobre posicionamento, autoridade e domínio de mercado.",
+    "all": "Todos"
+  },
   "common": {
-    "home": "Home",
-    "learnMore": "Saiba Mais",
+    "home": "Início",
+    "learnMore": "Ver mais",
     "getStarted": "Começar"
   }
 }

@@ -1,13 +1,13 @@
 import usePageMeta from "../hooks/usePageMeta";
 import Hero from "../components/Hero";
-import TrustMarkers from "../components/TrustMarkers";
-import ServicesOverview from "../components/ServicesOverview";
-import WhoWeServe from "../components/WhoWeServe";
-import MissionVision from "../components/MissionVision";
-import TeamBanner from "../components/TeamBanner";
-import Reviews from "../components/Reviews";
+import AuthorityHook from "../components/home/AuthorityHook";
+import ProblemSection from "../components/home/ProblemSection";
+import SolutionSection from "../components/home/SolutionSection";
+import WiseMethod from "../components/home/WiseMethod";
+import SocialProof from "../components/home/SocialProof";
+import OfferSection from "../components/home/OfferSection";
 import FAQ from "../components/FAQ";
-import ContactHome from "../components/ContactHome";
+import FinalCTA from "../components/home/FinalCTA";
 
 export default function Home() {
   usePageMeta("seo.home.title", "seo.home.description");
@@ -15,14 +15,14 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <TrustMarkers />
-      <ServicesOverview />
-      <WhoWeServe />
-      <MissionVision />
-      <TeamBanner />
-      <Reviews />
+      <AuthorityHook />
+      <ProblemSection />
+      <SolutionSection />
+      <WiseMethod />
+      <SocialProof />
+      <OfferSection />
       <FAQ />
-      <ContactHome />
+      <FinalCTA />
     </>
   );
 }

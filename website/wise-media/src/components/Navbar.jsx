@@ -21,6 +21,7 @@ export default function Navbar() {
 
   const navLinks = [
     { to: "/", labelKey: "nav.home" },
+    { to: "/metodo", labelKey: "nav.method" },
     { to: "/servicos", labelKey: "nav.services" },
     { to: "/artigos", labelKey: "nav.articles" },
     { to: "/sobre", labelKey: "nav.about" },

@@ -1,15 +1,12 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router";
 import Icon from "./Icon";
-import rosyPhoto from "../assets/wisemediaphotos/rosy-bluephoto.jpeg";
-import deboraPhoto from "../assets/wisemediaphotos/debora-blue-photo.jpeg";
 
 export default function Hero() {
   const { t } = useTranslation();
 
   return (
-    <section className="relative w-full overflow-hidden" aria-labelledby="hero-heading">
-
+    <section className="relative w-full min-h-[90vh] flex items-center overflow-hidden" aria-labelledby="hero-heading">
       {/* Pattern overlay */}
       <div
         className="absolute inset-0 opacity-10"
@@ -21,83 +18,85 @@ export default function Hero() {
       />
 
       {/* Diagonal accent */}
-      <div className="absolute top-0 right-0 w-1/3 h-full bg-brand-navy opacity-20 transform skew-x-12 translate-x-1/4" aria-hidden="true" />
+      <div className="absolute top-0 right-0 w-1/3 h-full bg-brand-lightBlue/10 transform skew-x-12 translate-x-1/4" aria-hidden="true" />
 
-      <div className="container-content relative py-24 md:py-32 lg:py-40">
+      <div className="container-content relative py-20 md:py-24">
         <div className="max-w-4xl">
-          {/* Bold accent line */}
-          <div className="accent-line-bold mb-6" aria-hidden="true" />
+          {/* Tag */}
+          <div className="inline-block px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-8">
+            <span className="text-brand-lightBlue text-sm font-semibold tracking-wider uppercase">
+              {t('hero.tag')}
+            </span>
+          </div>
 
-          <h1 id="hero-heading" className="text-h1 text-white mb-6 heading-primary drop-shadow-lg">
+          {/* Main headline */}
+          <h1 id="hero-heading" className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
             {t('hero.title')}
           </h1>
 
-          <p className="text-lg md:text-xl text-white/90 max-w-2xl mb-8 leading-relaxed">
+          {/* Subheadline */}
+          <p className="text-xl md:text-2xl text-white/80 max-w-3xl mb-4 leading-relaxed font-light">
+            {t('hero.subtitle')}
+          </p>
+
+          {/* Description */}
+          <p className="text-lg text-white/60 max-w-2xl mb-10 leading-relaxed">
             {t('hero.description')}
           </p>
 
-          {/* Team avatars - premium size for better visibility */}
-          <div className="flex items-center gap-4 mb-8">
-            <div className="flex -space-x-3">
-              <img
-                src={rosyPhoto}
-                alt=""
-                className="w-14 h-14 rounded-full object-cover border-[3px] border-white/80 shadow-xl ring-2 ring-white/20"
-                style={{ objectPosition: '50% 15%' }}
-              />
-              <img
-                src={deboraPhoto}
-                alt=""
-                className="w-14 h-14 rounded-full object-cover border-[3px] border-white/80 shadow-xl ring-2 ring-white/20"
-                style={{ objectPosition: '50% 20%' }}
-              />
-            </div>
-            <p className="text-white/80 text-sm font-medium">{t('hero.teamNote')}</p>
-          </div>
-
-          <div className="flex flex-wrap gap-3 items-center mb-12 md:mb-16">
-            <a href="#contact" className="bg-brand-accent text-white px-7 py-3.5 rounded-lg font-semibold text-sm hover:shadow-xl hover:shadow-brand-accent/25 transition-all hover:translate-y-[-1px] inline-flex items-center gap-2">
+          {/* CTAs */}
+          <div className="flex flex-wrap gap-4 items-center mb-16">
+            <Link
+              to="/contato"
+              className="bg-brand-accent text-white px-8 py-4 rounded-lg font-semibold text-base hover:shadow-xl hover:shadow-brand-accent/25 transition-all hover:translate-y-[-2px] inline-flex items-center gap-2"
+            >
               {t('hero.cta')}
-              <Icon name="ArrowRight" size={18} aria-hidden="true" />
-            </a>
-            <Link to="/servicos" className="bg-white/10 backdrop-blur-sm text-white border border-white/30 px-6 py-3.5 rounded-lg font-medium text-sm hover:bg-white/20 transition-all inline-flex items-center gap-2">
+              <Icon name="ArrowRight" size={20} aria-hidden="true" />
+            </Link>
+
+            <Link
+              to="/metodo"
+              className="bg-white/10 backdrop-blur-sm text-white border border-white/30 px-8 py-4 rounded-lg font-medium text-base hover:bg-white/20 transition-all inline-flex items-center gap-2"
+            >
               {t('hero.ctaSecondary')}
-              <Icon name="Sparkles" size={16} className="text-white/70" aria-hidden="true" />
+              <Icon name="Sparkles" size={18} className="text-brand-lightBlue" aria-hidden="true" />
             </Link>
           </div>
 
-          {/* Trust indicators - premium balanced grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-5 max-w-3xl">
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/15 group hover:bg-white/15 hover:border-white/25 transition-all duration-300">
-              <div className="flex items-center gap-3.5 mb-2.5">
-                <div className="w-10 h-10 rounded-xl bg-white/15 flex items-center justify-center ring-1 ring-white/20 group-hover:ring-white/30 transition-all">
-                  <Icon name="Users" size={20} className="text-white" />
-                </div>
-                <span className="text-2xl lg:text-3xl font-bold text-white">{t('hero.metrics.clientsValue')}</span>
+          {/* Authority metrics */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
+            <div className="text-center sm:text-left">
+              <div className="text-3xl md:text-4xl font-bold text-white mb-1">
+                {t('hero.metrics.authoritiesValue')}
               </div>
-              <p className="text-sm text-white/70 leading-relaxed">{t('hero.metrics.clients')}</p>
+              <div className="text-white/50 text-sm">
+                {t('hero.metrics.authorities')}
+              </div>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/15 group hover:bg-white/15 hover:border-white/25 transition-all duration-300">
-              <div className="flex items-center gap-3.5 mb-2.5">
-                <div className="w-10 h-10 rounded-xl bg-white/15 flex items-center justify-center ring-1 ring-white/20 group-hover:ring-white/30 transition-all">
-                  <Icon name="Zap" size={20} className="text-white" />
-                </div>
-                <span className="text-2xl lg:text-3xl font-bold text-white">{t('hero.metrics.responseValue')}</span>
+
+            <div className="text-center sm:text-left">
+              <div className="text-3xl md:text-4xl font-bold text-white mb-1">
+                {t('hero.metrics.mediaValue')}
               </div>
-              <p className="text-sm text-white/70 leading-relaxed">{t('hero.metrics.response')}</p>
+              <div className="text-white/50 text-sm">
+                {t('hero.metrics.media')}
+              </div>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/15 group hover:bg-white/15 hover:border-white/25 transition-all duration-300">
-              <div className="flex items-center gap-3.5 mb-2.5">
-                <div className="w-10 h-10 rounded-xl bg-white/15 flex items-center justify-center ring-1 ring-white/20 group-hover:ring-white/30 transition-all">
-                  <Icon name="ShieldCheck" size={20} className="text-white" />
-                </div>
-                <span className="text-2xl lg:text-3xl font-bold text-white">{t('hero.metrics.confidentialityValue')}</span>
+
+            <div className="text-center sm:text-left">
+              <div className="text-3xl md:text-4xl font-bold text-white mb-1">
+                {t('hero.metrics.confidentialityValue')}
               </div>
-              <p className="text-sm text-white/70 leading-relaxed">{t('hero.metrics.confidentiality')}</p>
+              <div className="text-white/50 text-sm">
+                {t('hero.metrics.confidentiality')}
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      {/* Bottom gradient fade */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-brand-navy to-transparent" aria-hidden="true" />
     </section>
   );
 }
