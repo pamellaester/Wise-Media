@@ -6,6 +6,7 @@ export default function OfferSection() {
 
   const audiences = t('offer.audience', { returnObjects: true });
   const included = t('offer.included', { returnObjects: true });
+  const notFor = t('offer.notFor', { returnObjects: true });
 
   return (
     <section className="w-full relative overflow-hidden" aria-labelledby="offer-heading">
@@ -30,7 +31,8 @@ export default function OfferSection() {
           </p>
         </header>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 max-w-5xl mx-auto">
+        {/* Main grid - Who it's for + What's included */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 max-w-5xl mx-auto mb-8">
           {/* Who it's for */}
           <div className="bg-white/8 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/10">
             <div className="flex items-center gap-3 mb-6">
@@ -82,13 +84,40 @@ export default function OfferSection() {
           </div>
         </div>
 
+        {/* NOT FOR section - Exclusivity */}
+        <div className="max-w-5xl mx-auto mb-12">
+          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-red-500/20">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-12 h-12 rounded-xl bg-red-500/10 flex items-center justify-center">
+                <Icon name="XCircle" size={24} className="text-red-400" />
+              </div>
+              <h3 className="text-xl font-semibold text-white">
+                {t('offer.notForTitle')}
+              </h3>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {notFor.map((item, index) => (
+                <div key={index} className="flex items-start gap-3">
+                  <div className="w-5 h-5 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <Icon name="X" size={12} className="text-red-400" />
+                  </div>
+                  <span className="text-white/60 text-sm leading-relaxed">
+                    {item}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
         {/* Transformation statement */}
-        <div className="max-w-3xl mx-auto text-center mt-12 md:mt-16">
-          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/10">
+        <div className="max-w-3xl mx-auto text-center">
+          <div className="bg-gradient-to-r from-brand-lightBlue/10 via-white/5 to-brand-lightBlue/10 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-brand-lightBlue/20">
             <h4 className="text-lg md:text-xl font-semibold text-white mb-3">
               {t('offer.transformationTitle')}
             </h4>
-            <p className="text-white/70 leading-relaxed">
+            <p className="text-white/80 leading-relaxed text-lg">
               {t('offer.transformationDescription')}
             </p>
           </div>

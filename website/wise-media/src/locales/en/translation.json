@@ -1,28 +1,28 @@
 {
   "seo": {
     "home": {
-      "title": "Wise Media | We Build Authority for the Elite",
-      "description": "Strategic positioning and authority building for doctors, lawyers, entrepreneurs, and specialists who refuse to be treated as commodities."
+      "title": "Wise Media | Authority Positioning",
+      "description": "We transform competent professionals into recognized authorities. Strategic positioning for doctors, lawyers, entrepreneurs, and specialists."
     },
     "services": {
-      "title": "Services | Wise Media - Authority Dominance",
-      "description": "We turn invisible professionals into undisputed references. Selective service for those ready to dominate."
+      "title": "Services | Wise Media - Authority Building",
+      "description": "Strategic positioning and authority building services for high-level professionals."
     },
     "about": {
-      "title": "About | Wise Media - Architects of Dominance",
-      "description": "We don't work with just anyone. We work with professionals ready to claim their rightful position at the top."
+      "title": "About | Wise Media - Who We Are",
+      "description": "Meet Wise Media: specialists in transforming competent professionals into recognized authorities."
     },
     "contact": {
-      "title": "Contact | Wise Media - Start Selection Process",
-      "description": "Apply to work with Wise Media. Rigorous process. Limited spots."
+      "title": "Contact | Wise Media - Get in Touch",
+      "description": "Get in touch for a strategic conversation about your positioning."
     },
     "articles": {
-      "title": "Articles | Wise Media - Exclusive Insights",
-      "description": "Strategic content on positioning, authority, and market dominance."
+      "title": "Articles | Wise Media - Strategic Content",
+      "description": "Articles and insights on positioning, authority, and strategic presence."
     },
     "method": {
-      "title": "WISE Method | Wise Media - Our System of Dominance",
-      "description": "Discover the system that transforms competent professionals into undisputed authorities in their markets."
+      "title": "WISE Method | Wise Media - Our Methodology",
+      "description": "Discover the WISE Method: our proprietary methodology for building authority."
     }
   },
   "nav": {
@@ -32,399 +32,419 @@
     "articles": "Articles",
     "about": "About",
     "contact": "Contact",
-    "tagline": "Authority Dominance",
-    "openMenu": "Open navigation menu",
-    "closeMenu": "Close navigation menu"
+    "tagline": "Authority Positioning",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "hero": {
-    "tag": "EXCLUSIVE POSITIONING",
-    "title": "Common names don't dominate markets. Authorities do.",
-    "subtitle": "You didn't build your career to be just another name.",
-    "description": "Doctors, lawyers, entrepreneurs who refuse to be commodities. We transform professionals with real substance into undisputed market authorities.",
-    "cta": "Apply",
-    "ctaSecondary": "See the Method",
+    "tag": "AUTHORITY POSITIONING",
+    "title": "We transform names into authority.",
+    "subtitle": "Your knowledge deserves to be recognized.",
+    "description": "For doctors, lawyers, entrepreneurs, and specialists who are excellent at what they do — but still aren't seen as the reference.",
+    "cta": "I want to become an authority",
+    "ctaSecondary": "Learn the Method",
     "metrics": {
       "authorities": "Authorities built",
       "authoritiesValue": "+50",
-      "media": "Strategic placements",
+      "media": "Media placements",
       "mediaValue": "+200",
       "confidentiality": "Confidentiality",
       "confidentialityValue": "Absolute"
     }
   },
   "authorityHook": {
-    "title": "Those not seen as authorities are treated as commodities.",
-    "description": "Credentials don't guarantee respect. Titles don't guarantee demand. While you wait to 'be discovered', less qualified professionals are taking your space because they understood the game before you: perception dictates reality."
+    "tag": "THE TRUTH",
+    "title": "If you're not seen as an authority, you're being ignored.",
+    "description": "It doesn't matter how much you know or how much you deliver. In this market, perception is reality. Less qualified professionals are taking the space that should be yours — simply because they understood before you: those who aren't seen, aren't remembered.",
+    "stat1": "73%",
+    "stat1Label": "of clients choose based on perceived authority",
+    "stat2": "2x",
+    "stat2Label": "higher fees for those seen as references"
   },
   "problem": {
-    "tag": "THE BRUTAL REALITY",
+    "tag": "THE PROBLEM",
     "title": "You can be the best and still be invisible.",
-    "subtitle": "The market doesn't reward competence. It rewards perception. And perception is built — or lost — every day you remain invisible.",
+    "subtitle": "While you work, less qualified others gain visibility, clients, and recognition. The difference? Positioning.",
     "items": {
       "unknown": {
-        "title": "Being anonymous",
-        "description": "You built your reputation through work. Meanwhile, less prepared professionals gain space, clients, and recognition simply because they understood that being seen matters as much as being good."
+        "title": "Being unknown",
+        "description": "You deliver exceptional results, but no one knows. Your less qualified competitors attract more attention because they position themselves better."
       },
       "ignored": {
-        "title": "Being replaceable",
-        "description": "Without authority, you're just another option. The client weighs who seems most reliable, not who actually is. And you lose to the appearance of competence."
+        "title": "Being ignored",
+        "description": "Clients pass you by because they don't see you as the safest solution. They choose whoever appears to be the authority — not who actually is."
       },
       "undervalued": {
-        "title": "Being devalued",
-        "description": "You charge less than you're worth. You accept projects below your level. You negotiate with those who should be honored to have you. Lack of positioning destroyed your negotiating power."
+        "title": "Being undervalued",
+        "description": "Your value isn't recognized because you lack the right narrative. You charge less than you're worth and accept less than you deserve."
       }
     }
   },
   "solution": {
     "tag": "THE SOLUTION",
-    "title": "We build market dominance.",
-    "description": "We transform competence into perception. History into power narrative. A name into a reference that commands respect and demand.",
+    "title": "We build your authority strategically.",
+    "description": "We transform your competence into presence. Your story into a narrative of power. Your name into a reference.",
     "items": {
       "positioning": {
-        "title": "Dominant positioning",
-        "description": "We define your unique market position. Not 'differentiation' — dominance. You become the obvious choice, the only logical option."
+        "title": "Strategic positioning",
+        "description": "We define how you'll be perceived in the market and create the strategy to occupy that space in your audience's mind."
       },
       "media": {
-        "title": "Strategic media",
-        "description": "Presence in media that matters. Not vanity, not volume — surgical impact that consolidates your authority with the audience that pays what you're worth."
+        "title": "Media presence",
+        "description": "Placements in relevant outlets that consolidate your name as a reference and expand your reach organically."
       },
       "narrative": {
-        "title": "Power narrative",
-        "description": "We build the story that positions you as a leader, not a competitor. You stop competing for attention and become the reference to be followed."
+        "title": "Authority narrative",
+        "description": "Strategic communication that positions you as a leader, not just another professional in the market."
       },
       "reputation": {
-        "title": "Fortified reputation",
-        "description": "Image protection that turns exposure into strength. No vulnerability. No unnecessary risk. Only reputation that works for you."
+        "title": "Protected reputation",
+        "description": "Image management that protects and strengthens your reputation, preparing you for moments of exposure."
       }
     }
   },
   "wiseMethod": {
-    "tag": "EXCLUSIVE METHODOLOGY",
+    "tag": "METHODOLOGY",
     "title": "The WISE Method",
-    "description": "A system built to transform competent professionals into undisputed authorities. Nothing generic. Nothing replicable. Personalized for those ready to dominate.",
+    "description": "Our proprietary methodology for building authority consistently, strategically, and sustainably.",
     "steps": {
       "w": {
+        "letter": "W",
         "title": "Who",
-        "subtitle": "Unique Identity",
-        "description": "We define what makes you irreplaceable. Your competitive differentiator that can't be copied. Without clarity here, everything else is noise."
+        "subtitle": "Who you are",
+        "description": "We define your unique identity, what differentiates you, and how you want to be perceived. Without clarity here, everything else fails."
       },
       "i": {
+        "letter": "I",
         "title": "Image",
-        "subtitle": "Authority Perception",
-        "description": "We build the image that communicates your authority before you speak. Perception that precedes reputation."
+        "subtitle": "Your image",
+        "description": "We build the image and narrative that communicate your authority in an impactful and authentic way."
       },
       "s": {
+        "letter": "S",
         "title": "Strategic",
-        "subtitle": "Dominance Plan",
-        "description": "Personalized action plan to position you where it matters, with those who pay what you're worth. No waste."
+        "subtitle": "Strategic media",
+        "description": "We develop a personalized action plan to position you in the right places, at the right time."
       },
       "e": {
+        "letter": "E",
         "title": "Expansion",
-        "subtitle": "Consolidation",
-        "description": "We expand your presence and cement your position. You become not an option, but the reference."
+        "subtitle": "Expansion",
+        "description": "We expand your presence and consolidate your position as a recognized authority in the market."
       }
     },
-    "cta": "See the complete method"
+    "cta": "Learn the complete method"
   },
   "socialProof": {
-    "tag": "CONFIDENTIAL RESULTS",
-    "title": "Some of the authorities we helped build",
-    "description": "Many of our clients will never be publicly mentioned. These are some who authorized us to share.",
+    "tag": "RESULTS",
+    "title": "Authorities we helped build",
+    "description": "Real results from professionals who decided to stop being invisible.",
     "items": [
       {
-        "quote": "I stopped competing for clients. Today, clients compete for my schedule. That's what Wise delivered.",
+        "quote": "Wise transformed my market presence. I went from unknown to reference in plastic surgery in less than a year.",
         "author": "Dr. Carlos M.",
-        "role": "Plastic Surgeon"
+        "role": "Plastic Surgeon",
+        "result": "Recognized as a reference"
       },
       {
-        "quote": "I was the best-kept secret in the market. Wise turned me into the obvious reference. My fee doubled.",
+        "quote": "I finally understood that being good isn't enough, you need to be seen as good. The positioning strategy changed my career.",
         "author": "Dr. Ana P.",
-        "role": "Tax Attorney"
+        "role": "Tax Attorney",
+        "result": "Fees tripled"
       },
       {
-        "quote": "The placements opened doors I spent years knocking on. Today I choose who I work with.",
+        "quote": "The media placements opened doors I never imagined. Today I'm sought after by clients I used to chase.",
         "author": "Roberto S.",
-        "role": "CEO"
+        "role": "CEO, Tech Solutions",
+        "result": "Clients come to him"
       }
     ]
   },
   "offer": {
-    "title": "This isn't for everyone.",
-    "description": "We don't work with beginners, those unprepared for exposure, or those seeking cheap shortcuts. We select professionals with real substance who are ready to claim their rightful position.",
-    "whoTitle": "Who we work with",
-    "whatTitle": "What's included",
+    "title": "Who it's for — and who it's not.",
+    "description": "We work with serious professionals who are ready to claim their space.",
+    "whoTitle": "This is for you if:",
+    "whatTitle": "What you receive:",
     "audience": [
-      "Doctors who want to be references, not just specialists",
-      "Lawyers seeking high-value clients who pay without negotiating",
-      "Entrepreneurs ready to be recognized as visionaries",
-      "Specialists tired of being the best-kept secret",
-      "Public figures requiring fortified and protected image"
+      "You're a doctor, lawyer, entrepreneur, or specialist with years of experience",
+      "You know you're excellent at what you do, but aren't recognized as you should be",
+      "You're tired of watching less qualified professionals gain more visibility",
+      "You want to be sought after by clients, not chase them",
+      "You're ready to invest in building your authority"
     ],
     "included": [
-      "Complete current positioning diagnostic",
-      "Personalized dominance strategy",
-      "Media presence management with surgical placements",
-      "Power narrative construction",
-      "Reputation fortification and protection",
-      "Continuous monitoring with strategic adjustments"
+      "Complete diagnosis of your current positioning",
+      "Personalized authority building strategy",
+      "Media presence management and strategic placements",
+      "Narrative construction and strengthening",
+      "Reputation protection and management",
+      "Continuous monitoring and strategic adjustments"
+    ],
+    "notForTitle": "This is NOT for you if:",
+    "notFor": [
+      "You're just starting out and don't have a solid foundation yet",
+      "You're looking for magical overnight results",
+      "You're not willing to expose yourself strategically",
+      "You're looking for the cheapest service in the market"
     ],
     "transformationTitle": "The transformation",
-    "transformationDescription": "From anonymous to undisputed reference. From replaceable to exclusive. From devalued to premium."
+    "transformationDescription": "You go from invisible to recognized authority. From ignored to sought after. From undervalued to valued."
   },
   "faq": {
-    "title": "For Those Considering",
-    "description": "Direct answers. Without corporate speak.",
+    "title": "Frequently Asked Questions",
+    "description": "Direct answers to common questions.",
     "items": [
       {
-        "question": "How long to see results?",
-        "answer": "First impacts in 30-60 days. Solid authority, the kind that changes your negotiating position, is built in 6-12 months. Those seeking shortcuts won't find them here."
+        "question": "How long does it take to see results?",
+        "answer": "It depends on your starting point and objectives. Generally, first results appear in 30-60 days. Solid authority is built in 6-12 months of consistent work."
       },
       {
         "question": "Do you guarantee results?",
-        "answer": "We guarantee high-level strategy and full team commitment. Results depend on your willingness to show up. We only work with those willing to do their part."
+        "answer": "We guarantee total commitment and high-level strategy. Results also depend on your involvement in the process. We only work with those willing to do their part."
       },
       {
         "question": "What's the investment?",
-        "answer": "Compatible with the level of results we deliver. After the selection conversation, we present a customized proposal. If you're looking for cheap, we're not the right fit."
+        "answer": "The investment varies according to scope and objectives. After the initial conversation, we present a customized proposal. We don't work with generic packages."
       },
       {
-        "question": "Do you work with anyone?",
-        "answer": "No. We have a rigorous selection process. We only accept professionals with real substance ready to assume authority position. Many are declined."
+        "question": "Do you work with any professional?",
+        "answer": "No. We only work with professionals who have a solid foundation and are ready to assume an authority position. Our selection process is rigorous."
       },
       {
         "question": "How does confidentiality work?",
-        "answer": "Absolute and non-negotiable. Many of our most successful clients will never be publicly mentioned. Your secrets are safe."
+        "answer": "Confidentiality is non-negotiable. All clients and projects are treated with absolute secrecy. Many of our most successful clients will never be publicly mentioned."
       },
       {
         "question": "Do you manage social media?",
-        "answer": "Our focus is strategic positioning and media presence. We can orient your team to align with the overall strategy, but we don't execute operational work."
+        "answer": "Not directly. Our focus is strategic positioning and traditional media presence. We can guide your social media team to align with the overall strategy."
       }
     ],
-    "cta": "Other questions?",
-    "ctaButton": "Talk to Wise Media"
+    "cta": "Still have questions?",
+    "ctaButton": "Talk to Wise"
   },
   "finalCta": {
-    "title": "You can remain mediocre. Or claim your position.",
-    "description": "While you evaluate, others are taking the space that should be yours. The elite doesn't wait. They decide.",
-    "cta": "Start selection process",
-    "whatsapp": "Apply via WhatsApp",
-    "closing": "Selection process. Limited spots."
+    "title": "You can stay invisible. Or you can become an authority.",
+    "description": "The choice is yours. But remember: while you hesitate, others are claiming the space that could be yours.",
+    "cta": "I want to become an authority",
+    "whatsapp": "Chat on WhatsApp",
+    "closing": "Limited spots. Selective service."
   },
   "metodo": {
     "hero": {
-      "tag": "EXCLUSIVE SYSTEM",
+      "tag": "PROPRIETARY METHODOLOGY",
       "title": "The WISE Method",
-      "description": "The methodology we created to transform competent professionals into undisputed authorities. Nothing generic. Everything personalized."
+      "description": "A tested and refined methodology to transform competent professionals into recognized authorities."
     },
     "intro": {
-      "title": "Why common strategies don't work",
-      "description": "After years working with elite professionals, we identified the pattern: generic marketing doesn't build authority. It builds noise. The WISE Method was created to do what agencies can't: dominate markets."
+      "title": "Why we created the WISE Method",
+      "description": "After years working with high-performance professionals, we noticed a pattern: technical competence doesn't guarantee recognition. We created the WISE Method to solve this systematically.",
+      "philosophy": "Authority isn't about being the best. It's about being perceived as the best."
     },
     "steps": {
       "w": {
         "letter": "W",
-        "title": "Who — Your Unique Identity",
-        "subtitle": "Definition and differentiation",
-        "description": "Before communicating, you need absolute clarity. We define what makes you irreplaceable. Your competitive differentiator that can't be copied. Without this, any strategy is a shot in the dark.",
+        "title": "Who — Who you are",
+        "subtitle": "Identity and differentiation",
+        "description": "Before communicating, you need clarity. In this phase, we define your unique identity, what differentiates you from others, and how you want to be perceived. Without clarity here, any strategy is a shot in the dark.",
         "includes": [
           "Competitive differentiator mapping",
           "Unique positioning definition",
-          "Premium audience identification",
-          "Value proposition that eliminates competition"
+          "Ideal target audience identification",
+          "Value proposition construction"
         ]
       },
       "i": {
         "letter": "I",
-        "title": "Image — Perception of Authority",
+        "title": "Image — Your image",
         "subtitle": "Visual and narrative construction",
-        "description": "Your image needs to communicate dominance before you speak. We build the narrative and visual elements that convey authority, credibility, and differentiation instantly.",
+        "description": "Your image needs to communicate authority before you even speak. We build the narrative and visual elements that convey credibility and expertise authentically.",
         "includes": [
-          "Power narrative development",
+          "Personal narrative development",
           "Strategic biography construction",
-          "Visual communication that commands respect",
-          "Media preparation"
+          "Visual communication alignment",
+          "Media exposure preparation"
         ]
       },
       "s": {
         "letter": "S",
-        "title": "Strategic — Dominance Plan",
-        "subtitle": "Surgical action plan",
-        "description": "Strategy without execution is fantasy. We develop a concrete plan to position you in the right places, with the right messages, for the audience that pays what you're worth.",
+        "title": "Strategic — Strategic media",
+        "subtitle": "Personalized action plan",
+        "description": "Strategy without execution is fantasy. We develop a concrete plan to position you in the right places, with the right messages, for the right audience.",
         "includes": [
           "Strategic outlet mapping",
           "Media placement planning",
           "Relevant story creation",
-          "Strategic relationship building"
+          "Journalist and editor relationships"
         ]
       },
       "e": {
         "letter": "E",
-        "title": "Expansion — Consolidation",
-        "subtitle": "Dominance and protection",
-        "description": "Authority isn't a destination, it's continuous construction. We expand your presence, cement your position, and protect your reputation. You become the reference, not an option.",
+        "title": "Expansion — Expansion",
+        "subtitle": "Growth and consolidation",
+        "description": "Authority isn't a destination, it's continuous construction. We expand your presence and consolidate your position, ensuring the market recognizes you as a reference.",
         "includes": [
-          "Strategic presence expansion",
+          "Media presence expansion",
           "Authority consolidation",
-          "Reputation fortification",
-          "Continuous monitoring and adjustment"
+          "Reputation protection",
+          "Continuous monitoring and adjustments"
         ]
       }
     },
     "cta": {
       "title": "Ready to apply the WISE Method?",
-      "description": "Start the selection process and discover if you're ready to dominate your market.",
-      "button": "Start selection process"
+      "description": "Talk to our team and discover how we can transform your name into authority.",
+      "button": "Start my transformation"
     }
   },
   "about": {
     "tag": "WHO WE ARE",
     "title": "Wise Media",
-    "subtitle": "We're not a marketing agency. We're architects of dominance.",
-    "description": "Founded by professionals who understand how power works. We work for those who refuse mediocrity and are ready to claim their position at the top.",
+    "subtitle": "We're not a marketing agency. We're architects of authority.",
+    "description": "Founded by professionals with decades of experience in media, communication, and strategic positioning. We work for those who want to claim the space they deserve.",
     "mission": {
       "label": "Mission",
-      "text": "To transform professionals with real substance into undisputed authorities in their markets, using strategy, media, and narrative as dominance tools."
+      "text": "To transform competent professionals into recognized authorities, using strategy, media, and narrative to claim the space they deserve."
     },
     "vision": {
       "label": "Vision",
-      "text": "To be the reference in authority building for the elite of Brazilian professionals."
+      "text": "To be the reference in authority building for high-performance professionals in Brazil."
     },
     "founders": {
       "title": "Founders",
-      "description": "Tested experience in media, reputation, and strategic positioning.",
+      "description": "Proven experience in media, communication, and strategic positioning.",
       "rosy": {
         "name": "Rosy Cordeiro",
         "role": "Media Strategist",
-        "description": "Journalist with over 15 years in major media newsrooms. Knows how the game works from the inside. Knows exactly what it takes to position professionals where they deserve.",
+        "description": "Journalist with over 15 years of experience in major media newsrooms. Knows how media works from the inside and knows exactly how to position professionals to gain visibility.",
         "tags": ["Media", "Journalism", "Strategy"]
       },
       "debora": {
-        "name": "Debora Tawil",
+        "name": "Débora Tawil",
         "role": "Positioning Strategist",
-        "description": "Specialist in corporate communication and reputation management. Has worked with high-end brands and public figures in high-exposure and risk scenarios.",
+        "description": "Specialist in corporate communication and reputation management. Has worked with high-end brands and public figures in high-exposure scenarios.",
         "tags": ["Positioning", "Reputation", "Strategy"]
       }
     },
     "values": {
-      "title": "How we operate",
+      "title": "How we work",
       "items": {
         "excellence": {
           "title": "Excellence",
-          "description": "We don't do mediocre work. Every project receives the attention that only selective service allows."
+          "description": "We don't do mediocre work. Every project receives full attention."
         },
         "confidentiality": {
           "title": "Confidentiality",
-          "description": "Absolute secrecy. Many of our best clients will never be publicly mentioned. And that's how they prefer it."
+          "description": "Absolute secrecy. Many of our best clients will never be mentioned."
         },
         "selectivity": {
           "title": "Selectivity",
-          "description": "We don't work with just anyone. We choose our clients as much as they choose us. Perhaps more."
+          "description": "We don't work with just anyone. We choose our clients as much as they choose us."
         },
         "results": {
           "title": "Results",
-          "description": "Focus on concrete results that change your negotiating position. No vanity metrics. No worthless reports."
+          "description": "Focus on concrete results, not vanity metrics."
         }
       }
     },
-    "cta": "Start selection process"
+    "cta": "Talk to Wise"
   },
   "contact": {
-    "title": "Selection process.",
-    "description": "We don't work with just anyone. The first step is a conversation to see if there's a fit. Mutual.",
-    "methodsTitle": "Contact Channels",
+    "title": "Let's talk.",
+    "description": "If you're ready to stop being invisible and assume your position of authority, the first step is a conversation.",
+    "methodsTitle": "Contact methods",
     "methods": {
       "email": {
         "title": "Email",
-        "description": "For detailed matters"
+        "description": "For matters requiring detail"
       },
       "whatsapp": {
         "title": "WhatsApp",
-        "description": "For direct contact"
+        "description": "Response within 24 hours"
       },
       "instagram": {
         "title": "Instagram",
-        "description": "Updates"
+        "description": "Content and updates"
       }
     },
     "processTitle": "How it works",
     "process": {
       "initial": {
         "title": "Initial conversation",
-        "description": "We understand your situation, goals, and challenges. We also evaluate if there's a fit. Everything under absolute confidentiality."
+        "description": "We understand your current situation, goals, and challenges. All with absolute confidentiality."
       },
       "analysis": {
         "title": "Strategic analysis",
-        "description": "We evaluate your current positioning, identify opportunities, and define whether you're ready for the process."
+        "description": "We evaluate your current positioning and identify authority building opportunities."
       },
       "plan": {
-        "title": "Personalized proposal",
-        "description": "If there's a fit, we present strategy, timeline, and investment compatible with the result we'll deliver."
+        "title": "Customized proposal",
+        "description": "We present strategy, timeline, and investment to transform you into an authority."
       }
     },
     "confidentiality": "All conversations are treated with absolute confidentiality.",
-    "cta": "Apply"
+    "cta": "Start conversation"
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Each service is a strategic piece in building your authority. We don't offer generic packages — we build customized solutions.",
+    "whenLabel": "When to use",
+    "seeMore": "See more",
+    "seeLess": "See less",
+    "cta": "Contact us",
+    "items": {
+      "pressAdvisory": {
+        "title": "Press Advisory",
+        "deliver": "Strategic placements in outlets that matter to your audience. It's not about appearing — it's about appearing right.",
+        "when": "You need qualified visibility, not volume. You want to be seen as an authority by decision-makers."
+      },
+      "strategicAdvisory": {
+        "title": "Strategic Consulting",
+        "deliver": "Deep diagnosis + positioning strategy. We define exactly how you'll be perceived and the path to get there.",
+        "when": "You know you need to position yourself but don't know where to start. Or you've tried and it didn't work."
+      },
+      "visaAdvisory": {
+        "title": "EB1/EB2 Visa — Media",
+        "deliver": "Building media presence that proves extraordinary ability. Evidence portfolio for immigration.",
+        "when": "You're seeking an extraordinary ability US visa and need proof of recognition."
+      },
+      "googleBusiness": {
+        "title": "Google My Business",
+        "deliver": "Professional optimization of your Google presence. When people search for you, they'll find authority.",
+        "when": "Your Google presence doesn't reflect your real level. Potential clients find an incomplete profile."
+      },
+      "cleanName": {
+        "title": "Name Cleaning",
+        "deliver": "Strategic removal of negative content. Your digital reputation cleaned of noise.",
+        "when": "There's online content harming your image. Search results show what you don't want."
+      },
+      "crisisManagement": {
+        "title": "Crisis Management",
+        "deliver": "Fast and strategic response to image crises. Reputation protection when it matters most.",
+        "when": "Negative exposure situation requires immediate action. Your image is under attack."
+      }
+    }
   },
   "footer": {
-    "tagline": "Architects of Dominance",
-    "description": "Transforming names into market authorities.",
+    "tagline": "Authority Positioning",
+    "description": "Transforming competent professionals into recognized authorities.",
     "navigation": "Navigation",
     "contactTitle": "Contact",
     "copyright": "All rights reserved.",
-    "bottomTagline": "Exclusive positioning and authority building.",
+    "bottomTagline": "Strategic positioning and authority building.",
     "ariaLabels": {
       "instagram": "Follow on Instagram",
       "email": "Contact via email",
       "whatsapp": "Contact via WhatsApp"
     }
   },
-  "services": {
-    "title": "Elite Services",
-    "description": "Each service is a strategic weapon. We don't offer generic packages — we build personalized arsenals for those who want to dominate.",
-    "whenLabel": "When to use",
-    "seeMore": "See more",
-    "seeLess": "See less",
-    "cta": "Start selection process",
-    "items": {
-      "pressAdvisory": {
-        "title": "Press Advisory",
-        "deliver": "Strategic placements in media that matters. It's not about appearing — it's about appearing right, to those who pay what you're worth.",
-        "when": "You need qualified visibility, not volume. You want to be seen as an authority by decision-makers."
-      },
-      "strategicAdvisory": {
-        "title": "Strategic Consulting",
-        "deliver": "Deep diagnostic + positioning architecture. We define exactly how you'll be perceived and the path to get there.",
-        "when": "You know you need positioning but don't know where to start. Or you've tried and it didn't work."
-      },
-      "visaAdvisory": {
-        "title": "EB1/EB2 Visa — Media",
-        "deliver": "Media presence building that proves extraordinary ability. Portfolio of evidence for elite immigration.",
-        "when": "You're seeking an extraordinary ability US visa and need proof of national/international recognition."
-      },
-      "googleBusiness": {
-        "title": "Google My Business",
-        "deliver": "Professional optimization of your Google presence. When they search for you, they'll find authority — not amateurism.",
-        "when": "Your Google presence doesn't reflect your real level. Potential clients find incomplete or outdated profiles."
-      },
-      "cleanName": {
-        "title": "Name Cleaning",
-        "deliver": "Strategic removal of negative content. Your digital reputation cleaned of noise that doesn't represent you.",
-        "when": "Online content is harming your image. Search results show what you don't want people to see."
-      },
-      "crisisManagement": {
-        "title": "Crisis Management",
-        "deliver": "Fast and strategic response to image crises. Reputation protection when it matters most.",
-        "when": "Negative exposure requires immediate action. Your image is under attack and you need protection."
-      }
-    }
-  },
   "articles": {
-    "title": "Insights",
-    "description": "Strategic content on positioning, authority, and market dominance.",
+    "title": "Articles and Insights",
+    "description": "Strategic content on positioning, authority, and media presence.",
     "all": "All"
   },
   "common": {
     "home": "Home",
-    "learnMore": "Learn More",
-    "getStarted": "Apply"
+    "learnMore": "Learn more",
+    "getStarted": "Get started"
   }
 }

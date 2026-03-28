@@ -1,28 +1,28 @@
 {
   "seo": {
     "home": {
-      "title": "Wise Media | Arquitetos de Autoridade",
-      "description": "Posicionamento de elite para profissionais que recusam a invisibilidade. Médicos, advogados, empresários e especialistas."
+      "title": "Wise Media | Posicionamento de Autoridade",
+      "description": "Transformamos profissionais competentes em autoridades reconhecidas. Posicionamento estratégico para médicos, advogados, empresários e especialistas."
     },
     "services": {
-      "title": "Serviços | Wise Media - Posicionamento de Elite",
-      "description": "Construção de autoridade para profissionais de alta performance. Atendimento seletivo."
+      "title": "Serviços | Wise Media - Construção de Autoridade",
+      "description": "Serviços de posicionamento estratégico e construção de autoridade para profissionais de alto nível."
     },
     "about": {
-      "title": "Sobre | Wise Media - Arquitetos de Autoridade",
-      "description": "Não somos agência. Somos arquitetos de autoridade para quem recusa ser mais um."
+      "title": "Sobre | Wise Media - Quem Somos",
+      "description": "Conheça a Wise Media: especialistas em transformar profissionais competentes em autoridades reconhecidas."
     },
     "contact": {
-      "title": "Contato | Wise Media - Atendimento Seletivo",
-      "description": "Vagas limitadas. Processo seletivo criterioso. Entre em contato para avaliação."
+      "title": "Contato | Wise Media - Fale Conosco",
+      "description": "Entre em contato para uma conversa estratégica sobre seu posicionamento."
     },
     "articles": {
-      "title": "Artigos | Wise Media - Inteligência Estratégica",
-      "description": "Conteúdo exclusivo sobre posicionamento, autoridade e domínio de mercado."
+      "title": "Artigos | Wise Media - Conteúdo Estratégico",
+      "description": "Artigos e insights sobre posicionamento, autoridade e presença estratégica."
     },
     "method": {
-      "title": "Método WISE | Wise Media - Sistema Proprietário",
-      "description": "Metodologia exclusiva para transformar expertise em domínio de mercado."
+      "title": "Método WISE | Wise Media - Nossa Metodologia",
+      "description": "Conheça o Método WISE: nossa metodologia proprietária para construção de autoridade."
     }
   },
   "nav": {
@@ -32,399 +32,419 @@
     "articles": "Artigos",
     "about": "Sobre",
     "contact": "Contato",
-    "tagline": "Arquitetos de Autoridade",
+    "tagline": "Posicionamento de Autoridade",
     "openMenu": "Abrir menu",
     "closeMenu": "Fechar menu"
   },
   "hero": {
-    "tag": "POSICIONAMENTO DE ELITE",
-    "title": "Nomes comuns não dominam mercados.",
-    "subtitle": "Autoridades dominam.",
-    "description": "Para médicos, advogados, empresários e especialistas que recusam a mediocridade da invisibilidade.",
-    "cta": "Candidatar-se",
-    "ctaSecondary": "Ver o Método",
+    "tag": "POSICIONAMENTO DE AUTORIDADE",
+    "title": "Transformamos nomes em autoridade.",
+    "subtitle": "Seu conhecimento merece ser reconhecido.",
+    "description": "Para médicos, advogados, empresários e especialistas que são excelentes no que fazem — mas ainda não são vistos como referência.",
+    "cta": "Quero ser autoridade",
+    "ctaSecondary": "Conhecer o Método",
     "metrics": {
       "authorities": "Autoridades construídas",
       "authoritiesValue": "+50",
-      "media": "Inserções estratégicas",
+      "media": "Inserções em mídia",
       "mediaValue": "+200",
       "confidentiality": "Sigilo",
       "confidentialityValue": "Absoluto"
     }
   },
   "authorityHook": {
-    "title": "Quem não é visto como autoridade é tratado como commodity.",
-    "description": "Você compete por preço. Seus clientes questionam seu valor. Profissionais inferiores fecham os contratos que deveriam ser seus. Isso não é azar — é falta de posicionamento."
+    "tag": "A VERDADE",
+    "title": "Se você não é visto como autoridade, você está sendo ignorado.",
+    "description": "Não importa quanto você sabe ou quanto você entrega. Neste mercado, percepção é realidade. Profissionais menos qualificados estão ocupando o espaço que deveria ser seu — simplesmente porque entenderam antes de você: quem não é visto, não é lembrado.",
+    "stat1": "73%",
+    "stat1Label": "dos clientes escolhem pela percepção de autoridade",
+    "stat2": "2x",
+    "stat2Label": "mais honorários para quem é visto como referência"
   },
   "problem": {
-    "tag": "A VERDADE",
-    "title": "Competência não garante reconhecimento.",
-    "subtitle": "O mercado não premia os melhores. Premia os mais visíveis.",
+    "tag": "O PROBLEMA",
+    "title": "Você pode ser o melhor e ainda assim ser invisível.",
+    "subtitle": "Enquanto você trabalha, outros menos qualificados ganham visibilidade, clientes e reconhecimento. A diferença? Posicionamento.",
     "items": {
       "unknown": {
-        "title": "Invisibilidade",
-        "description": "Você entrega resultados excepcionais para clientes que nunca deveriam ter chegado até você. Enquanto isso, profissionais medíocres dominam o mercado que deveria ser seu."
+        "title": "Ser desconhecido",
+        "description": "Você entrega resultados excepcionais, mas ninguém sabe. Seus concorrentes menos qualificados atraem mais atenção porque se posicionam melhor."
       },
       "ignored": {
-        "title": "Commoditização",
-        "description": "Clientes comparam você com qualquer um. Pedem desconto. Questionam seu preço. Porque não te veem como categoria à parte."
+        "title": "Ser ignorado",
+        "description": "Clientes passam por você porque não te veem como a solução mais segura. Eles escolhem quem parece ser a autoridade — não quem realmente é."
       },
       "undervalued": {
-        "title": "Subvalorização",
-        "description": "Você cobra uma fração do que vale. Aceita projetos abaixo do seu nível. Negocia com quem deveria implorar para trabalhar com você."
+        "title": "Ser desvalorizado",
+        "description": "Seu valor não é reconhecido porque falta a narrativa certa. Você cobra menos do que vale e aceita menos do que merece."
       }
     }
   },
   "solution": {
-    "tag": "A VIRADA",
-    "title": "Posicionamento muda tudo.",
-    "description": "Quando você é percebido como autoridade, as regras mudam. Clientes vêm até você. Preço deixa de ser objeção. Você escolhe com quem trabalha.",
+    "tag": "A SOLUÇÃO",
+    "title": "Construímos sua autoridade estrategicamente.",
+    "description": "Transformamos sua competência em presença. Sua história em narrativa de poder. Seu nome em referência.",
     "items": {
       "positioning": {
-        "title": "Posicionamento dominante",
-        "description": "Você não será mais uma opção. Será A opção. Ocupamos o espaço mental que te coloca em categoria própria."
+        "title": "Posicionamento estratégico",
+        "description": "Definimos como você será percebido no mercado e criamos a estratégia para ocupar esse espaço na mente do seu público."
       },
       "media": {
-        "title": "Presença estratégica",
-        "description": "Inserções cirúrgicas em veículos que importam. Não é sobre aparecer — é sobre aparecer certo."
+        "title": "Presença em mídia",
+        "description": "Inserções em veículos relevantes que consolidam seu nome como referência e expandem seu alcance de forma orgânica."
       },
       "narrative": {
-        "title": "Narrativa de poder",
-        "description": "Sua história reescrita para comunicar domínio. Não expertise — domínio."
+        "title": "Narrativa de autoridade",
+        "description": "Comunicação estratégica que te posiciona como líder, não como mais um profissional no mercado."
       },
       "reputation": {
-        "title": "Blindagem total",
-        "description": "Reputação protegida e fortalecida. Preparado para qualquer cenário de exposição."
+        "title": "Reputação protegida",
+        "description": "Gestão de imagem que protege e fortalece sua reputação, preparando você para momentos de exposição."
       }
     }
   },
   "wiseMethod": {
-    "tag": "SISTEMA PROPRIETÁRIO",
+    "tag": "METODOLOGIA",
     "title": "O Método WISE",
-    "description": "Não é fórmula. É arquitetura de autoridade desenvolvida em anos de trabalho com profissionais de elite.",
+    "description": "Nossa metodologia proprietária para construir autoridade de forma consistente, estratégica e sustentável.",
     "steps": {
       "w": {
+        "letter": "W",
         "title": "Who",
-        "subtitle": "Definição de identidade",
-        "description": "Quem você é. O que te torna insubstituível. Por que alguém deveria pagar premium para trabalhar com você e não com qualquer outro."
+        "subtitle": "Quem você é",
+        "description": "Definimos sua identidade única, o que te diferencia e como você quer ser percebido. Sem clareza aqui, todo o resto falha."
       },
       "i": {
+        "letter": "I",
         "title": "Image",
-        "subtitle": "Construção de percepção",
-        "description": "Sua imagem comunica autoridade antes de você abrir a boca. Ou comunica mediocridade. Nós garantimos a primeira."
+        "subtitle": "Sua imagem",
+        "description": "Construímos a imagem e a narrativa que comunicam sua autoridade de forma impactante e autêntica."
       },
       "s": {
+        "letter": "S",
         "title": "Strategic",
-        "subtitle": "Execução calculada",
-        "description": "Cada movimento é estratégico. Cada aparição é planejada. Nada é acaso. Tudo é arquitetado."
+        "subtitle": "Mídia estratégica",
+        "description": "Desenvolvemos um plano de ação personalizado para te posicionar nos lugares certos, no momento certo."
       },
       "e": {
+        "letter": "E",
         "title": "Expansion",
-        "subtitle": "Domínio de território",
-        "description": "Expansão controlada até você se tornar sinônimo da sua categoria. Não referência — sinônimo."
+        "subtitle": "Expansão",
+        "description": "Expandimos sua presença e consolidamos sua posição como autoridade reconhecida no mercado."
       }
     },
-    "cta": "Conhecer o sistema completo"
+    "cta": "Conhecer o método completo"
   },
   "socialProof": {
     "tag": "RESULTADOS",
-    "title": "Transformações reais",
-    "description": "Profissionais que decidiram parar de competir e começar a dominar.",
+    "title": "Autoridades que ajudamos a construir",
+    "description": "Resultados reais de profissionais que decidiram parar de ser invisíveis.",
     "items": [
       {
-        "quote": "Em 8 meses, saí de desconhecido para ser procurado por pacientes que antes eu jamais alcançaria. Meu ticket médio triplicou.",
+        "quote": "A Wise transformou minha presença no mercado. Saí de desconhecido para referência em cirurgia plástica em menos de um ano.",
         "author": "Dr. Carlos M.",
-        "role": "Cirurgião Plástico"
+        "role": "Cirurgião Plástico",
+        "result": "Reconhecido como referência"
       },
       {
-        "quote": "Parei de competir por preço. Hoje escolho meus casos. Clientes vêm indicados, já sabendo quanto custa. Não negocio mais.",
+        "quote": "Finalmente entendi que ser bom não basta, é preciso ser visto como bom. A estratégia de posicionamento mudou minha carreira.",
         "author": "Dra. Ana P.",
-        "role": "Advogada Tributarista"
+        "role": "Advogada Tributarista",
+        "result": "Honorários triplicaram"
       },
       {
-        "quote": "A Wise entendeu que eu não precisava de marketing. Precisava de posicionamento. A diferença é abismal.",
+        "quote": "As inserções em mídia abriram portas que eu jamais imaginei. Hoje sou procurado por clientes que eu costumava perseguir.",
         "author": "Roberto S.",
-        "role": "CEO, Tech Solutions"
+        "role": "CEO, Tech Solutions",
+        "result": "Clientes vêm até ele"
       }
     ]
   },
   "offer": {
-    "title": "Isso não é para qualquer um.",
-    "description": "Trabalhamos com profissionais que já têm base sólida e estão prontos para assumir a posição que merecem. Se você ainda está construindo competência, não é o momento.",
-    "whoTitle": "Perfil que atendemos",
-    "whatTitle": "O que entregamos",
+    "title": "Para quem é — e para quem não é.",
+    "description": "Trabalhamos com profissionais sérios que estão prontos para assumir seu espaço.",
+    "whoTitle": "Isso é para você se:",
+    "whatTitle": "O que você recebe:",
     "audience": [
-      "Médicos prontos para serem referência nacional em suas especialidades",
-      "Advogados que querem casos de 6 e 7 dígitos",
-      "Empresários construindo legados, não apenas negócios",
-      "Especialistas que recusam cobrar como commodity",
-      "Figuras públicas que exigem gestão de imagem de alto nível"
+      "É médico, advogado, empresário ou especialista com anos de experiência",
+      "Sabe que é excelente no que faz, mas não é reconhecido como deveria",
+      "Está cansado de ver profissionais menos qualificados ganhando mais visibilidade",
+      "Quer ser procurado por clientes, não persegui-los",
+      "Está pronto para investir na construção da sua autoridade"
     ],
     "included": [
-      "Diagnóstico profundo de posicionamento e gaps",
-      "Arquitetura completa de autoridade personalizada",
-      "Gestão de presença em mídia estratégica",
-      "Construção de narrativa de poder",
-      "Blindagem e gestão de reputação",
-      "Acompanhamento direto com as fundadoras"
+      "Diagnóstico completo do seu posicionamento atual",
+      "Estratégia personalizada de construção de autoridade",
+      "Gestão de presença em mídia e inserções estratégicas",
+      "Construção e fortalecimento de narrativa",
+      "Proteção e gestão de reputação",
+      "Acompanhamento contínuo e ajustes estratégicos"
     ],
-    "transformationTitle": "O antes e depois",
-    "transformationDescription": "De opção para A opção. De ignorado para requisitado. De precificado pelo mercado para definidor de preço."
+    "notForTitle": "Isso NÃO é para você se:",
+    "notFor": [
+      "Está começando agora e ainda não tem base sólida",
+      "Busca resultados mágicos da noite para o dia",
+      "Não está disposto a se expor estrategicamente",
+      "Procura o serviço mais barato do mercado"
+    ],
+    "transformationTitle": "A transformação",
+    "transformationDescription": "Você sai de invisível para autoridade reconhecida. De ignorado para procurado. De desvalorizado para valorizado."
   },
   "faq": {
-    "title": "Perguntas Diretas",
-    "description": "Sem rodeios.",
+    "title": "Perguntas Frequentes",
+    "description": "Respostas diretas para dúvidas comuns.",
     "items": [
       {
-        "question": "Quanto tempo até ver resultado?",
-        "answer": "Primeiros sinais em 30-60 dias. Autoridade consolidada em 6-12 meses. Isso não é hack de crescimento — é construção de posição permanente."
+        "question": "Quanto tempo leva para ver resultados?",
+        "answer": "Depende do seu ponto de partida e objetivos. Geralmente, os primeiros resultados aparecem em 30-60 dias. Autoridade sólida é construída em 6-12 meses de trabalho consistente."
       },
       {
-        "question": "Vocês garantem resultado?",
-        "answer": "Garantimos estratégia de elite e execução impecável. Resultado depende também do seu comprometimento. Não trabalhamos com quem quer atalho."
+        "question": "Vocês garantem resultados?",
+        "answer": "Garantimos comprometimento total e estratégia de alto nível. Resultados dependem também do seu envolvimento no processo. Só trabalhamos com quem está disposto a fazer sua parte."
       },
       {
-        "question": "Qual o investimento?",
-        "answer": "Compatível com o nível de transformação. Não divulgamos valores publicamente. Após avaliação inicial, apresentamos proposta personalizada."
+        "question": "Qual é o investimento?",
+        "answer": "O investimento varia conforme escopo e objetivos. Após conversa inicial, apresentamos proposta personalizada. Não trabalhamos com pacotes genéricos."
       },
       {
-        "question": "Vocês aceitam qualquer cliente?",
-        "answer": "Não. Temos processo seletivo. Precisamos acreditar no potencial de quem atendemos. Se não for fit, indicamos outro caminho."
+        "question": "Vocês trabalham com qualquer profissional?",
+        "answer": "Não. Trabalhamos apenas com profissionais que têm base sólida e estão prontos para assumir posição de autoridade. Nosso processo de seleção é criterioso."
       },
       {
-        "question": "Qual a garantia de sigilo?",
-        "answer": "Absoluta. Muitos de nossos clientes mais bem-sucedidos jamais serão mencionados. Confidencialidade não é benefício — é premissa."
+        "question": "Como funciona o sigilo?",
+        "answer": "Sigilo é inegociável. Todos os clientes e projetos são tratados com absoluto segredo. Muitos dos nossos clientes mais bem-sucedidos jamais serão mencionados publicamente."
       },
       {
-        "question": "Fazem gestão de redes sociais?",
-        "answer": "Não. Redes sociais são tática. Nós fazemos estratégia. Podemos alinhar sua equipe, mas não operamos o dia a dia."
+        "question": "Vocês fazem gestão de redes sociais?",
+        "answer": "Não diretamente. Nosso foco é posicionamento estratégico e presença em mídia tradicional. Podemos orientar sua equipe de redes para alinhar com a estratégia geral."
       }
     ],
-    "cta": "Alguma dúvida específica?",
-    "ctaButton": "Entrar em contato"
+    "cta": "Ainda tem dúvidas?",
+    "ctaButton": "Fale com a Wise"
   },
   "finalCta": {
-    "title": "Invisibilidade é escolha.",
-    "description": "Enquanto você avalia, outros estão ocupando o espaço que poderia ser seu. A questão não é se você vai se posicionar — é quando. E quem vai ocupar seu lugar enquanto você espera.",
-    "cta": "Iniciar processo seletivo",
-    "whatsapp": "Falar agora",
-    "closing": "Vagas limitadas. Atendimento por seleção."
+    "title": "Você pode continuar invisível. Ou pode se tornar autoridade.",
+    "description": "A escolha é sua. Mas lembre-se: enquanto você hesita, outros estão ocupando o espaço que poderia ser seu.",
+    "cta": "Quero me tornar autoridade",
+    "whatsapp": "Falar pelo WhatsApp",
+    "closing": "Vagas limitadas. Atendimento seletivo."
   },
   "metodo": {
     "hero": {
-      "tag": "SISTEMA PROPRIETÁRIO",
+      "tag": "METODOLOGIA PROPRIETÁRIA",
       "title": "O Método WISE",
-      "description": "Arquitetura de autoridade desenvolvida para profissionais que recusam ser mais um."
+      "description": "Uma metodologia testada e refinada para transformar profissionais competentes em autoridades reconhecidas."
     },
     "intro": {
-      "title": "Por que isso existe",
-      "description": "Competência técnica nunca foi garantia de reconhecimento. O mercado premia quem se posiciona, não quem trabalha mais. Criamos o Método WISE para corrigir essa injustiça de forma sistemática."
+      "title": "Por que criamos o Método WISE",
+      "description": "Após anos trabalhando com profissionais de alta performance, percebemos um padrão: competência técnica não garante reconhecimento. Criamos o Método WISE para resolver isso de forma sistemática.",
+      "philosophy": "Autoridade não é sobre ser o melhor. É sobre ser percebido como o melhor."
     },
     "steps": {
       "w": {
         "letter": "W",
-        "title": "Who — Identidade",
-        "subtitle": "Definição do núcleo",
-        "description": "Antes de comunicar, é preciso saber exatamente quem você é. O que te torna único. Por que alguém deveria escolher você e pagar mais por isso. Sem clareza aqui, todo o resto é ruído.",
+        "title": "Who — Quem você é",
+        "subtitle": "Identidade e diferenciação",
+        "description": "Antes de comunicar, é preciso clareza. Nesta fase, definimos sua identidade única, o que te diferencia dos demais e como você quer ser percebido. Sem clareza aqui, qualquer estratégia é um tiro no escuro.",
         "includes": [
-          "Mapeamento de diferenciais únicos",
-          "Definição de posicionamento dominante",
-          "Identificação de audiência premium",
-          "Construção de proposta de valor irrecusável"
+          "Mapeamento de diferenciais competitivos",
+          "Definição de posicionamento único",
+          "Identificação de público-alvo ideal",
+          "Construção de proposta de valor"
         ]
       },
       "i": {
         "letter": "I",
-        "title": "Image — Percepção",
-        "subtitle": "Arquitetura de imagem",
-        "description": "Sua imagem fala antes de você. Ela pode comunicar autoridade ou mediocridade. Construímos cada elemento para transmitir domínio — não competência, domínio.",
+        "title": "Image — Sua imagem",
+        "subtitle": "Construção visual e narrativa",
+        "description": "Sua imagem precisa comunicar autoridade antes mesmo de você abrir a boca. Construímos a narrativa e os elementos visuais que transmitem credibilidade e expertise de forma autêntica.",
         "includes": [
-          "Narrativa pessoal de poder",
-          "Biografia estratégica de impacto",
-          "Alinhamento de presença visual",
-          "Preparação para alta exposição"
+          "Desenvolvimento de narrativa pessoal",
+          "Construção de biografia estratégica",
+          "Alinhamento de comunicação visual",
+          "Preparação para exposição em mídia"
         ]
       },
       "s": {
         "letter": "S",
-        "title": "Strategic — Execução",
-        "subtitle": "Movimentos calculados",
-        "description": "Estratégia sem execução é fantasia. Cada aparição é calculada. Cada inserção é cirúrgica. Nada é deixado ao acaso. Tudo é arquitetado para máximo impacto.",
+        "title": "Strategic — Mídia estratégica",
+        "subtitle": "Plano de ação personalizado",
+        "description": "Estratégia sem execução é fantasia. Desenvolvemos um plano concreto para te posicionar nos lugares certos, com as mensagens certas, para o público certo.",
         "includes": [
-          "Mapeamento de veículos de elite",
-          "Planejamento de inserções de alto impacto",
-          "Criação de pautas irresistíveis",
-          "Relacionamento com formadores de opinião"
+          "Mapeamento de veículos estratégicos",
+          "Planejamento de inserções em mídia",
+          "Criação de pautas relevantes",
+          "Relacionamento com jornalistas e editores"
         ]
       },
       "e": {
         "letter": "E",
-        "title": "Expansion — Domínio",
-        "subtitle": "Conquista de território",
-        "description": "Autoridade não é destino — é construção contínua. Expandimos sua presença até você se tornar sinônimo da sua categoria. O nome que vem à mente quando pensam no que você faz.",
+        "title": "Expansion — Expansão",
+        "subtitle": "Crescimento e consolidação",
+        "description": "Autoridade não é destino, é construção contínua. Expandimos sua presença e consolidamos sua posição, garantindo que o mercado te reconheça como referência.",
         "includes": [
-          "Expansão controlada de presença",
-          "Consolidação de posição dominante",
-          "Blindagem de reputação",
-          "Monitoramento e ajustes contínuos"
+          "Expansão de presença em mídia",
+          "Consolidação de autoridade",
+          "Proteção de reputação",
+          "Monitoramento contínuo e ajustes"
         ]
       }
     },
     "cta": {
-      "title": "Pronto para o próximo nível?",
-      "description": "Vagas limitadas. Processo seletivo criterioso. Se você tem a base, nós construímos a autoridade.",
-      "button": "Candidatar-se"
+      "title": "Pronto para aplicar o Método WISE?",
+      "description": "Converse com nossa equipe e descubra como podemos transformar seu nome em autoridade.",
+      "button": "Iniciar minha transformação"
     }
   },
   "about": {
     "tag": "QUEM SOMOS",
     "title": "Wise Media",
-    "subtitle": "Não somos agência. Somos arquitetos de autoridade.",
-    "description": "Fundada por estrategistas com décadas em mídia de alto nível. Trabalhamos exclusivamente com profissionais prontos para dominar seus mercados.",
+    "subtitle": "Não somos uma agência de marketing. Somos arquitetos de autoridade.",
+    "description": "Fundada por profissionais com décadas de experiência em mídia, comunicação e posicionamento estratégico. Trabalhamos para quem quer ocupar o espaço que merece.",
     "mission": {
       "label": "Missão",
-      "text": "Transformar profissionais excepcionais em autoridades incontestáveis. Usando estratégia, mídia e narrativa para ocupar posições que ninguém mais pode ocupar."
+      "text": "Transformar profissionais competentes em autoridades reconhecidas, usando estratégia, mídia e narrativa para ocupar o espaço que merecem."
     },
     "vision": {
       "label": "Visão",
-      "text": "Ser o nome por trás das maiores autoridades do Brasil. A força invisível que constrói posições de domínio."
+      "text": "Ser a referência em construção de autoridade para profissionais de alta performance no Brasil."
     },
     "founders": {
       "title": "Fundadoras",
-      "description": "Estrategistas de elite com acesso e experiência que não se compra.",
+      "description": "Experiência comprovada em mídia, comunicação e posicionamento estratégico.",
       "rosy": {
         "name": "Rosy Cordeiro",
         "role": "Estrategista de Mídia",
-        "description": "15+ anos dentro das maiores redações do país. Sabe exatamente como a mídia funciona porque viveu do outro lado. Posiciona profissionais com precisão cirúrgica.",
-        "tags": ["Mídia", "Posicionamento", "Estratégia"]
+        "description": "Jornalista com mais de 15 anos de experiência em redações de grandes veículos. Sabe como a mídia funciona por dentro e sabe exatamente como posicionar profissionais para ganhar visibilidade.",
+        "tags": ["Mídia", "Jornalismo", "Estratégia"]
       },
       "debora": {
         "name": "Débora Tawil",
-        "role": "Estrategista de Reputação",
-        "description": "Especialista em construção e proteção de imagem para cenários de alta exposição. Trabalhou com marcas e personalidades que exigem excelência absoluta.",
-        "tags": ["Reputação", "Imagem", "Estratégia"]
+        "role": "Estrategista de Posicionamento",
+        "description": "Especialista em comunicação corporativa e gestão de reputação. Trabalhou com marcas de alto padrão e figuras públicas em cenários de alta exposição.",
+        "tags": ["Posicionamento", "Reputação", "Estratégia"]
       }
     },
     "values": {
-      "title": "Como operamos",
+      "title": "Como trabalhamos",
       "items": {
         "excellence": {
-          "title": "Excelência obsessiva",
-          "description": "Mediocridade não existe aqui. Cada detalhe é tratado com obsessão."
+          "title": "Excelência",
+          "description": "Não fazemos trabalho medíocre. Cada projeto recebe atenção total."
         },
         "confidentiality": {
-          "title": "Sigilo absoluto",
-          "description": "Nossos melhores cases nunca serão públicos. É assim que deve ser."
+          "title": "Sigilo",
+          "description": "Sigilo absoluto. Muitos dos nossos melhores clientes jamais serão mencionados."
         },
         "selectivity": {
-          "title": "Seletividade radical",
-          "description": "Escolhemos com quem trabalhamos. Não aceitamos qualquer projeto."
+          "title": "Seletividade",
+          "description": "Não trabalhamos com qualquer um. Escolhemos nossos clientes tanto quanto eles nos escolhem."
         },
         "results": {
-          "title": "Resultados tangíveis",
-          "description": "Foco em transformação real. Métricas de vaidade não nos interessam."
+          "title": "Resultados",
+          "description": "Foco em resultados concretos, não métricas de vaidade."
         }
       }
     },
-    "cta": "Iniciar conversa"
+    "cta": "Fale com a Wise"
   },
   "contact": {
-    "title": "Próximo passo.",
-    "description": "Se você chegou até aqui, provavelmente já sabe que precisa de posicionamento. A questão é se está pronto para o processo.",
-    "methodsTitle": "Canais",
+    "title": "Vamos conversar.",
+    "description": "Se você está pronto para parar de ser invisível e assumir sua posição de autoridade, o primeiro passo é uma conversa.",
+    "methodsTitle": "Formas de contato",
     "methods": {
       "email": {
         "title": "Email",
-        "description": "Para detalhamento inicial"
+        "description": "Para assuntos que exigem detalhamento"
       },
       "whatsapp": {
         "title": "WhatsApp",
-        "description": "Resposta em 24h"
+        "description": "Resposta em até 24 horas"
       },
       "instagram": {
         "title": "Instagram",
-        "description": "Conteúdo exclusivo"
+        "description": "Conteúdo e atualizações"
       }
     },
-    "processTitle": "O processo",
+    "processTitle": "Como funciona",
     "process": {
       "initial": {
-        "title": "Avaliação inicial",
-        "description": "Entendemos sua situação, histórico e objetivos. Avaliamos se há fit para trabalharmos juntos."
+        "title": "Conversa inicial",
+        "description": "Entendemos sua situação atual, seus objetivos e desafios. Tudo com absoluto sigilo."
       },
       "analysis": {
-        "title": "Análise profunda",
-        "description": "Diagnóstico completo de posicionamento, gaps e oportunidades. Mapeamento do território a conquistar."
+        "title": "Análise estratégica",
+        "description": "Avaliamos seu posicionamento atual e identificamos oportunidades de construção de autoridade."
       },
       "plan": {
-        "title": "Proposta estratégica",
-        "description": "Arquitetura personalizada, cronograma e investimento. Decisão é sua."
+        "title": "Proposta personalizada",
+        "description": "Apresentamos estratégia, cronograma e investimento para transformar você em autoridade."
       }
     },
-    "confidentiality": "Toda comunicação é tratada com sigilo absoluto.",
-    "cta": "Iniciar avaliação"
-  },
-  "footer": {
-    "tagline": "Arquitetos de Autoridade",
-    "description": "Construindo posições de domínio para profissionais de elite.",
-    "navigation": "Navegação",
-    "contactTitle": "Contato",
-    "copyright": "Todos os direitos reservados.",
-    "bottomTagline": "Posicionamento de elite. Atendimento seletivo.",
-    "ariaLabels": {
-      "instagram": "Instagram",
-      "email": "Email",
-      "whatsapp": "WhatsApp"
-    }
+    "confidentiality": "Todas as conversas são tratadas com absoluto sigilo.",
+    "cta": "Iniciar conversa"
   },
   "services": {
-    "title": "Serviços de Elite",
-    "description": "Cada serviço é uma arma estratégica. Não oferecemos pacotes genéricos — construímos arsenais personalizados para quem quer dominar.",
+    "title": "Nossos Serviços",
+    "description": "Cada serviço é uma peça estratégica na construção da sua autoridade. Não oferecemos pacotes genéricos — construímos soluções personalizadas.",
     "whenLabel": "Quando usar",
     "seeMore": "Ver mais",
     "seeLess": "Ver menos",
-    "cta": "Iniciar processo seletivo",
+    "cta": "Fale conosco",
     "items": {
       "pressAdvisory": {
         "title": "Assessoria de Imprensa",
-        "deliver": "Inserções estratégicas em veículos que importam. Não é sobre aparecer — é sobre aparecer certo, para quem paga o que você vale.",
+        "deliver": "Inserções estratégicas em veículos que importam para seu público. Não é sobre aparecer — é sobre aparecer certo.",
         "when": "Você precisa de visibilidade qualificada, não volume. Quer ser visto como autoridade por quem toma decisões."
       },
       "strategicAdvisory": {
         "title": "Consultoria Estratégica",
-        "deliver": "Diagnóstico profundo + arquitetura de posicionamento. Definimos exatamente como você será percebido e o caminho para chegar lá.",
+        "deliver": "Diagnóstico profundo + estratégia de posicionamento. Definimos exatamente como você será percebido e o caminho para chegar lá.",
         "when": "Você sabe que precisa se posicionar, mas não sabe por onde começar. Ou já tentou e não funcionou."
       },
       "visaAdvisory": {
         "title": "Visto EB1/EB2 — Mídia",
-        "deliver": "Construção de presença em mídia que comprova habilidade extraordinária. Portfolio de evidências para imigração de elite.",
-        "when": "Você busca visto americano de habilidade extraordinária e precisa de provas de reconhecimento nacional/internacional."
+        "deliver": "Construção de presença em mídia que comprova habilidade extraordinária. Portfolio de evidências para imigração.",
+        "when": "Você busca visto americano de habilidade extraordinária e precisa de provas de reconhecimento."
       },
       "googleBusiness": {
         "title": "Google Meu Negócio",
-        "deliver": "Otimização profissional da sua presença no Google. Quando procurarem por você, encontrarão autoridade — não amadorismo.",
-        "when": "Sua presença no Google não reflete seu nível real. Clientes potenciais encontram perfil incompleto ou desatualizado."
+        "deliver": "Otimização profissional da sua presença no Google. Quando procurarem por você, encontrarão autoridade.",
+        "when": "Sua presença no Google não reflete seu nível real. Clientes potenciais encontram perfil incompleto."
       },
       "cleanName": {
         "title": "Limpeza de Nome",
-        "deliver": "Remoção estratégica de conteúdo negativo. Sua reputação digital limpa de ruídos que não te representam.",
-        "when": "Existe conteúdo online prejudicando sua imagem. Resultados de busca mostram o que você não quer que vejam."
+        "deliver": "Remoção estratégica de conteúdo negativo. Sua reputação digital limpa de ruídos.",
+        "when": "Existe conteúdo online prejudicando sua imagem. Resultados de busca mostram o que você não quer."
       },
       "crisisManagement": {
         "title": "Gestão de Crise",
         "deliver": "Resposta rápida e estratégica a crises de imagem. Proteção de reputação quando mais importa.",
-        "when": "Situação de exposição negativa exige ação imediata. Sua imagem está sob ataque e você precisa de blindagem."
+        "when": "Situação de exposição negativa exige ação imediata. Sua imagem está sob ataque."
       }
     }
   },
+  "footer": {
+    "tagline": "Posicionamento de Autoridade",
+    "description": "Transformando profissionais competentes em autoridades reconhecidas.",
+    "navigation": "Navegação",
+    "contactTitle": "Contato",
+    "copyright": "Todos os direitos reservados.",
+    "bottomTagline": "Posicionamento estratégico e construção de autoridade.",
+    "ariaLabels": {
+      "instagram": "Siga no Instagram",
+      "email": "Entre em contato por email",
+      "whatsapp": "Entre em contato pelo WhatsApp"
+    }
+  },
   "articles": {
-    "title": "Inteligência Estratégica",
-    "description": "Conteúdo exclusivo sobre posicionamento, autoridade e domínio de mercado.",
+    "title": "Artigos e Insights",
+    "description": "Conteúdo estratégico sobre posicionamento, autoridade e presença em mídia.",
     "all": "Todos"
   },
   "common": {
     "home": "Início",
-    "learnMore": "Ver mais",
+    "learnMore": "Saiba mais",
     "getStarted": "Começar"
   }
 }
