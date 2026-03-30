@@ -115,7 +115,7 @@ export default function Metodo() {
                           <div className="w-10 h-10 rounded-lg bg-brand-navy/5 flex items-center justify-center">
                             <Icon name={step.iconName} size={20} className="text-brand-navy" />
                           </div>
-                          O que inclui
+                          {t('metodo.includesLabel')}
                         </h4>
 
                         <ul className="space-y-4">

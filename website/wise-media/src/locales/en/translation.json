@@ -230,6 +230,7 @@
     "closing": "Limited spots. Selective service."
   },
   "metodo": {
+    "includesLabel": "What's included",
     "hero": {
       "tag": "PROPRIETARY METHODOLOGY",
       "title": "The WISE Method",

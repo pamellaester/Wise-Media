@@ -230,6 +230,7 @@
     "closing": "Vagas limitadas. Atendimento seletivo."
   },
   "metodo": {
+    "includesLabel": "O que inclui",
     "hero": {
       "tag": "METODOLOGIA PROPRIETÁRIA",
       "title": "O Método WISE",
