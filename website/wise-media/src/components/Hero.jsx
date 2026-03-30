@@ -59,7 +59,7 @@ export default function Hero() {
               className="bg-white/10 backdrop-blur-sm text-white border border-white/30 px-8 py-4 rounded-lg font-medium text-base hover:bg-white/20 transition-all inline-flex items-center gap-2"
             >
               {t('hero.ctaSecondary')}
-              <Icon name="Sparkles" size={18} className="text-brand-lightBlue" aria-hidden="true" />
+              <Icon name="ChevronRight" size={18} className="text-brand-lightBlue" aria-hidden="true" />
             </Link>
           </div>
 
