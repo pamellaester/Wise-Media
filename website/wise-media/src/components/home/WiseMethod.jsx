@@ -6,10 +6,10 @@ export default function WiseMethod() {
   const { t } = useTranslation();
 
   const steps = [
-    { letter: "W", key: "w", iconName: "User" },
-    { letter: "I", key: "i", iconName: "Image" },
-    { letter: "S", key: "s", iconName: "Compass" },
-    { letter: "E", key: "e", iconName: "Rocket" },
+    { letter: "W", key: "w" },
+    { letter: "I", key: "i" },
+    { letter: "S", key: "s" },
+    { letter: "E", key: "e" },
   ];
 
   return (
@@ -51,13 +51,10 @@ export default function WiseMethod() {
 
               <div className="relative bg-white/8 backdrop-blur-sm rounded-2xl p-6 border border-white/10 h-full hover:bg-white/12 hover:border-white/20 transition-all duration-300">
                 {/* Large letter */}
-                <div className="flex items-center gap-4 mb-5">
+                <div className="mb-5">
                   <span className="text-5xl md:text-6xl font-bold text-brand-lightBlue/90">
                     {step.letter}
                   </span>
-                  <div className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center">
-                    <Icon name={step.iconName} size={20} className="text-white/70" />
-                  </div>
                 </div>
 
                 <h3 className="text-lg font-semibold text-white mb-1">
